@@ -29,6 +29,7 @@ OWI.controller('MainCtrl', ["$http", "$scope", function($http, $scope) {
   const audio = window.audio
   const download = window.download
   const fileInput = window.fileInput
+  const baseUrl = location.host.startsWith('localhost') ? 'http://localhost:4000' : 'https://js41637.github.io/Overwatch-Item-Tracker/data'
 
   var loading = true
   this.looping = false
@@ -44,7 +45,7 @@ OWI.controller('MainCtrl', ["$http", "$scope", function($http, $scope) {
   this.showSelectedFiles = false
 
   const getSoundData = () => {
-    return $http.get('https://js41637.github.io/Overwatch-Item-Tracker/data/soundFiles.json').then(resp => {
+    return $http.get(`${baseUrl}/soundFiles.json`).then(resp => {
       if (resp.status == 200) {
         var heroes = Object.keys(resp.data)
         return { heroes: heroes, hero: heroes[0], sounds: resp.data }
@@ -60,7 +61,7 @@ OWI.controller('MainCtrl', ["$http", "$scope", function($http, $scope) {
 
   const getItemsAndMappedData = () => {
     return Promise.all(['items', 'mappedSounds'].map(what => {
-      return $http.get(`https://js41637.github.io/Overwatch-Item-Tracker/data/${what}.json`).then(resp => {
+      return $http.get(`${baseUrl}/${what}.json`).then(resp => {
         if (resp.status == 200) {
           return resp.data
         } else {
