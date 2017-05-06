@@ -1,6 +1,6 @@
 <html ng-app="OWI">
 <head>
-  <title>Thingy</title>
+  <title>Overwatch Sound Viewer</title>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="./site/css/main.css">
@@ -14,7 +14,7 @@
     <div class="btn" ng-repeat="hero in $ctrl.heroes" ng-class="{'btn-primary': $ctrl.hero == hero, 'btn-default': $ctrl.hero != hero}" ng-click="$ctrl.selectHero(hero)">{{hero}} {{$ctrl.isHeroDone(hero) ? '✔' : ''}}</div>
   </div>
   <div class="middlething">
-    <span>Voicelines: {{$ctrl.getVLCount()}} | Total Sounds: {{$ctrl.sounds[$ctrl.hero].length}} | Dupe Sounds: {{$ctrl.countDupeItems()}}</span> | 
+    <span>Voicelines: {{$ctrl.getVLCount() || 'None'}} | Total Sounds: {{$ctrl.sounds[$ctrl.hero].length}} | Dupe Sounds: {{$ctrl.countDupeItems()}}</span> | 
     <div class="btn btn-default" ng-click="$ctrl.toggleDupeFiles()">{{$ctrl.showDupeFiles ? 'Hide' : 'Show'}} dupe items</div>
     <div class="btn btn-default" ng-click="$ctrl.toggleSelectedFiles()">{{$ctrl.showSelectedFiles ? 'Show all items' : 'Show selected items'}}</div>
   </div>
@@ -44,8 +44,14 @@
       </div>
     </div>
     <div id="soundList">
+      <p ng-show="$ctrl.noSounds">Hero or NPC has no valid sound files :(</p>
       <div class="sound btn btn-default" style="background-color:{{$ctrl.getColorForTS(sound.ts)}}" ng-repeat="sound in $ctrl.getSoundFiles() track by $index" ng-click="$ctrl.playSound(sound.id, $index)" ng-class="{selected: $ctrl.sSound == sound.id}">{{sound.id}} {{$ctrl.mappedSounds[$ctrl.hero][sound.id] ? '★' : ''}}<span>{{$ctrl.getItemName(sound.id)}}</span></div>
     </div>
+  </div>
+  <div class="footer">
+    <p>This site is not affiliated with Blizzard Entertainment.</p>
+    <p>All trademarks referenced herein are the properties of their respective owners.</p>
+    <p>©2017 Blizzard Entertainment, Inc. All rights reserved.</p>
   </div>
 </body>
 </html>

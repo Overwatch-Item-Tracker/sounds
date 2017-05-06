@@ -43,6 +43,7 @@ OWI.controller('MainCtrl', ["$http", "$scope", function($http, $scope) {
   this.sSoundIndex = -1
   this.showDupeFiles = false
   this.showSelectedFiles = false
+  this.noSounds = false
 
   const getSoundData = () => {
     return $http.get(`${baseUrl}/soundFiles.json`).then(resp => {
@@ -221,7 +222,13 @@ OWI.controller('MainCtrl', ["$http", "$scope", function($http, $scope) {
       if (!this.mappedSounds[this.hero]) return []
       return this.sounds[vm.hero].filter(a => vm.mappedSounds[vm.hero][a.id])
     }
-    return this.sounds[vm.hero].filter(a => vm.showDupeFiles ? a.dupe : !a.dupe)
+    const out = this.sounds[vm.hero].filter(a => vm.showDupeFiles ? a.dupe : !a.dupe)
+    if (!out.length) {
+      this.noSounds = true;
+      return out
+    }
+    this.noSounds = false;
+    return out
   }
 
   this.selectNextSound = (keyCode, index) => {

@@ -11,6 +11,16 @@ h2 {
   margin-bottom: 2px;
 }
 
+.footer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+  line-height: 1;
+}
+
 #mainBody {
   padding-top: 10px;
   display: flex;
