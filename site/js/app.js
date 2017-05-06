@@ -76,7 +76,7 @@ OWI.controller('MainCtrl', ["$http", function($http) {
   }
 
   const init = () => {
-    Promise.all([getSoundData(), getItemsAndMappedData()]).then((soundData, [items, mappedSounds]) => {
+    Promise.all([getSoundData(), getItemsAndMappedData()]).then(([soundData, [items, mappedSounds]]) => {
       Object.assign(vm, {
         items,
         mappedSounds
