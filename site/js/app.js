@@ -206,14 +206,19 @@ OWI.controller('MainCtrl', ["$http", "$scope", function($http, $scope) {
     }
   }
 
-  this.getItemName = sound => {
-    if (loading || !this.showSelectedFiles) return ''
+  this.getItemName = (sound, tooltip) => {
+    if (loading || (tooltip && this.showSelectedFiles) || (!tooltip && !this.showSelectedFiles)) return ''
     if (!this.mappedSounds[vm.hero]) return ''
     var item = this.mappedSounds[vm.hero][sound]
     if (!item) return ''
     var itemMatch = this.items[this.hero].items.voicelines.filter(a => a.id == item)
     if (!itemMatch || !itemMatch.length) return ''
     return `\n ${itemMatch[0].name}`
+  }
+
+  this.isItemSelected = sound => {
+    if (loading) return false
+    return this.mappedSounds[this.hero][sound]
   }
 
   this.getSoundFiles = () => {

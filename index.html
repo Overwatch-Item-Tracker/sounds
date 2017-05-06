@@ -45,7 +45,16 @@
     </div>
     <div id="soundList">
       <p ng-show="$ctrl.noSounds">Hero or NPC has no valid sound files :(</p>
-      <div class="sound btn btn-default" style="background-color:{{$ctrl.getColorForTS(sound.ts)}}" ng-repeat="sound in $ctrl.getSoundFiles() track by $index" ng-click="$ctrl.playSound(sound.id, $index)" ng-class="{selected: $ctrl.sSound == sound.id}">{{sound.id}} {{$ctrl.mappedSounds[$ctrl.hero][sound.id] ? '★' : ''}}<span>{{$ctrl.getItemName(sound.id)}}</span></div>
+      <div 
+        class="sound btn btn-default" 
+        style="background-color: {{$ctrl.getColorForTS(sound.ts)}}"
+        ng-repeat="sound in $ctrl.getSoundFiles() track by $index"
+        uib-tooltip="{{$ctrl.getItemName(sound.id, true)}}"
+        uib-enable="{{$ctrl.isItemSelected(sound.id)}}"
+        tooltip-append-to-body="true"
+        ng-click="$ctrl.playSound(sound.id, $index)"
+        ng-class="{selected: $ctrl.sSound == sound.id}">{{sound.id}} {{$ctrl.isItemSelected(sound.id) ? '★' : ''}}<span>{{$ctrl.getItemName(sound.id)}}</span>
+      </div>
     </div>
   </div>
   <div class="footer">
