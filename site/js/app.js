@@ -109,7 +109,7 @@ OWI.controller('MainCtrl', ["$http", "$scope", function($http, $scope) {
     return "#"+(0x1000000+(Math.round((t-R)*p)+R)*0x10000+(Math.round((t-G)*p)+G)*0x100+(Math.round((t-B)*p)+B)).toString(16).slice(1);
 }
 
-  this.getColor = str => {
+  this.getColorForTS = str => {
     if (!str) return ''
     return shadeColor(intToRGB(hashCode(str)), 0.5)
   }
