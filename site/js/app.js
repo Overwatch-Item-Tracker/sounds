@@ -78,10 +78,10 @@ OWI.controller('MainCtrl', ["$http", "$scope", function($http, $scope) {
     Promise.all([getSoundData(), getItemsAndMappedData()]).then(([soundData, [items, mappedSounds]]) => {
       console.log('Loaded data')
       Object.assign(vm, {
-        items,
-        mappedSounds
+        items
       }, soundData)
-      vm.loading = false;
+      vm.importData(mappedSounds, true)
+      loading = false;
       $scope.$digest()
     })
   }
@@ -110,6 +110,7 @@ OWI.controller('MainCtrl', ["$http", "$scope", function($http, $scope) {
 }
 
   this.getColor = str => {
+    if (!str) return ''
     return shadeColor(intToRGB(hashCode(str)), 0.5)
   }
 
@@ -155,7 +156,6 @@ OWI.controller('MainCtrl', ["$http", "$scope", function($http, $scope) {
   }
 
   this.saveData = () => {
-    console.log(this.mappedSounds)
     download(JSON.stringify(this.mappedSounds, null, 2), `mappedSounds-${Date.now()}.json`, 'application/json');
   }
 
@@ -164,15 +164,18 @@ OWI.controller('MainCtrl', ["$http", "$scope", function($http, $scope) {
     this.selectedItems = {}
   }
 
-  this.importData = data => {
+  this.importData = (data, internal) => {
     fileInput.value = null
-    var savedData
-    try {
-      savedData = JSON.parse(atob(data.replace('data:;base64,', '')))
-    } catch(e) {
-      console.log("Error")
-      return
+    var savedData = internal ? data : undefined
+    if (!internal) {
+      try {
+        savedData = JSON.parse(atob(data.replace('data:;base64,', '')))
+      } catch(e) {
+        console.log("Error")
+        return
+      }
     }
+
     Object.keys(savedData).forEach(hero => {
       if (!vm.mappedSounds[hero]) vm.mappedSounds[hero] = {}
       Object.assign(vm.mappedSounds[hero], savedData[hero])
@@ -180,7 +183,6 @@ OWI.controller('MainCtrl', ["$http", "$scope", function($http, $scope) {
         vm.selectedItems[savedData[hero][sound]] = sound
       })
     })
-    console.log(vm.mappedSounds, vm.selectedItems)
   }
 
   this.toggleLoop = () => {
