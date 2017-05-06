@@ -45,7 +45,7 @@ OWI.controller('MainCtrl', ["$http", function($http) {
   this.showSelectedFiles = false
 
   const getSoundData = () => {
-    return $http.get('https://github.com/Js41637/Overwatch-Item-Tracker/blob/master/data/soundFiles.json').then(resp => {
+    return $http.get('https://js41637.github.io/Overwatch-Item-Tracker/data/soundFiles.json').then(resp => {
       if (resp.status == 200) {
         var heroes = Object.keys(resp.data)
         return { heroes: heroes, hero: heroes[0], sounds: resp.data }
@@ -61,7 +61,7 @@ OWI.controller('MainCtrl', ["$http", function($http) {
 
   const getItemsAndMappedData = () => {
     return Promise.all(['items', 'mappedSounds'].map(what => {
-      return $http.get(`https://github.com/Js41637/Overwatch-Item-Tracker/blob/master/data/${what}.json`).then(resp => {
+      return $http.get(`https://js41637.github.io/Overwatch-Item-Tracker/data/${what}.json`).then(resp => {
         if (resp.status == 200) {
           return resp.data
         } else {
@@ -255,7 +255,7 @@ OWI.controller('MainCtrl', ["$http", function($http) {
       this.sSound = soundID
       this.sSoundIndex = index
     }
-    this.currentURL = `http://localhost:4000/${this.hero}/${this.hero}-${soundID}.ogg`
+    this.currentURL = `./sounds/${this.hero}/${this.hero}-${soundID}.ogg`
   }
 
   window.onbeforeunload = () => {
