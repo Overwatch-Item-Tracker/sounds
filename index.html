@@ -52,7 +52,7 @@
         uib-tooltip="{{$ctrl.getItemName(sound.id, true)}}"
         uib-enable="{{$ctrl.isItemSelected(sound.id)}}"
         tooltip-append-to-body="true"
-        ng-click="$ctrl.playSound(sound.id, $index)"
+        ng-click="$ctrl.playSound(sound, $index)"
         ng-class="{selected: $ctrl.sSound == sound.id}">{{sound.id}} {{$ctrl.isItemSelected(sound.id) ? '★' : ''}}<span>{{$ctrl.getItemName(sound.id)}}</span>
       </div>
     </div>

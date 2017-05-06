@@ -261,7 +261,14 @@ OWI.controller('MainCtrl', ["$http", "$scope", function($http, $scope) {
   }
 
   var tempSound
-  this.playSound = (soundID, index, noSave) => {
+  this.playSound = (sound, index, noSave) => {
+    let hero = this.hero
+    let soundID = sound.id
+    let actualSound = undefined
+    if (sound.dupe) {
+      hero = sound.dupe.hero
+      actualSound = sound.dupe.id
+    }
     if (!soundID) return
     if ((soundID == this.sSound && !tempSound) || (noSave && tempSound == soundID)) {
       this.replaySound()
@@ -273,7 +280,7 @@ OWI.controller('MainCtrl', ["$http", "$scope", function($http, $scope) {
       this.sSound = soundID
       this.sSoundIndex = index
     }
-    this.currentURL = `./sounds/${this.hero}/${this.hero}-${soundID}.ogg`
+    this.currentURL = `./sounds/${hero}/${hero}-${actualSound || soundID}.ogg`
   }
 
   window.onbeforeunload = () => {
