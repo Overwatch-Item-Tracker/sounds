@@ -24,14 +24,13 @@ OWI.directive("fileread", [function () {
   }
 }])
 
-OWI.controller('MainCtrl', ["$http", function($http) {
+OWI.controller('MainCtrl', ["$http", "$scope", function($http, $scope) {
   const vm = this;
   const audio = window.audio
   const download = window.download
   const fileInput = window.fileInput
 
   var loading = true
-  var oneDone = false
   this.looping = false
   this.hero = undefined
   this.sounds = {}
@@ -77,11 +76,13 @@ OWI.controller('MainCtrl', ["$http", function($http) {
 
   const init = () => {
     Promise.all([getSoundData(), getItemsAndMappedData()]).then(([soundData, [items, mappedSounds]]) => {
+      console.log('Loaded data')
       Object.assign(vm, {
         items,
         mappedSounds
       }, soundData)
       vm.loading = false;
+      $scope.$digest()
     })
   }
 
