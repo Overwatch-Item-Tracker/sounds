@@ -25,7 +25,7 @@
         <div class="btn btn-default" ng-click="$ctrl.replaySound()">Play</div>
         <div class="btn btn-default" ng-click="$ctrl.toggleLoop()">{{$ctrl.looping ? "Unloop" : "Loop"}}</div>
         <span class="selectedSound">Selected Sound: {{$ctrl.sSound || 'None'}}</span>
-        <div class="vl-list">
+        <div class="vl-list" ng-show="$ctrl.items[$ctrl.hero]">
           <h2>Voice Lines for {{$ctrl.items[$ctrl.hero].name}}</h2>
           <div class="inner">
             <div class="btn-cont" ng-repeat="vl in $ctrl.items[$ctrl.hero].items.voicelines track by $index">
