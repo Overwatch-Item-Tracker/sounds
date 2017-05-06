@@ -220,6 +220,7 @@ OWI.controller('MainCtrl', ["$http", "$scope", function($http, $scope) {
 
   this.isItemSelected = sound => {
     if (loading) return false
+    if (!this.mappedSounds[this.hero]) return false
     return this.mappedSounds[this.hero][sound]
   }
 
