@@ -29,7 +29,6 @@ OWI.controller('MainCtrl', ["$http", "$scope", function($http, $scope) {
   const audio = window.audio
   const download = window.download
   const fileInput = window.fileInput
-  const isLocal = location.host.startsWith('localhost') || location.host == ""
   const baseUrl = 'https://js41637.github.io/Overwatch-Item-Tracker/data'
 
   var loading = true
@@ -47,7 +46,7 @@ OWI.controller('MainCtrl', ["$http", "$scope", function($http, $scope) {
   this.noSounds = false
 
   const getSoundData = () => {
-    return $http.get(isLocal ? `${baseUrl}/soundFiles.json` : `./data/soundFiles.json`).then(resp => {
+    return $http.get('./data/soundFiles.json').then(resp => {
       if (resp.status == 200) {
         var heroes = Object.keys(resp.data)
         return { heroes: heroes, hero: heroes[0], sounds: resp.data }
@@ -63,7 +62,7 @@ OWI.controller('MainCtrl', ["$http", "$scope", function($http, $scope) {
 
   const getItemsAndMappedData = () => {
     return Promise.all(['items', 'mappedSounds'].map((what, i) => {
-      var url = i ? (isLocal ? `${baseUrl}/${what}` : `./data/${what}`) : `${baseUrl}/${what}`
+      var url = i ? `./data/${what}` : `${baseUrl}/${what}`
       return $http.get(`${url}.json`).then(resp => {
         if (resp.status == 200) {
           return resp.data
@@ -115,7 +114,7 @@ OWI.controller('MainCtrl', ["$http", "$scope", function($http, $scope) {
 
   this.getColorForTS = str => {
     if (!str) return ''
-    return shadeColor(intToRGB(hashCode(str)), 0.5)
+    return shadeColor(intToRGB(hashCode(str)), 0.4)
   }
 
   this.isHeroDone = hero => {
