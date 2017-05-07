@@ -14,8 +14,7 @@
     <div class="btn" ng-repeat="hero in $ctrl.heroes" ng-class="{'btn-primary': $ctrl.hero == hero, 'btn-default': $ctrl.hero != hero}" ng-click="$ctrl.selectHero(hero)">{{hero}} {{$ctrl.isHeroDone(hero) ? '✔' : ''}}</div>
   </div>
   <div class="middlething">
-    <span>Voicelines: {{$ctrl.getVLCount() || 'None'}} | Total Sounds: {{$ctrl.sounds[$ctrl.hero].length}} | Dupe Sounds: {{$ctrl.countDupeItems()}}</span> | 
-    <div class="btn btn-default" ng-click="$ctrl.toggleDupeFiles()">{{$ctrl.showDupeFiles ? 'Hide' : 'Show'}} dupe items</div>
+    <span>Voicelines: {{$ctrl.getVLCount() || 'None'}} | Total Sounds: {{$ctrl.sounds[$ctrl.hero].length}}</span> | 
     <div class="btn btn-default" ng-click="$ctrl.toggleSelectedFiles()">{{$ctrl.showSelectedFiles ? 'Show all items' : 'Show selected items'}}</div>
   </div>
   <div id="mainBody">
@@ -52,7 +51,7 @@
         uib-tooltip="{{$ctrl.getItemName(sound.id, true)}}"
         uib-enable="{{$ctrl.isItemSelected(sound.id)}}"
         tooltip-append-to-body="true"
-        ng-click="$ctrl.playSound(sound, $index)"
+        ng-click="$ctrl.playSound(sound.id, $index)"
         ng-class="{selected: $ctrl.sSound == sound.id}">{{sound.id}} {{$ctrl.isItemSelected(sound.id) ? '★' : ''}}<span>{{$ctrl.getItemName(sound.id)}}</span>
       </div>
     </div>

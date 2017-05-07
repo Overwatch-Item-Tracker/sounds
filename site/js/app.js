@@ -41,7 +41,6 @@ OWI.controller('MainCtrl', ["$http", "$scope", function($http, $scope) {
   this.selectedItems = {}
   this.sSound = undefined
   this.sSoundIndex = -1
-  this.showDupeFiles = false
   this.showSelectedFiles = false
   this.noSounds = false
 
@@ -131,13 +130,7 @@ OWI.controller('MainCtrl', ["$http", "$scope", function($http, $scope) {
   }
 
   this.toggleSelectedFiles = () => {
-    this.showDupeFiles = false
     this.showSelectedFiles = !this.showSelectedFiles
-  }
-
-  this.toggleDupeFiles = () => {
-    this.showSelectedFiles = false
-    this.showDupeFiles = !this.showDupeFiles
   }
 
   this.clearItem = itemID => {
@@ -229,13 +222,7 @@ OWI.controller('MainCtrl', ["$http", "$scope", function($http, $scope) {
       if (!this.mappedSounds[this.hero]) return []
       return this.sounds[vm.hero].filter(a => vm.mappedSounds[vm.hero][a.id])
     }
-    const out = this.sounds[vm.hero].filter(a => vm.showDupeFiles ? a.dupe : !a.dupe)
-    if (!out.length) {
-      this.noSounds = true;
-      return out
-    }
-    this.noSounds = false;
-    return out
+    return this.sounds[vm.hero]
   }
 
   this.selectNextSound = (keyCode, index) => {
@@ -250,25 +237,13 @@ OWI.controller('MainCtrl', ["$http", "$scope", function($http, $scope) {
     }, 10)
   }
 
-  this.countDupeItems = () => {
-    if (loading) return 0
-    return this.sounds[this.hero].filter(a => a.dupe).length
-  }
-
   this.replaySound = () => {
     audio.currentTime = 0
     audio.play()
   }
 
   var tempSound
-  this.playSound = (sound, index, noSave) => {
-    let hero = this.hero
-    let soundID = sound.id
-    let actualSound = undefined
-    if (sound.dupe) {
-      hero = sound.dupe.hero
-      actualSound = sound.dupe.id
-    }
+  this.playSound = (soundID, index, noSave) => {
     if (!soundID) return
     if ((soundID == this.sSound && !tempSound) || (noSave && tempSound == soundID)) {
       this.replaySound()
@@ -280,7 +255,7 @@ OWI.controller('MainCtrl', ["$http", "$scope", function($http, $scope) {
       this.sSound = soundID
       this.sSoundIndex = index
     }
-    this.currentURL = `./sounds/${hero}/${hero}-${actualSound || soundID}.ogg`
+    this.currentURL = `./sounds/${this.hero}/${this.hero}-${soundID}.ogg`
   }
 
   window.onbeforeunload = () => {
