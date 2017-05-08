@@ -80,9 +80,10 @@ OWI.controller('MainCtrl', ["$http", "$scope", function($http, $scope) {
     Promise.all([getSoundData(), getItemsAndMappedData()]).then(([soundData, [items, mappedSounds, customSounds]]) => {
       console.log('Loaded data')
       soundData.heroes = soundData.heroes.concat(Object.keys(customSounds))
+      Object.assign(soundData.sounds, customSounds)
       Object.assign(vm, {
         items
-      }, soundData, { sounds: customSounds })
+      }, soundData)
       vm.importData(mappedSounds, true)
       loading = false;
       $scope.$digest()
