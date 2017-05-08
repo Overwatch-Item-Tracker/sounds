@@ -28,11 +28,11 @@
           <h2>Voice Lines for {{$ctrl.items[$ctrl.hero].name}}</h2>
           <div class="inner">
             <div class="btn-cont" ng-repeat="vl in $ctrl.items[$ctrl.hero].items.voicelines track by $index">
-              <div class="vl btn btn-default" ng-class="{unselected: !$ctrl.selectedItems[vl.id]}" ng-click="$ctrl.selectItem(vl.id)">{{$ctrl.selectedItems[vl.id] ? '★' : ''}} {{vl.name}}</div> <div ng-disabled="!$ctrl.selectedItems[vl.id]" ng-click="$ctrl.clearItem(vl.id)" class="clear btn btn-danger">Clear</div>
+              <div class="vl btn btn-default" ng-class="{unselected: !$ctrl.selectedItems[vl.id]}" ng-click="$ctrl.selectItem(vl.id)">{{$ctrl.selectedItems[vl.id] ? '★' : ''}} {{vl.name}}</div> <div ng-if="$ctrl.isDevMode" ng-disabled="!$ctrl.selectedItems[vl.id]" ng-click="$ctrl.clearItem(vl.id)" class="clear btn btn-danger">Clear</div>
             </div>
           </div>
         </div>
-        <div class="bottomoptions">
+        <div class="bottomoptions" ng-if="$ctrl.isDevMode">
           <div class="btn btn-primary" ng-click="$ctrl.saveData()">Download Data</div>
           <div class="importbtn">
             <div class="btn btn-primary" ng-click="$ctrl.saveData()" ng-class="{hover: inputhover}">Import Data</div>

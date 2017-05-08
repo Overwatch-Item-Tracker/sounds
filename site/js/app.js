@@ -44,6 +44,8 @@ OWI.controller('MainCtrl', ["$http", "$scope", function($http, $scope) {
   this.showSelectedFiles = false
   this.noSounds = false
 
+  this.isDevMode = location.host.startsWith('localhost')
+
   const getSoundData = () => {
     return $http.get('./data/soundFiles.json').then(resp => {
       if (resp.status == 200) {
@@ -163,7 +165,9 @@ OWI.controller('MainCtrl', ["$http", "$scope", function($http, $scope) {
   }
 
   this.importData = (data, internal) => {
-    fileInput.value = null
+    if (fileInput) {
+      fileInput.value = null
+    }
     var savedData = internal ? data : undefined
     if (!internal) {
       try {
