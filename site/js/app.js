@@ -60,8 +60,8 @@ OWI.controller('MainCtrl', ["$http", "$scope", function($http, $scope) {
   }
 
   const getItemsAndMappedData = () => {
-    return Promise.all(['items', 'mappedSounds'].map((what, i) => {
-      var url = i ? `./data/${what}` : `${baseUrl}/${what}`
+    return Promise.all(['items', 'mappedSounds', 'customSounds'].map((what, i) => {
+      var url = !i ? `${baseUrl}/${what}` : `./data/${what}`
       return $http.get(`${url}.json`).then(resp => {
         if (resp.status == 200) {
           return resp.data
@@ -77,11 +77,12 @@ OWI.controller('MainCtrl', ["$http", "$scope", function($http, $scope) {
   }
 
   const init = () => {
-    Promise.all([getSoundData(), getItemsAndMappedData()]).then(([soundData, [items, mappedSounds]]) => {
+    Promise.all([getSoundData(), getItemsAndMappedData()]).then(([soundData, [items, mappedSounds, customSounds]]) => {
       console.log('Loaded data')
+      soundData.heroes = soundData.heroes.concat(Object.keys(customSounds))
       Object.assign(vm, {
         items
-      }, soundData)
+      }, soundData, { sounds: customSounds })
       vm.importData(mappedSounds, true)
       loading = false;
       $scope.$digest()
