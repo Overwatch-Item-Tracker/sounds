@@ -33,6 +33,14 @@ h2 {
   border-top: 1px solid rgb(80, 80, 80);
   border-bottom: 1px solid rgb(80, 80, 80);
   text-align: center;
+  min-height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middlething .btn {
+  margin-left: 3px;
 }
 
 #heroes {
@@ -100,6 +108,14 @@ h2 {
 
 #soundList div span {
   font-size: 13px;
+}
+
+.addname input {
+  font-size: 13px;
+}
+
+#soundList.filtering .sound {
+    width: 230px;
 }
 
 .bottomoptions {

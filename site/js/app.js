@@ -37,11 +37,13 @@ OWI.controller('MainCtrl', ["$http", "$scope", function($http, $scope) {
   this.sounds = {}
   this.items = {}
   this.heroes = []
+  this.mappedVoicelines = {}
   this.mappedSounds = {}
   this.selectedItems = {}
   this.sSound = undefined
   this.sSoundIndex = -1
-  this.showSelectedFiles = false
+  this.showVoicelines = false
+  this.showNamedSounds = false
   this.noSounds = false
 
   this.isDevMode = location.host.startsWith('localhost')
@@ -62,7 +64,7 @@ OWI.controller('MainCtrl', ["$http", "$scope", function($http, $scope) {
   }
 
   const getItemsAndMappedData = () => {
-    return Promise.all(['items', 'mappedSounds', 'customSounds'].map((what, i) => {
+    return Promise.all(['items', 'mappedVoicelines', 'mappedSounds', 'customSounds'].map((what, i) => {
       var url = !i ? `${baseUrl}/${what}` : `./data/${what}`
       return $http.get(`${url}.json`).then(resp => {
         if (resp.status == 200) {
@@ -79,14 +81,15 @@ OWI.controller('MainCtrl', ["$http", "$scope", function($http, $scope) {
   }
 
   const init = () => {
-    Promise.all([getSoundData(), getItemsAndMappedData()]).then(([soundData, [items, mappedSounds, customSounds]]) => {
+    Promise.all([getSoundData(), getItemsAndMappedData()]).then(([soundData, [items, mappedVoicelines, mappedSounds, customSounds]]) => {
       console.log('Loaded data')
       soundData.heroes = soundData.heroes.concat(Object.keys(customSounds))
       Object.assign(soundData.sounds, customSounds)
       Object.assign(vm, {
-        items
+        items,
+        mappedSounds
       }, soundData)
-      vm.importData(mappedSounds, true)
+      vm.importData(mappedVoicelines, mappedSounds, true)
       loading = false;
       $scope.$digest()
     })
@@ -95,6 +98,8 @@ OWI.controller('MainCtrl', ["$http", "$scope", function($http, $scope) {
   this.selectHero = hero => {
     this.hero = hero
     this.sSoundIndex = -1
+    this.showNamedSounds = false
+    this.showVoicelines = false
   }
 
   function hashCode(str) {
@@ -122,24 +127,36 @@ OWI.controller('MainCtrl', ["$http", "$scope", function($http, $scope) {
 
   this.isHeroDone = hero => {
     if (loading) return false
-    if (!this.mappedSounds[hero]) return false
-    if (Object.keys(this.mappedSounds[hero] || {}).length == this.items[hero].items.voicelines.length) return true
+    if (!this.mappedVoicelines[hero]) return false
+    if (Object.keys(this.mappedVoicelines[hero] || {}).length == this.items[hero].items.voicelines.length) return true
     return false    
   }
 
   this.getVLCount = () => {
     if (loading) return '0/0'
     if (!this.items[this.hero]) return ''
-    return Object.keys(this.mappedSounds[this.hero] || {}).length + '/' + this.items[this.hero].items.voicelines.length
+    return Object.keys(this.mappedVoicelines[this.hero] || {}).length + '/' + this.items[this.hero].items.voicelines.length
   }
 
-  this.toggleSelectedFiles = () => {
-    this.showSelectedFiles = !this.showSelectedFiles
+  this.getMappedSoundsCount = () => {
+    if (loading) return
+    if (!this.mappedSounds[this.hero]) return
+    return Object.keys(this.mappedSounds[this.hero]).length
+  }
+
+  this.toggleShowNamedSounds = () => {
+    this.showVoicelines = false
+    this.showNamedSounds = !this.showNamedSounds
+  }
+
+  this.toggleShowVoicelines = () => {
+    this.showNamedSounds = false
+    this.showVoicelines = !this.showVoicelines
   }
 
   this.clearItem = itemID => {
     var soundID = this.selectedItems[itemID]
-    delete this.mappedSounds[this.hero][soundID]
+    delete this.mappedVoicelines[this.hero][soundID]
     delete this.selectedItems[itemID]
   }
 
@@ -149,18 +166,19 @@ OWI.controller('MainCtrl', ["$http", "$scope", function($http, $scope) {
       return
     }
     if (!this.sSound) return
-    this.mappedSounds[this.hero] = this.mappedSounds[this.hero] || {}
-    if (this.mappedSounds[this.hero][this.sSound]) return
-    this.mappedSounds[this.hero][this.sSound] = itemID
+    this.mappedVoicelines[this.hero] = this.mappedVoicelines[this.hero] || {}
+    if (this.mappedVoicelines[this.hero][this.sSound]) return
+    this.mappedVoicelines[this.hero][this.sSound] = itemID
     this.selectedItems[itemID] = this.sSound
   }
 
   this.saveData = () => {
     download(JSON.stringify(this.mappedSounds, null, 2), `mappedSounds-${Date.now()}.json`, 'application/json');
+    //download(JSON.stringify(this.mappedVoicelines, null, 2), `mappedVoicelines-${Date.now()}.json`, 'application/json');
   }
 
   this.clearData = () => {
-    this.mappedSounds = {}
+    this.mappedVoicelines = {}
     this.selectedItems = {}
   }
 
@@ -179,8 +197,8 @@ OWI.controller('MainCtrl', ["$http", "$scope", function($http, $scope) {
     }
 
     Object.keys(savedData).forEach(hero => {
-      if (!vm.mappedSounds[hero]) vm.mappedSounds[hero] = {}
-      Object.assign(vm.mappedSounds[hero], savedData[hero])
+      if (!vm.mappedVoicelines[hero]) vm.mappedVoicelines[hero] = {}
+      Object.assign(vm.mappedVoicelines[hero], savedData[hero])
       Object.keys(savedData[hero]).forEach(sound => {
         vm.selectedItems[savedData[hero][sound]] = sound
       })
@@ -200,16 +218,21 @@ OWI.controller('MainCtrl', ["$http", "$scope", function($http, $scope) {
       vm.selectNextSound(keyCode)
       return
     }
-    if (keyCode == 13) {
-      event.preventDefault()
-      vm.replaySound()
-    }
+  }
+
+  this.addSound = $event => {
+    this.selectNextSound(40)
   }
 
   this.getItemName = (sound, tooltip) => {
-    if (loading || (tooltip && this.showSelectedFiles) || (!tooltip && !this.showSelectedFiles)) return ''
-    if (!this.mappedSounds[vm.hero]) return ''
-    var item = this.mappedSounds[vm.hero][sound]
+    if (loading) return ''
+    if (this.showNamedSounds && !tooltip || !this.showNamedSounds && tooltip) {
+      if (!this.mappedSounds[this.hero]) return ''
+      return '\n' + this.mappedSounds[this.hero][sound] || ''
+    }
+    if ((tooltip && this.showVoicelines) || (!tooltip && !this.showVoicelines)) return ''
+    if (!this.mappedVoicelines[vm.hero]) return ''
+    var item = this.mappedVoicelines[vm.hero][sound]
     if (!item) return ''
     var itemMatch = this.items[this.hero].items.voicelines.filter(a => a.id == item)
     if (!itemMatch || !itemMatch.length) return ''
@@ -218,17 +241,21 @@ OWI.controller('MainCtrl', ["$http", "$scope", function($http, $scope) {
 
   this.isItemSelected = sound => {
     if (loading) return false
-    if (!this.mappedSounds[this.hero]) return false
-    return this.mappedSounds[this.hero][sound]
+    if (!this.mappedVoicelines[this.hero]) return false
+    return this.mappedVoicelines[this.hero][sound]
   }
 
   this.getSoundFiles = () => {
     if (loading) return []
-    if (this.showSelectedFiles) {
-      if (!this.mappedSounds[this.hero]) return []
-      return this.sounds[vm.hero].filter(a => vm.mappedSounds[vm.hero][a.id])
+    if (this.showVoicelines) {
+      if (!this.mappedVoicelines[this.hero]) return []
+      return this.sounds[this.hero].filter(a => this.mappedVoicelines[this.hero][a.id])
     }
-    return this.sounds[vm.hero]
+    if (this.showNamedSounds) {
+      if (!this.mappedSounds[this.hero]) return []
+      return this.sounds[this.hero].filter(a => this.mappedSounds[this.hero][a.id])
+    }
+    return this.sounds[this.hero]
   }
 
   this.selectNextSound = (keyCode, index) => {

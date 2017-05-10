@@ -14,8 +14,9 @@
     <div class="btn" ng-repeat="hero in $ctrl.heroes" ng-class="{'btn-primary': $ctrl.hero == hero, 'btn-default': $ctrl.hero != hero}" ng-click="$ctrl.selectHero(hero)">{{hero}} {{$ctrl.isHeroDone(hero) ? '✔' : ''}}</div>
   </div>
   <div class="middlething">
-    <span>Voicelines: {{$ctrl.getVLCount() || 'None'}} | Total Sounds: {{$ctrl.sounds[$ctrl.hero].length}}</span> | 
-    <div class="btn btn-default" ng-click="$ctrl.toggleSelectedFiles()">{{$ctrl.showSelectedFiles ? 'Show all items' : 'Show selected items'}}</div>
+    <span>Voicelines: {{$ctrl.getVLCount() || 'None'}} | Named Sounds: {{$ctrl.getMappedSoundsCount() || 'None'}} | Total Sounds: {{$ctrl.sounds[$ctrl.hero].length}}</span>
+    <div class="btn btn-default" ng-show="$ctrl.items[$ctrl.hero]" ng-click="$ctrl.toggleShowVoicelines()">{{$ctrl.showVoicelines ? 'Show all items' : 'Show voicelines'}}</div>
+    <div class="btn btn-default" ng-click="$ctrl.toggleShowNamedSounds()">{{$ctrl.showNamedSounds ? 'Show all items' : 'Show named sounds'}}</div>
   </div>
   <div id="mainBody">
     <div id="player">
@@ -24,6 +25,15 @@
         <div class="btn btn-default" ng-click="$ctrl.replaySound()">Play</div>
         <div class="btn btn-default" ng-click="$ctrl.toggleLoop()">{{$ctrl.looping ? "Unloop" : "Loop"}}</div>
         <span class="selectedSound">Selected Sound: {{$ctrl.sSound || 'None'}}</span>
+        <div class="addname" ng-if="$ctrl.isDevMode">
+          <h2>Add name to sound</h2>
+          <div class="input-group">
+            <input type="text" id="nameInput" class="form-control" ng-model="$ctrl.mappedSounds[$ctrl.hero][$ctrl.sSound]" placeholder="Name of Item" ng-keypress="$event.keyCode == 13 && $ctrl.selectNextSound(40)">
+            <span class="input-group-btn">
+              <button class="btn btn-primary" type="button" ng-click="$ctrl.addSound($event)">Add</button>
+            </span>
+          </div>
+        </div>
         <div class="vl-list" ng-show="$ctrl.items[$ctrl.hero]">
           <h2>Voice Lines for {{$ctrl.items[$ctrl.hero].name}}</h2>
           <div class="inner">
@@ -42,7 +52,7 @@
         </div>
       </div>
     </div>
-    <div id="soundList">
+    <div id="soundList" ng-class="{filtering: $ctrl.showNamedSounds || $ctrl.showVoicelines}">
       <div 
         class="sound btn btn-default" 
         style="background-color: {{$ctrl.getColorForTS(sound.ts)}}"
