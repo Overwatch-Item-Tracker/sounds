@@ -235,19 +235,28 @@ OWI.controller('MainCtrl', ["$http", "$scope", "$location", function($http, $sco
     this.selectNextSound(40)
   }
 
-  this.getItemName = (sound, tooltip) => {
+  this.getTooltip = sound => {
     if (loading) return ''
-    if (this.showNamedSounds && !tooltip || !this.showNamedSounds && tooltip) {
+    if (this.showNamedSounds || this.showVoicelines) return ''
+    if (this.mappedSounds[this.hero] && this.mappedSounds[this.hero][sound]) return this.mappedSounds[this.hero][sound]
+    if (this.mappedVoicelines[vm.hero] && this.mappedVoicelines[vm.hero][sound]) {
+      var item = this.items[this.hero].items.voicelines.filter(a => a.id == this.mappedVoicelines[vm.hero][sound]) || []
+      return item[0] ? item[0].name : ''
+    }
+    return ''
+  }
+
+  this.getItemName = sound => {
+    if (loading) return ''
+    if (!this.showNamedSounds && !this.showVoicelines) return ''
+    if (this.showNamedSounds) {
       if (!this.mappedSounds[this.hero]) return ''
       return '\n' + this.mappedSounds[this.hero][sound] || ''
     }
-    if ((tooltip && this.showVoicelines) || (!tooltip && !this.showVoicelines)) return ''
+
     if (!this.mappedVoicelines[vm.hero]) return ''
-    var item = this.mappedVoicelines[vm.hero][sound]
-    if (!item) return ''
-    var itemMatch = this.items[this.hero].items.voicelines.filter(a => a.id == item)
-    if (!itemMatch || !itemMatch.length) return ''
-    return `\n ${itemMatch[0].name}`
+    var item = this.items[this.hero].items.voicelines.filter(a => a.id == this.mappedVoicelines[vm.hero][sound]) || []
+    return '\n' + (item[0] ? item[0].name : '')
   }
 
   this.isItemSelected = sound => {

@@ -57,7 +57,7 @@
         class="sound btn btn-default" 
         style="background-color: {{$ctrl.getColorForTS(sound.ts)}}"
         ng-repeat="sound in $ctrl.getSoundFiles() track by $index"
-        uib-tooltip="{{$ctrl.getItemName(sound.id, true)}}"
+        uib-tooltip="{{$ctrl.getTooltip(sound.id)}}"
         uib-enable="{{$ctrl.isItemSelected(sound.id)}}"
         tooltip-append-to-body="true"
         ng-click="$ctrl.playSound(sound.id, $index)"
