@@ -1,8 +1,14 @@
-var OWI = angular.module('OWI', ['ui.bootstrap'])
+var OWI = angular.module('OWI', ['ui.bootstrap']) // eslint-disable-line
 
 // Setup some angular config stuff
-OWI.config(['$compileProvider', function($compileProvider) {
-   $compileProvider.debugInfoEnabled(false); // more perf
+OWI.config(['$compileProvider', '$locationProvider', function($compileProvider, $locationProvider) {
+  $compileProvider.debugInfoEnabled(false); // more perf
+  $locationProvider.html5Mode({
+    enabled: true,
+    requireBase: false,
+    rewriteLinks: true
+  })
+  $locationProvider.hashPrefix('')
 }])
 
 OWI.directive("fileread", [function () {
@@ -24,7 +30,7 @@ OWI.directive("fileread", [function () {
   }
 }])
 
-OWI.controller('MainCtrl', ["$http", "$scope", function($http, $scope) {
+OWI.controller('MainCtrl', ["$http", "$scope", "$location", function($http, $scope, $location) {
   const vm = this;
   const audio = window.audio
   const download = window.download
@@ -52,7 +58,7 @@ OWI.controller('MainCtrl', ["$http", "$scope", function($http, $scope) {
     return $http.get('./data/soundFiles.json').then(resp => {
       if (resp.status == 200) {
         var heroes = Object.keys(resp.data)
-        return { heroes: heroes, hero: heroes[0], sounds: resp.data }
+        return { heroes, hero: heroes[0], sounds: resp.data }
       } else {
         console.error("Failed loading soundFiles.json ???", resp.status, resp.error);
         Promise.reject("Failed loading soundFiles.json ???")
@@ -90,6 +96,10 @@ OWI.controller('MainCtrl', ["$http", "$scope", function($http, $scope) {
         mappedSounds
       }, soundData)
       vm.importData(mappedVoicelines, mappedSounds, true)
+      var urlHero = $location.search().hero
+      if (urlHero && vm.heroes.includes(urlHero)) {
+        vm.hero = urlHero
+      }
       loading = false;
       $scope.$digest()
     })
@@ -97,6 +107,7 @@ OWI.controller('MainCtrl', ["$http", "$scope", function($http, $scope) {
 
   this.selectHero = hero => {
     this.hero = hero
+    $location.search('hero', hero)
     this.sSoundIndex = -1
     this.showNamedSounds = false
     this.showVoicelines = false
