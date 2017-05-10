@@ -16,7 +16,7 @@
   <div class="middlething">
     <span>Voicelines: {{$ctrl.getVLCount() || 'None'}} | Named Sounds: {{$ctrl.getMappedSoundsCount() || 'None'}} | Total Sounds: {{$ctrl.sounds[$ctrl.hero].length}}</span>
     <div class="btn btn-default" ng-show="$ctrl.items[$ctrl.hero]" ng-click="$ctrl.toggleShowVoicelines()">{{$ctrl.showVoicelines ? 'Show all items' : 'Show voicelines'}}</div>
-    <div class="btn btn-default" ng-click="$ctrl.toggleShowNamedSounds()">{{$ctrl.showNamedSounds ? 'Show all items' : 'Show named sounds'}}</div>
+    <div class="btn btn-default" ng-click="$ctrl.toggleShowNamedSounds()">{{$ctrl.showNamedSounds ? 'Hide names' : 'Show names'}}</div>
   </div>
   <div id="mainBody">
     <div id="player">

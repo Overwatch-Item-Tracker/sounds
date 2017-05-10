@@ -271,10 +271,6 @@ OWI.controller('MainCtrl', ["$http", "$scope", "$location", function($http, $sco
       if (!this.mappedVoicelines[this.hero]) return []
       return this.sounds[this.hero].filter(a => this.mappedVoicelines[this.hero][a.id])
     }
-    if (this.showNamedSounds) {
-      if (!this.mappedSounds[this.hero]) return []
-      return this.sounds[this.hero].filter(a => this.mappedSounds[this.hero][a.id])
-    }
     return this.sounds[this.hero]
   }
 
