@@ -1,8 +1,8 @@
 body {
-  padding: 10px 20px;
+  padding: 8px 20px;
   background: rgb(235, 235, 235);
   font-family: sans-serif;
-  max-width: 1500px;
+  max-width: 1600px;
   margin: 0 auto;
 }
 
@@ -22,10 +22,11 @@ h2 {
 }
 
 #mainBody {
-  padding-top: 10px;
+  padding-top: 7px;
   display: flex;
   justify-content: space-between
 }
+
 
 .middlething {
   margin: 3px 0;
@@ -51,13 +52,13 @@ h2 {
 
 #heroes .btn {
   margin: 1px 3px;
-  font-size: 14px;
+  font-size: 13px;
   text-transform: uppercase;
 }
 
 #player {
   margin-right: 20px;
-  width: 30%;
+  width: 27.5%;
 }
 
 #player .controls .selectedSound {
@@ -92,16 +93,25 @@ h2 {
 }
 
 #soundList {
-  overflow: auto;
-  height: calc(100% - 169px);
-  width: 68%;
+  width: 71%;
   text-align: center;
 }
 
+#soundList .switcher .btn {
+  margin: 0 3px 3px;
+  text-transform: uppercase;
+}
+
+#soundList .switcher span {
+  font-size: 16px;
+  font-weight: bold;
+}
+
 #soundList .sounds {
-  display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  overflow: auto;
+  height: calc(100% - 190px);
 }
 
 #soundList .sound {

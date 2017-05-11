@@ -14,8 +14,7 @@
     <div class="btn" ng-repeat="hero in $ctrl.heroes" ng-class="{'btn-primary': $ctrl.hero == hero, 'btn-default': $ctrl.hero != hero}" ng-click="$ctrl.selectHero(hero)">{{hero}} {{$ctrl.isHeroDone(hero) ? '✔' : ''}}</div>
   </div>
   <div class="middlething">
-    <span>Voicelines: {{$ctrl.getVLCount() || 'None'}} | Named Sounds: {{$ctrl.getMappedSoundsCount() || 'None'}} | Total Sounds: {{$ctrl.sounds[$ctrl.hero].length}}</span>
-    <div class="btn btn-default" ng-show="$ctrl.items[$ctrl.hero]" ng-click="$ctrl.toggleShowVoicelines()">{{$ctrl.showVoicelines ? 'Show all items' : 'Show voicelines'}}</div>
+    <span>Voicelines: {{$ctrl.getVLCount() || 'None'}} | Named Sounds: {{$ctrl.getMappedSoundsCount() || 'None'}} | Total Sounds: {{$ctrl.sounds[$ctrl.hero][$ctrl.soundCategory].length}} | ⚪ = Skin Sound | ★ = Voiceline </span>
     <div class="btn btn-default" ng-click="$ctrl.toggleShowNamedSounds()">{{$ctrl.showNamedSounds ? 'Hide names' : 'Show names'}}</div>
   </div>
   <div id="mainBody">
@@ -53,22 +52,27 @@
       </div>
     </div>
     <div id="soundList" ng-class="{filtering: $ctrl.showNamedSounds || $ctrl.showVoicelines}">
-      <div ng-repeat="(type, sounds) in $ctrl.sounds[$ctrl.hero]">
-        <h2>{{type}}</h2>
-        <div class="sounds">
-            <div 
-              class="sound btn btn-default" 
-              style="background-color: {{$ctrl.getColorForTS(sound.ts)}}"
-              ng-repeat="sound in sounds track by $index"
-              uib-tooltip="{{$ctrl.getTooltip(sound.id)}}"
-              uib-enable="{{$ctrl.isItemSelected(sound.id)}}"
-              tooltip-append-to-body="true"
-              ng-click="$ctrl.playSound(sound.id, $index)"
-              ng-class="{selected: $ctrl.sSound == sound.id}">{{sound.id}} {{$ctrl.isItemSelected(sound.id) ? '★' : ''}}<span>{{$ctrl.getItemName(sound.id)}}</span>
-            </div>
-          </div>
+      <div class="switcher">
+        <span>Category:</span>
+        <div
+          class="btn"
+          ng-repeat="(type, val) in $ctrl.sounds[$ctrl.hero]"
+          ng-class="{'btn-primary': $ctrl.soundCategory == type, 'btn-default': $ctrl.soundCategory != type}"
+          ng-click="$ctrl.setSoundCategory(type)">{{type}}</div>
+      </div>
+      <div class="sounds">
+        <div 
+          class="sound btn btn-default" 
+          style="background-color: {{$ctrl.getColorForTS(sound.ts)}}"
+          ng-repeat="sound in $ctrl.getSoundFiles() track by $index"
+          uib-tooltip="{{$ctrl.getTooltip(sound.id)}}{{sound.skin ? '\nSkin: ' + sound.skin : ''}}"
+          uib-enable="{{$ctrl.isItemSelected(sound.id)}}"
+          tooltip-append-to-body="true"
+          ng-click="$ctrl.playSound(sound.id, $index, false, type)"
+          ng-class="{selected: $ctrl.sSound == sound.id}">{{sound.id}} {{$ctrl.isItemSelected(sound.id) ? '★' : ''}} {{sound.skin ? '⚪' : ''}}<span>{{$ctrl.getItemName(sound.id)}}</span>
         </div>
       </div>
+    </div>
   </div>
   <div class="footer">
     <p>This site is not affiliated with Blizzard Entertainment.</p>
