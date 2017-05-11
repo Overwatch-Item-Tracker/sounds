@@ -53,17 +53,22 @@
       </div>
     </div>
     <div id="soundList" ng-class="{filtering: $ctrl.showNamedSounds || $ctrl.showVoicelines}">
-      <div 
-        class="sound btn btn-default" 
-        style="background-color: {{$ctrl.getColorForTS(sound.ts)}}"
-        ng-repeat="sound in $ctrl.getSoundFiles() track by $index"
-        uib-tooltip="{{$ctrl.getTooltip(sound.id)}}"
-        uib-enable="{{$ctrl.isItemSelected(sound.id)}}"
-        tooltip-append-to-body="true"
-        ng-click="$ctrl.playSound(sound.id, $index)"
-        ng-class="{selected: $ctrl.sSound == sound.id}">{{sound.id}} {{$ctrl.isItemSelected(sound.id) ? '★' : ''}}<span>{{$ctrl.getItemName(sound.id)}}</span>
+      <div ng-repeat="(type, sounds) in $ctrl.sounds[$ctrl.hero]">
+        <h2>{{type}}</h2>
+        <div class="sounds">
+            <div 
+              class="sound btn btn-default" 
+              style="background-color: {{$ctrl.getColorForTS(sound.ts)}}"
+              ng-repeat="sound in sounds track by $index"
+              uib-tooltip="{{$ctrl.getTooltip(sound.id)}}"
+              uib-enable="{{$ctrl.isItemSelected(sound.id)}}"
+              tooltip-append-to-body="true"
+              ng-click="$ctrl.playSound(sound.id, $index)"
+              ng-class="{selected: $ctrl.sSound == sound.id}">{{sound.id}} {{$ctrl.isItemSelected(sound.id) ? '★' : ''}}<span>{{$ctrl.getItemName(sound.id)}}</span>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
   </div>
   <div class="footer">
     <p>This site is not affiliated with Blizzard Entertainment.</p>

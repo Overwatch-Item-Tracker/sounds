@@ -133,7 +133,7 @@ OWI.controller('MainCtrl', ["$http", "$scope", "$location", function($http, $sco
 
   this.getColorForTS = str => {
     if (!str) return ''
-    return shadeColor(intToRGB(hashCode(str)), 0.6)
+    return shadeColor(intToRGB(hashCode(str.toString())), 0.6)
   }
 
   this.isHeroDone = hero => {
@@ -231,7 +231,7 @@ OWI.controller('MainCtrl', ["$http", "$scope", "$location", function($http, $sco
     }
   }
 
-  this.addSound = $event => {
+  this.addSound = () => {
     this.selectNextSound(40)
   }
 
@@ -263,15 +263,6 @@ OWI.controller('MainCtrl', ["$http", "$scope", "$location", function($http, $sco
     if (loading) return false
     if (!this.mappedVoicelines[this.hero]) return false
     return this.mappedVoicelines[this.hero][sound]
-  }
-
-  this.getSoundFiles = () => {
-    if (loading) return []
-    if (this.showVoicelines) {
-      if (!this.mappedVoicelines[this.hero]) return []
-      return this.sounds[this.hero].filter(a => this.mappedVoicelines[this.hero][a.id])
-    }
-    return this.sounds[this.hero]
   }
 
   this.selectNextSound = (keyCode, index) => {

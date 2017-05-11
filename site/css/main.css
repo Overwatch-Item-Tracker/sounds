@@ -92,15 +92,19 @@ h2 {
 }
 
 #soundList {
-  flex-wrap: wrap;
-  justify-content: space-around;
   overflow: auto;
   height: calc(100% - 169px);
   width: 68%;
   text-align: center;
 }
 
-#soundList div {
+#soundList .sounds {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#soundList .sound {
   margin: 3px 2px;
   width: 170px;
   white-space: pre-line;
