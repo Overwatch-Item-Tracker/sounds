@@ -108,6 +108,7 @@ OWI.controller('MainCtrl', ["$http", "$scope", "$location", function($http, $sco
   this.selectHero = hero => {
     this.hero = hero
     $location.search('hero', hero)
+    this.soundCategory = 'base'
     this.sSoundIndex = -1
     this.showNamedSounds = false
   }
@@ -283,9 +284,8 @@ OWI.controller('MainCtrl', ["$http", "$scope", "$location", function($http, $sco
   }
 
   var tempSound
-  this.playSound = (soundID, index, noSave, type) => {
+  this.playSound = (soundID, index, noSave) => {
     if (!soundID) return
-    if (type) this.soundCategory = type
     if ((soundID == this.sSound && !tempSound) || (noSave && tempSound == soundID)) {
       this.replaySound()
       return
