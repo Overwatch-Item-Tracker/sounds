@@ -1,0 +1,66 @@
+{{VoiceDataTable|
+{{DataRow|0000000293CB|Affirmative|00000002940E|(Pained sound)}}
+{{DataRow|0000000293CC|I agree|00000002940F|Where was I? There was this bright, white light}}
+{{DataRow|0000000293CD|(Pained sound)|000000029413|(Pained sound)}}
+{{DataRow|0000000293CE|(Pained sound)|000000029414|(Pained sound)}}
+{{DataRow|0000000293CF|(Pained sound)|000000029415|(Pained sound)}}
+{{DataRow|0000000293D0|(Pained sound)|000000029416|(Pained sound)}}
+{{DataRow|0000000293D1|(Pained sound)|000000029417|(Pained sound)}}
+{{DataRow|0000000293D2|(Pained sound)|000000029418|(Pained sound)}}
+{{DataRow|0000000293D3|(Pained sound)|000000029419|I respectfully disagree}}
+{{DataRow|0000000293D4|???|00000002941A|Error, Error}}
+{{DataRow|0000000293D5|(Pained sound)|00000002941B|Negative}}
+{{DataRow|0000000293D6|(Pained sound)|00000002941C|(Pained sound)}}
+{{DataRow|0000000293D7|(Pained sound)|00000002941D|(Freezing) That's cold... ok that is cold}}
+{{DataRow|0000000293D8|(Pained sound)|00000002941E|(Freezing)}}
+{{DataRow|0000000293D9|(Pained sound)|00000002941F|(Freezing)}}
+{{DataRow|0000000293DA|(Pained sound)|000000029420|(Freezing)}}
+{{DataRow|0000000293DB|???|000000029421|(Pained sound)}}
+{{DataRow|0000000293DD|(Pained sound)|000000029422|(Pained sound)}}
+{{DataRow|0000000293DF|Nice one|000000029423|(Pained sound)}}
+{{DataRow|0000000293E0|I know it's just my programming but... I am suitably impressed|000000029424|Right as always}}
+{{DataRow|0000000293E1|Great shot|000000029425|Sooo, what are we doing today?}}
+{{DataRow|0000000293E2|Have you been practicing?|000000029426|You almost got me! Just a little bit more}}
+{{DataRow|0000000293E3|Ohhh... Unacceptable|000000029427|Come on, finish me off}}
+{{DataRow|0000000293E4|(Pained sound)|000000029428|Damage boosted}}
+{{DataRow|0000000293E5|Does not compute|000000029429|Ah haa, get outta my way}}
+{{DataRow|0000000293E6|(???) That's much better|00000002942A|That was really painful... (powering down)}}
+{{DataRow|0000000293E7|(???) Thank you|00000002942B|Now who's takin' target practice?}}
+{{DataRow|0000000293E8|(Laugh)|00000002942C|(Pained sound)}}
+{{DataRow|0000000293E9|(Laugh)|00000002942D|(Pained sound)}}
+{{DataRow|0000000293EA|(Laugh)|00000002942E|(Pained sound)}}
+{{DataRow|0000000293EB|(Laugh)|00000002942F|(Pained sound)}}
+{{DataRow|0000000293EC|Systems repaired|000000029430|(Pained sound)}}
+{{DataRow|0000000293EE|(Pained sound)|000000029431|(Pained sound)}}
+{{DataRow|0000000293EF|(Pained sound)|000000029432|(Pained sound)}}
+{{DataRow|0000000293F0|Yes|000000029433|Great shot! You're killing ...  me ... (powering down)}}
+{{DataRow|0000000293F1|Oh you shouldn't have|000000029434|(Pained sound)}}
+{{DataRow|0000000293F2|Thank you|000000029435|(Pained sound)}}
+{{DataRow|0000000293F3|System ready|000000029437|I am so excited right now}}
+{{DataRow|0000000293F4|Returning to initial location|000000029438|That was something else}}
+{{DataRow|0000000293F5|On route|000000029439|Whoo hoo}}
+{{DataRow|0000000293F6|No|000000029445|It should have been me}}
+{{DataRow|0000000293F7|Oh no|000000029446|Take that automated sentry turret, uhh, wait}}
+{{DataRow|0000000293F8|Incoming!|000000029447|Target detected}}
+{{DataRow|0000000293F9|Hello|000000029448|(Pained sound)}}
+{{DataRow|0000000293FA|Goodbye|000000029449|(Pained sound)}}
+{{DataRow|0000000293FB|Defense protocol initiated|00000002944A|(Pained sound)}}
+{{DataRow|0000000293FC|5 4 3 2 1|00000002944B|(Pained sound)}}
+{{DataRow|0000000293FD|I... love this part|00000002944C|(Pained sound) (Electrocuted)}}
+{{DataRow|0000000293FE|Ah ha ha, take this|00000002944D|(Pained sound) (Electrocuted)}}
+{{DataRow|0000000293FF|Ohh yes (pew pew pew)|00000002944E|You know I can see you over there}}
+{{DataRow|000000029400|Acknowledged|00000002944F|(Pained sound) (Electrocuted)}}
+{{DataRow|000000029401|(Cough)|000000029450|(Pained sound) (Electrocuted)}}
+{{DataRow|000000029402|(Cough)|000000029454|Target neutralized}}
+{{DataRow|000000029403|(Cough)|000000029455|Target down, hehehehe}}
+{{DataRow|000000029404|(Cough)|000000029456|(Pained sound) (Electrocuted)}}
+{{DataRow|000000029405|(Cough)|000000029457|Oh cruel fate... take me next time}}
+{{DataRow|000000029406|(Cough)|000000029496|Bwooo... Error}}
+{{DataRow|000000029407|(Pained sound)|000000029497|(whispers) Target detected}}
+{{DataRow|000000029408|Training bot online|000000029498|Take that automated sentry turret! Wait... Tony? TONY NOOOOO!}}
+{{DataRow|000000029409|(Scream)|00000002949B|(Pained sound)}}
+{{DataRow|00000002940A|(Scream)|0000000294D5|(Scream)}}
+{{DataRow|00000002940B|(Scream)|0000000294D6|(Scream)}}
+{{DataRow|00000002940C|(Pained sound)|0000000294D7|(Scream)}}
+{{DataRow|00000002940D|(Pained sound)||}}
+}}
