@@ -107,6 +107,10 @@ h2 {
   font-weight: bold;
 }
 
+.filtering .noname {
+    box-shadow: inset 0px 0px 20px 2px red;
+}
+
 #soundList .sounds {
   flex-wrap: wrap;
   justify-content: space-around;
