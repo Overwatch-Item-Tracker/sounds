@@ -1,5 +1,5 @@
 {{VoiceDataTable|
-{{DataRow|00000000A8B6|Thankyou for playing Overwatch|00000002946E|To learn more about the other heroes of Overwatch, please enter the practice range through the training menu}}
+{{DataRow|00000000A8B6|Thank you for playing Overwatch|00000002946E|To learn more about the other heroes of Overwatch, please enter the practice range through the training menu}}
 {{DataRow|00000000A8B8|Now entering King's Row|00000002946F|The objective is now active}}
 {{DataRow|00000000A8B9|Traveling to Hanamura|000000029471|Activate tactical visor then fire at the targets with your rifle}}
 {{DataRow|00000000A8BA|Now entering the Temple of Anubis|000000029472|Now arriving at Illios}}
@@ -122,7 +122,7 @@
 {{DataRow|00000000BC7A|Please look up at the dropship|00000002A99F|to 2}}
 {{DataRow|00000000BC7B|You can move forwards and backwards in the direction you're looking|00000002A9A0|to 3}}
 {{DataRow|00000000BC7C|Enter the target range and move to the highlighted area|00000002A9A1|Sanctum}}
-{{DataRow|00000000BC7D|Thankyou|00000002A9A2|Well}}
+{{DataRow|00000000BC7D|Thank you|00000002A9A2|Well}}
 {{DataRow|00000000BC81|You can also move left and right|00000002A9A3|Play of the match}}
 {{DataRow|00000000BC82|It appears that you are accustomed to moving your controls down to look up|00000002A9A4|Seasonal rewards are locked}}
 {{DataRow|00000000BC84|Follow Tracer as she moves around the hangar|00000002A9A5|Round 12}}

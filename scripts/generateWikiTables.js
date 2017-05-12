@@ -4,7 +4,7 @@ const _ = require('lodash')
 const data = require('../data/mappedSounds.json')
 
 Object.keys(data).forEach(hero => {
-  var secondsColumnIDs = Object.keys(data[hero])
+  var secondsColumnIDs = Object.keys(data[hero]).sort()
   var firstColumnIDs = secondsColumnIDs.splice(0, Math.ceil(secondsColumnIDs.length / 2))
   var ids = _.zip(firstColumnIDs, secondsColumnIDs)
   var table = ids.map(idSet => {
