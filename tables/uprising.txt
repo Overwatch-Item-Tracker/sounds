@@ -1,0 +1,74 @@
+{{VoiceDataTable|
+{{DataRow|0000000384F6|[Ana] Torbjorn, why isn't the payload moving?|000000038A66|[Morrison] Here's your chance Oxton, show me what you can do. Just come home safe}}
+{{DataRow|0000000384F7|[Ana] But you need to disable the air defenses first|000000038A67|[Morrison] Payload is coming online}}
+{{DataRow|0000000384F8|[Ana] We're targeting the courtyard near the clockyard|000000038A6A|[Morrison] They can also revive your allies if they get taken out}}
+{{DataRow|0000000384F9|[Ana] Watch out for those Slicers, they aren't as strong but they tear up the payload|000000038A6C|[Morrison] Tracer, get in there and scout it out}}
+{{DataRow|0000000384FA|[Ana] Hack underway, the guns should be coming down shortly|000000038A6E|[Morrison] But you need to bring down the air defenses first}}
+{{DataRow|0000000384FB|[Ana] One of you make sure to keep the hack going|000000038A6F|[Morrison] Someone needs to stay by the terminal or the hack will be interrupted}}
+{{DataRow|0000000384FC|[Ana] Use caution, multiple energy signatures detected inside|000000038A71|[Morrison] We need you to meet up with the payload at the clock tower, move out}}
+{{DataRow|0000000384FD|[Ana] The dropship has entered London's airspace, you need to get those cannons down right now|000000038A72|[Morrison] Good work, I've marked the next air defense node on your hud}}
+{{DataRow|0000000384FE|[Ana] Significant Omnic presence closing in on your position|000000038A73|[Morrison] The payloads health is at 50%}}
+{{DataRow|0000000384FF|[Ana] Dropship is on route to the clock tower|000000038A74|[Morrison] Torbjorn, this bomb of yours better work}}
+{{DataRow|000000038500|[Ana] When have you ever made something fragile?|000000038A75|[Morrison] I'm restarting the system, it should come back online shortly}}
+{{DataRow|000000038501|[Ana] Dropship is on route to Big Ben|000000038A76|[Morrison] We've detected a massive power surge inside the plant}}
+{{DataRow|000000038503|[Ana] You're exposed in your current position, watch for attacks from all directions|000000038A78|[Morrison] 3 targets left}}
+{{DataRow|000000038504|[Ana] You shouldn't be far from the last node, it's in the cathedral just up the street|000000038A79|[Morrison] The first air defense node is just around the corner}}
+{{DataRow|000000038505|[Ana] Our satellites aren't detecting any survivors near you. Looks like Null Sector's done a thorough job clearing the area|000000038A7A|[Morrison] Our scans show the last target is inside the cathedral}}
+{{DataRow|000000038506|[Ana] Someone needs to stay near the terminal to keep the hack going|000000038A7C|[Morrison] One of you needs to stay at the terminal}}
+{{DataRow|000000038507|[Ana] This is Captain Amari, the first air defense node is right around the corner|000000038A7D|[Morrison] That's a detonator, destroy it before it can explode on the payload}}
+{{DataRow|00000003850A|[Ana] Team, Null Sector approaching your position|000000038A7E|[Morrison] Payload online, initiating startup sequence}}
+{{DataRow|00000003850B|[Ana] I'm marking it on your hud|000000038A7F|[Morrison] Keep everyone safe out there Angela}}
+{{DataRow|00000003850C|[Ana] In the courtyard, up ahead|000000038A80|[Morrison] You're out in the open there, be careful}}
+{{DataRow|00000003850F|[Ana] We've detected a new energy signature up ahead, looks like a new Omnic|000000038A86|[Morrison] Torbjorn needs to be revived}}
+{{DataRow|000000038511|[Ana] Proceed to the courtyard, the payload is waiting for you|000000038A87|[Morrison] Slicers inbound, keep them off the payload, their lasers will cut right through it}}
+{{DataRow|000000038512|[Ana] Good job team, handing you over to Commander Reyes. Amari out|000000038A88|[Morrison] Good work out there team. We've stopped Null Sector and given peace a chance}}
+{{DataRow|000000038513|[Ana] Escort the payload to the power station, once your there.. well, it's up to Torbjorn|000000038A89|[Morrison] Rendezvous at the courtyard}}
+{{DataRow|000000038514|[Ana] How much time?|000000038A8B|[Morrison] The dropships entered London's airspace, you need to get those cannons down asap}}
+{{DataRow|000000038515|[Ana] And Reinhardt, don't charge in there on your own|000000038A8C|[Morrison] Prepare to fire}}
+{{DataRow|000000038516|[Ana] Null Sector's aware of your presence, expect significant resistance from here on out|000000038A8D|[Morrison] Take out the remaining Null Sector units}}
+{{DataRow|000000038520|[Reyes] That's not going to look good for us on the evening news|000000038A90|[Morrison] 1 target remaining, take it down}}
+{{DataRow|000000038521|[Reyes] Watch it, the payloads seriously damaged|000000038A91|[Morrison] There's something wrong with the payload}}
+{{DataRow|000000038524|[Reyes] Last target team, get this done|000000038A92|[Morrison] Dropship is inbound to the clock tower}}
+{{DataRow|000000038525|[Reyes] You're outnumbered and cut off|000000038A93|[Morrison] Tracers down! Revive her}}
+{{DataRow|000000038527|[Reyes] Expect Nulltroopers, Eradicators, Bastions and some OR-14s|000000038A94|[Morrison] Overwatch strike team is down, prepare for emergency medical evac}}
+{{DataRow|000000038528|[Reyes] Focus on those OR-14s|000000038A96|[Morrison] Focus on the OR-14s, they're your primary targets}}
+{{DataRow|00000003852A|[Reyes] They're your first priority, take them out|000000038A97|[Morrison] Hack underway}}
+{{DataRow|00000003852B|[Reyes] Team, you're out of time, take out the last target|000000038A98|[Morrison] Detecting multiple energy signatures inside the cathedral, proceed with caution}}
+{{DataRow|00000003852E|[Reyes] We're reading a large number of energy signatures in there Lieutenant so be on your guard|000000038A99|[Morrison] Payload is still charging, keep it safe}}
+{{DataRow|000000038530|[Reyes] Team, we need that payload to hurry up|000000038A9A|[Morrison] Find the next target}}
+{{DataRow|000000038531|[Reyes] We have one chance at this and you're it|000000038A9D|[Morrison] There's no time to lose, move to the next target}}
+{{DataRow|000000038532|[Reyes] Don't let us down|000000038A9F|[Morrison] Someone needs to stay by the terminal to keep the hack going}}
+{{DataRow|000000038534|[Reyes] Then make sure it doesn't stop, if that plant blows it's gonna take out a lot of city|000000038AA1|[Morrison] Mercy's down}}
+{{DataRow|000000038535|[Reyes] Target down, move to the next one|000000038D40|[Morrison] Good luck out there agents}}
+{{DataRow|000000038537|[Reyes] The payloads taking damage, it would probably be a good idea to stop it|000000038D42|[Morrison] Kill confirmed, move to the next target}}
+{{DataRow|000000038538|[Reyes] Get that door open, now. Energy levels are peeking|000000038D43|[Morrison] Your orb can be used to hack the air defense terminals}}
+{{DataRow|000000038539|[Reyes] Best guess, they're gonna try to blow it|000000038D44|[Morrison] Defend the payload at all costs}}
+{{DataRow|00000003853A|[Reyes] We've detected a massive power surge from inside the plant|000000038D45|[Morrison] Keep them off the payload}}
+{{DataRow|00000003853B|[Reyes] Just 2 targets left|000000038D46|[Morrison] Understood Lieutenant, there's a new threat behind the uprising in London, Null Sector. I'm sending you in to deal with them}}
+{{DataRow|00000003853C|[Reyes] Reyes here, latest Blackwatch intelligence indicates heavy Null Sector numbers inside the power station|000000038D47|[Morrison] The payloads under fire}}
+{{DataRow|00000003853D|[Reyes] The payloads almost destroyed, protect it all all costs|000000038D48|[Morrison] Teammate down}}
+{{DataRow|00000003853E|[Reyes] Time is of the essence, you need to hit the bots before they have a chance to regroup|000000038D49|[Morrison] Strike team, we're counting on you. And keep the rookie safe}}
+{{DataRow|000000038A47|[Morrison] They need to be disabled before can drop the payload|000000038D4A|[Morrison] Well done, 3 targets left}}
+{{DataRow|000000038A48|[Morrison] The payloads fully operational, escort it over to the power station|000000038D4C|[Morrison] This is Morrison, your mission is to liberate King's Row}}
+{{DataRow|000000038A49|[Morrison] Detecting significant Null Sector troops headed in your direction|000000038D4D|[Morrison] Null Sector forces are inbound to your position}}
+{{DataRow|000000038A4A|[Morrison] Reinhardt's down! Get him back up|000000038D4F|[Morrison] Dropship incoming}}
+{{DataRow|000000038A4B|[Morrison] The payloads about to be destroyed! Defend it at all costs|000000038D51|[Morrison] It's going to need a few minutes to get charged up}}
+{{DataRow|000000038A4D|[Morrison] Keep moving team|000000038D52|[Morrison] This is it agents, get ready}}
+{{DataRow|000000038A4E|[Morrison] Deploy your utility drone to begin the hack|000000038D53|[Morrison] This is Morrison, London has been attacked, King's Row has fallen. We're on the brink of open war, team, it's up to you}}
+{{DataRow|000000038A50|[Morrison] Activating the payload, get ready to attack once the door is down|000000038D55|[Morrison] Payload charging up}}
+{{DataRow|000000038A51|[Morrison] Hack commencing|000000038D58|[Morrison] Good job agents, find the next target}}
+{{DataRow|000000038A53|[Morrison] Strike team on route to King's Row|000000038D59|[Morrison] Null Sector has 3 anti aircraft guns in King's Row}}
+{{DataRow|000000038A54|[Morrison] Null Sector is closing on your position|000000038D5A|[Morrison] They need to be disabled before we can drop the payload}}
+{{DataRow|000000038A55|[Morrison] Mission failed... Get the Prime Minister on the line, I have some explaining to do|000000038F9B|[Reyes] Enemy Bastion. Right side}}
+{{DataRow|000000038A57|[Morrison] I'm counting on your Lieutenant, get this done|000000038F9C|[Reyes] Enemy Bastion. Left side}}
+{{DataRow|000000038A5A|[Morrison] New energy signature up ahead, probably a Null Sector bot you haven't come across yet|000000038F9D|[Reyes] Enemy Bastion. Straight ahead}}
+{{DataRow|000000038A5B|[Morrison] Oxton, this is your home turf, let us know the lay of the land|000000038F9E|[Reyes] Enemy Bastion. Behind you}}
+{{DataRow|000000038A5C|[Morrison] 2 targets remaining, your almost there. Don't let up|000000038F9F|[Reyes] Detonator approaching on the left}}
+{{DataRow|000000038A5D|[Morrison] Null Sector has 3 anti aircraft guns in King's Row|000000038FA0|[Reyes] Detonator approaching on the right}}
+{{DataRow|000000038A5E|[Morrison] You each have a portable drone which can be used to hack the air defense terminals|000000038FA1|[Reyes] Detonator right in front of you}}
+{{DataRow|000000038A60|[Morrison] Watch out, the payloads taking damage|000000038FA2|[Reyes] Detonator behind you}}
+{{DataRow|000000038A61|[Morrison] Watch for that Bastion|00000003CF0E|[Morrison] Detecting significant Null Sector troops headed in your direction}}
+{{DataRow|000000038A62|[Morrison] We're planning to drop the payload in the courtyard by the clock tower|00000003CFD4|[Morrison] Payload online, initiating startup sequence}}
+{{DataRow|000000038A63|[Morrison] Just need a little longer for the payload to be ready|00000003CFD5|[Morrison] It's going to need a few minutes to get charged up}}
+{{DataRow|000000038A64|[Morrison] Here's your chance Tracer, show me what you can do. Just come home safe||}}
+}}
