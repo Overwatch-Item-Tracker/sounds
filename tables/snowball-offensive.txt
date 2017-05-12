@@ -1,0 +1,27 @@
+{{VoiceDataTable|
+{{DataRow|0000000342BA|Alright listen up. We brought you here because you represent the best, strongest, most effective warriors we... you can't be serious|0000000342D3|8}}
+{{DataRow|0000000342BB|Intel just arrived, revealing the enemy|0000000342D4|Revealing the enemies position}}
+{{DataRow|0000000342BC|Entering Ecopoint Antarctica|0000000342D5|2}}
+{{DataRow|0000000342BD|This is Ecopoint Antarctica recruits|0000000342D6|Ecopoint Antarctica}}
+{{DataRow|0000000342BE|Mission Failed|0000000342D7|Heads up, you're outnumbered. Process with caution}}
+{{DataRow|0000000342BF|7|0000000342D8|Watch your six, you're outnumbered}}
+{{DataRow|0000000342C0|Listen up, the situation here is critical. I'm counting on you to defeat the enemy, secure the area and come home in one piece|0000000342D9|5}}
+{{DataRow|0000000342C1|Press the advantage|0000000342DA|It's all up to you soldier}}
+{{DataRow|0000000342C2|4 enemies remaining|0000000342DB|Teammate eliminated}}
+{{DataRow|0000000342C3|1|0000000342DC|2 enemies remaining}}
+{{DataRow|0000000342C4|Welcome to Ecopoint Antarctica|0000000342DD|3 enemies remaining}}
+{{DataRow|0000000342C5|10|0000000342DE|9}}
+{{DataRow|0000000342C6|We're all Mei's now|0000000342DF|Who authorized you to have fun out there? This isn't an exercise, this is war}}
+{{DataRow|0000000342C7|Draw|0000000342E0|4}}
+{{DataRow|0000000342C8|Defeat|0000000342E1|Heads up soldiers, get ready to engage the enemy}}
+{{DataRow|0000000342C9|1 enemy remaining|0000000342E2|6}}
+{{DataRow|0000000342CA|Play of the game|0000000342E3|5 enemies remaining}}
+{{DataRow|0000000342CB|Enemy eliminated|0000000342E4|There's only 1 target left, hunt them down soldier}}
+{{DataRow|0000000342CC|3|0000000342E5|Move out}}
+{{DataRow|0000000342CD|1 target remaining|0000000342E6|We're all scientists now... (sighs) ... right}}
+{{DataRow|0000000342CE|Focus soldier, only 1 enemy remaining|0000000342E7|Now's the time to strike, you have the advantage}}
+{{DataRow|0000000342CF|1 enemy remaining|0000000342E8|You're evenly matched, be smart out there}}
+{{DataRow|0000000342D0|Mission accomplished|0000000342E9|Last Mei standing}}
+{{DataRow|0000000342D1|This is Morrison, your mission, secure this installation, destroy the enemy, take no prisoners. It's up to you solider|0000000342EA|Stay focused, watch your ammo and get this done}}
+{{DataRow|0000000342D2|Victory|0000000342EB|Welcome to Ecopoint Antarctica soldiers}}
+}}
