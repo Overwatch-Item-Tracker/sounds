@@ -1,0 +1,81 @@
+{{VoiceDataTable|
+{{DataRow|00000002EC41|Our tale begins in Adlersbrunn, where the lord of the castle has called for heroes to come his aid and defend him from the mad Dr. Junkenstein|00000002F0C5|The Archer could feel the dragon raging within him, howling to be unleashed}}
+{{DataRow|00000002EC86|Dr. Junkenstein had been slighted by the lord of Adlersbrunn, humiliated, he vowed to destroy the castle and kill all who had mocked him|00000002F0C6|A looming shadow appeared, Junkenstein's Monster had come}}
+{{DataRow|00000002EC87|Only 4 they were to defend the castle against Dr. Junkenstein and his minions|00000002F0C7|Their enemies swarmed the castle walls and the 4 heroes seemed powerless to stop them}}
+{{DataRow|00000002EC88|A reclusive Alchemist skilled in the healing arts|00000002F0C8|The battle raged out of control and the defenders were overrun}}
+{{DataRow|00000002EC89|An Archer from the east trying to escape his past|00000002F0C9|The heroes were in disarray as the Doctors creations swarm the castle and pounded at the doors}}
+{{DataRow|00000002EC8A|A wandering Gunslinger seeking adventure|00000002F0CA|The Gunslinger extended his and in a flash, his foe was stunned}}
+{{DataRow|00000002EC8B|A nameless Soldier, veteran of countless battles|00000002F0CB|Once again, the Alchemist proved decisive}}
+{{DataRow|00000002EC99|The doors shuddered under the relentless assault|00000002F0CC|But her ally quickly woke it}}
+{{DataRow|00000002EC9A|The battle turned against the castle defenders as one of the heroes fell|00000002F0CD|The heroes fought valiantly, but they could not stop Dr. Junkenstein and his creations. The castle fell, the defenders were slain and Junkenstein had his revenge}}
+{{DataRow|00000002EC9C|The ground shook as Dr. Junkenstein's creation was revealed|00000002F0CE|The Zomnics crashed against the doors but for now, they still stood}}
+{{DataRow|00000002F080|Our tale is about to begin|00000002F0CF|Boom boom, the Zomnics crashed against the door, their bodies exploding as the old wood splintered and shuddered}}
+{{DataRow|00000002F081|The Archer slew the Reaper, the arrow piercing his dead heart|00000002F0D0|The Archer saw through the eyes of the wolf, sensing the presence of unseen enemies}}
+{{DataRow|00000002F082|One of the defenders fell to the Reaper's guns as he turned to search for his next target|00000002F0D1|Soon the Doctors minions would flood into the castle with the defenders helpless to stop them}}
+{{DataRow|00000002F083|The Reaper slew the Alchemist with laugh|00000002F0D2|For all the heroes efforts, the doors seemed soon to be destroyed}}
+{{DataRow|00000002F084|With a triumphant cry, the Reaper struck down the Soldier|00000002F0D3|With that blow, the defenders moved closer to victory}}
+{{DataRow|00000002F085|The Reaper slew the Archer without a second thought|00000002F0D4|The Doctors creations swarmed over the fallen hero having claimed their first kill}}
+{{DataRow|00000002F086|The Gunslinger was no match for the Reaper, his body fell to the ground|00000002F0D5|The Alchemist struck first, employing a potion that burned the Doctor's creation from within}}
+{{DataRow|00000002F087|The Gunslingers shot found its mark and the Reaper was destroy|00000002F0D6|The Gunslinger struck the first blow, and soon the air was filled with the acrid smell of gunpowder}}
+{{DataRow|00000002F088|The Reaper was cursed, bound as a servant to the Witch of the wilds|00000002F0D7|Without hesitation, the Soldier waded into the fray}}
+{{DataRow|00000002F089|To the heroes dismay, the Reaper was no so easily defeated|00000002F0D8|The defenders fought desperately for the doors would not hold much longer}}
+{{DataRow|00000002F08A|Out of the night... the Reaper returned|00000002F0D9|The Archer saw through the eyes of the dragon sensing the presence of unseen enemies}}
+{{DataRow|00000002F08B|The shadows took shape and coalesced into the form of the Reaper|00000002F0DA|Despite his age, the Soldier moved with a speed unmatched by the Archer or the Gunslinger, both 2 decades his junior}}
+{{DataRow|00000002F08C|The Soldier recovered from his wounds quickly|00000002F0DB|Amongst her many weapons, the Alchemist possessed a sleeping powder}}
+{{DataRow|00000002F08D|The Gunslinger returned to the fight, stoically ignoring the pain of his injuries|00000002F0DC|The lord of the castle has summoned heroes to help defend him against a mad Dr. Junkenstein}}
+{{DataRow|00000002F08E|The Archer hauled himself up through sheer force of will, refusing to succumb to his wounds|00000002F0DD|The end}}
+{{DataRow|00000002F08F|Once a man, the Reaper portrayed no trace of his former self|00000002F0DE|Dr. Junkenstein vowed to destroy the castle and kill all those who had mocked him and his creations}}
+{{DataRow|00000002F090|The Alchemist hastily swallowed one of her potions and hurried to rejoin the battle|00000002F0DF|Listen to my tale, I swear that it's true, of a mad Doctor, his Monster and his thirst for revenge}}
+{{DataRow|00000002F091|The Soldier struck down the Reaper and hoped that it would be for the last time|00000002F0E0|Dr. Junkenstein laughed as his minions rose for tonight was the night he would have his revenge}}
+{{DataRow|00000002F092|The Reaper was destroyed|00000002F0E1|Dr. Junkenstein squealed with delight as his minions rose... for tonight was the night of}}
+{{DataRow|00000002F093|With a shot from his revolver, the Gunslinger dropped the Monster who fell to the ground with an earth shaking thud|00000002F0E2|Dr. Junkenstein squealed with delight as his minions arose... for tonight was the night of Junkenstein's Revenge}}
+{{DataRow|00000002F094|The Soldier repeatedly struck the Monster until, finally, it toppled to the ground, lifeless|00000002F0E3|Though they may have been suspicious of the Alchemist's techniques, the other heroes were grateful for her healing potions}}
+{{DataRow|00000002F095|The Alchemist's concoctions coursed through the Monster and its body was destroyed from within|00000002F0E4|The Alchemist's timely intervention saved her allies life}}
+{{DataRow|00000002F096|Arrows sprouted from the Monster's body as the Archer finally brought the creature to its knees|00000002F0E5|The Alchemist's healing brought her ally back from the brink of death}}
+{{DataRow|00000002F097|And the Monster fell with a ground shaking impact, its brief but bloody existence at an end|00000002F0E6|The defender would have fallen if not for the Alchemist's healing}}
+{{DataRow|00000002F098|The Monster was slain|00000002F0E7|The Alchemist threw the sleeping powder and miraculously the Reaper fell}}
+{{DataRow|00000002F099|The Alchemist slew the Reaper, feeling a moment of sadness for the man she had once known|00000002F0E8|The Alchemist unleashed her sleeping powder and with a crash, the Monster fell}}
+{{DataRow|00000002F09A|Unknown to all, Dr. Junkenstein had succeeded in creating life, a twisted abomination of inhuman strength and wickedness|00000002F0E9|The Alchemist's sleeping powder put the Witch in a stupor}}
+{{DataRow|00000002F09B|The Alchemist's body went limp as the Monster struck her|00000002F0EA|The Alchemist's struck Dr. Junkenstein with a sleeping powder and, for the moment, he fell silent}}
+{{DataRow|00000002F09C|The Soldier crumpled to the ground as the Monster easily overpowered him|00000002F0EB|Without a word, the Archer loosed an arrow and claimed the first kill of the night}}
+{{DataRow|00000002F09D|The Gunslinger fell, the Monsters strength was too great|00000002F0EC|Mighty blows were struck and the Doctors creations fell like leaves in the forest}}
+{{DataRow|00000002F09E|The Archer could not withstand the monsters attack and he was struck down|00000002F0ED|The Alchemist was the first to strike as the battle began}}
+{{DataRow|00000002F09F|The Monster bellowed into in delight at the lifeless body before it|00000002F0EE|The Archer was the first to strike, the first of many}}
+{{DataRow|00000002F0A0|A dark presence coalesced in their midst|00000002F0EF|Dr. Junkenstein blanketed the area with his bombs and the Archer was caught in the conflagration}}
+{{DataRow|00000002F0A1|The Doctors creation had been twisted into a Monster bent on destroying everything in its path|00000002F0F0|By then, the Doctor had gone mad. Driving his creations forward, consumed with his need for revenge}}
+{{DataRow|00000002F0A2|For the moment, the night was still but it would not last|00000002F0F1|Dr. Junkenstein lobbed his bombs at the castle, the explosions a percussive accompaniment to the sound of his laughter}}
+{{DataRow|00000002F0A3|The 4 heroes gathered themselves, knowing that the battle was far from over|00000002F0F2|Junkenstein howled with laughter as his bombs found their marks}}
+{{DataRow|00000002F0A4|The defenders had held the Doctors creations back, but they knew with a certainty... it was not the last|00000002F0F3|It pained the Soldier and the Alchemist to see the Reaper. Once their ally, he had been cursed, turned into a creature of remorseless hate}}
+{{DataRow|00000002F0A5|And the Monster fell, just as his creator. Exhausted, battered, bruised, the 4 heroes entered the castle to receive their rewards|00000002F0F4|For a fleeting moment, the Soldier felt a pang of sympathy for the Monster}}
+{{DataRow|00000002F0A6|The Reaper fell, the enchanted pumpkin where his head ought to have been smashed against the flagstones. The night was quiet and the castle was safe|00000002F0F5|Owing more to luck than skill, Dr. Junkenstein overwhelmed the Gunslinger}}
+{{DataRow|00000002F0A7|With one last laugh, Dr. Junkenstein fell from the balcony to the flagstones below and as the last of his laughter echoed from the walls of the castle, the battle was over and the castle had been saved|00000002F0F6|The Gunslinger smiled, a worthy opponent had shown itself at last}}
+{{DataRow|00000002F0A8|The defenders were victorious and Dr. Junkenstein's reign of terror was at an end|00000002F0F7|Before the exhausted and wounded heroes, the battle was not yet over}}
+{{DataRow|00000002F0A9|Another of the Doctors failures, the Zombardier's were mindless slaves that attacked anything in their way|00000002F0F8|In the midst of the battle Junkenstein's most powerful ally appeared}}
+{{DataRow|00000002F0AA|Dr. Junkenstein's Zomnics hurled themselves against the doors of the castle|00000002F0F9|Dr. Junkenstein had made a bargain with the witch, and she was not ready to release him}}
+{{DataRow|00000002F0AB|And as the Witch fell, her magic had no more power, Dr. Junkenstein's creations fell lifeless to the earth... and as morning dawned, the castle was safe|00000002F0FA|With 1 magic incantation, the Witch brought Junkenstein and his creation back to life}}
+{{DataRow|00000002F0AC|The castles doors still held, but they had been weakened|00000002F0FB|The Witch's magic made Junkenstein's creation more powerful than ever, the creatures body crackled with unholy might}}
+{{DataRow|00000002F0AD|The door held for now, but the attacks continued|00000002F0FC|The Witch had returned the fallen from beyond the grave}}
+{{DataRow|00000002F0AE|The constant attack had taken its toll upon the doors|00000002F0FD|Unknown to the heroes, Dr. Junkenstein had other allies}}
+{{DataRow|00000002F0AF|The objective is being destroyed|00000002F0FE|The Alchemist fell as one the Doctors bombs exploded at her feet}}
+{{DataRow|00000002F0B0|The Archers aim was peerless, his hand, a blur as his arrows flew, filling the night sky with their whispered song|00000002F0FF|Dr. Junkenstein roared with laughter as he watched the Soldier succumb to one of his bombs}}
+{{DataRow|00000002F0B1|The Soldier was unrelenting and his enemies fell before him|00000002F100|With a well aimed shot, the Gunslinger felled Dr. Junkenstein but the battle still raged}}
+{{DataRow|00000002F0B2|The Alchemist was aim was unerring, her attacks exacting a heavy toll on the Doctor's creations|00000002F101|The first attack had been repelled but the battle had only just begun}}
+{{DataRow|00000002F0B3|The enemies swarmed towards the castle|00000002F102|The Alchemist let out a scream as she fell}}
+{{DataRow|00000002F0B4|The Soldier waited for a moment of tactical advantage to unleash his attack|00000002F103|The Archer was slain, crumpling to the earth}}
+{{DataRow|00000002F0B5|The Gunslinger knew that the time was coming|00000002F104|The Soldier succumb to the Monsters assault. Falling, defeated}}
+{{DataRow|00000002F0B6|The Archer could feel the wolf raging within him, howling to be unleashed (howling)|00000002F105|The Gunslinger's luck had run out}}
+{{DataRow|00000002F0B7|The Doctor had created an electric tire that bore down on the castles doors|00000002F106|The tide of the battle turned as one of the defenders fell}}
+{{DataRow|00000002F0B8|The Doctors Shock-Tire rode toward the door|00000002F107|The heroes defense was not enough, as one of their numbers fell. If only they had a shield to stand behind... hm}}
+{{DataRow|00000002F0B9|But the defenders made quick work of it|00000002F108|As a full moon rose above the town, the 4 defenders gathered}}
+{{DataRow|00000002F0BA|The Gunslinger moved his finger over the trigger of his revolver|00000002F109|They waited... until they heard the sound of the Doctor's creations lurching toward them}}
+{{DataRow|00000002F0BB|With a blur of his hand, shots rang out each finding their mark|00000002F10A|Or so it had seemed}}
+{{DataRow|00000002F0BC|But the Gunslinger sensed it was not yet time and eased back|00000002F10B|As the battle raged, Dr. Junkenstein himself made a grand appearance}}
+{{DataRow|00000002F0BD|The Archer unleashed a mighty battle cry and summoned a massive 2 headed dragon that devoured all before it|00000002F10C|Dr. Junkenstein was slain but his creations continued to fight}}
+{{DataRow|00000002F0BE|The Archer unleashed a mighty battle cry and summoned 2 massive wolves that devoured all before them|00000002F10D|The Archer drew his arrow and watched it soar through the night sky until it struck Junkenstein}}
+{{DataRow|00000002F0BF|The Alchemists potions struck her ally. As it broke against him, his skin turned to iron and strength flowed through him|00000002F10E|The Soldier's strikes found their marks and Dr. Junkenstein was slain}}
+{{DataRow|00000002F0C0|The Alchemist empowered her ally, Ah if only she had a gallant powerful knight fighting at her side, a waste of her alchemy, she thought, privately|00000002F10F|The Alchemist killed Dr. Junkenstein, breathing a sigh of relief}}
+{{DataRow|00000002F0C1|The Gunslinger trained his sights upon his foes|00000002F110|The Gunslinger's revolver claimed the nights first kill}}
+{{DataRow|00000002F0C2|The Soldier squinted and took aim, each of his blows falling with impossible precision|00000002F111|The Gunslinger was unstoppable, with each pull of the trigger, another enemy fell. One after another}}
+{{DataRow|00000002F0C3|The Alchemist's potion empowered her ally|00000002F112|Dr. Junkenstein laughed as his minions rose, for tonight was the night of Junkenstein's Revenge}}
+{{DataRow|00000002F0C4|The Alchemist had readied her ultimate potion, waiting for the moment to use it|00000002F555|The Doctor's Shock-Tire exploded against the door but for now the oak held strong}}
+}}
