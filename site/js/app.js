@@ -296,7 +296,8 @@ OWI.controller('MainCtrl', ["$http", "$scope", "$location", function($http, $sco
       this.sSound = soundID
       this.sSoundIndex = index
     }
-    this.currentURL = `./sounds/${this.hero}/${this.hero}-${soundID}.ogg`
+    let hero = this.hero === '03F' ? '' : `${this.hero}-`
+    this.currentURL = `./sounds/${this.hero}/${hero}${soundID}.ogg`
   }
 
   window.onbeforeunload = () => {

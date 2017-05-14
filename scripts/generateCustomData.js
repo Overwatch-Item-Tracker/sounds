@@ -1,6 +1,6 @@
 const fs = require('fs')
 
-const dirs = ['unknown', 'athena', 'hollywood-guy', 'lucioball', 'snowball-offensive', 'uprising', 'junkenstein']
+const dirs = ['unknown', 'athena', 'hollywood-guy', 'lucioball', 'snowball-offensive', 'uprising', 'junkenstein', '03F']
 
 const out = {}
 dirs.forEach(thing => {
