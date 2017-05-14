@@ -26,11 +26,8 @@
         <span class="selectedSound">Selected Sound: {{$ctrl.sSound || 'None'}}</span>
         <div class="addname" ng-if="$ctrl.isDevMode">
           <h2>Add name to sound</h2>
-          <div class="input-group">
-            <input type="text" id="nameInput" class="form-control" ng-model="$ctrl.mappedSounds[$ctrl.hero][$ctrl.sSound]" placeholder="Name of Item" ng-keypress="$event.keyCode == 13 && $ctrl.selectNextSound(40)">
-            <span class="input-group-btn">
-              <button class="btn btn-primary" type="button" ng-click="$ctrl.addSound($event)">Add</button>
-            </span>
+          <div class="form-group">
+            <textarea id="nameInput" class="form-control" rows="3" ng-model="$ctrl.mappedSounds[$ctrl.hero][$ctrl.sSound]" placeholder="Name of Item" ng-keypress="$event.keyCode == 13 && $ctrl.selectNextSound(40)"></textarea>
           </div>
         </div>
         <div class="vl-list" ng-show="$ctrl.items[$ctrl.hero]">
