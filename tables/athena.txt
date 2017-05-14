@@ -163,129 +163,129 @@
 {{DataRow|00000000BD81|Damage the targets with helix rockets to continue|000000032AA7|Symmetra}}
 {{DataRow|00000000BD82|Aim at the targets then fire your helix rockets|000000032AA8|Sombra}}
 {{DataRow|00000000BD83|Note how targets near the point of impact were damaged by the helix rockets|000000032AA9|Soldier 76}}
-{{DataRow|00000000BD84|Next we'll go over your abilities|000000032AAC|Reinhardt}}
-{{DataRow|00000000BD87|You cannot fire your weapon while sprinting|000000032AAD|Pharah}}
-{{DataRow|00000000BD88|Try sprinting, it could save your life|000000032AB2|Mercy}}
-{{DataRow|00000000BD89|You can only sprint while moving forward|000000032AB3|McCree}}
-{{DataRow|00000000BD8E|You charge your ultimate ability over time or by dealing damage|000000032AB4|Mei}}
-{{DataRow|00000000BD90|Engage the training bots whenever you're ready|000000032AB5|Lucio}}
-{{DataRow|00000000BD92|Once the meter reaches 100% you can activate your tactical visor|000000032AB6|Junkrat}}
-{{DataRow|00000000BD93|Dealing damage will charge your ultimate|000000032AB7|Hanzo}}
-{{DataRow|00000000BD94|Your ultimate is 50% charged|000000032AB8|Roadhog}}
-{{DataRow|00000000BD95|Your ultimate is almost fully charged|000000032AB9|Genji}}
-{{DataRow|00000000BD96|Your tactical visor is charged|000000032ABC|Winston}}
-{{DataRow|00000000BD98|Now activate your tactical visor and destroy the training bots|000000032ABD|Winner}}
-{{DataRow|00000000BD99|I'll refresh tactical visor so you can destroy the rest of the training bots|000000032ABE|Widowmaker}}
-{{DataRow|00000000BD9B|Your tactical visor is fully charged, please activate it now|000000032ABF|3 on 3}}
-{{DataRow|00000000BD9D|All targets destroyed, nice work Soldier 76|000000032AC0|3 on 2}}
-{{DataRow|00000000BD9E|This concludes the Overwatch training program, good luck out there, sir|000000032AC1|3 on 1}}
-{{DataRow|00000000BD9F|You can now try a practice game versus ai, replay the tutorial or face off against other players|000000032AC2|2 on 3}}
-{{DataRow|00000000BDA2|Bring up the hero select screen to view all available characters|000000032AC3|2 on 2}}
-{{DataRow|00000000BDA3|Please activate the hero select screen|000000032AC4|2 on 1}}
-{{DataRow|00000000BDA4|Active the hero select screen to continue|000000032AC5|1 on 3}}
-{{DataRow|00000000BDA5|Lets try switching to a different hero|000000032AC6|1 on 2}}
-{{DataRow|00000000BDA7|Select a different hero from the list below to continue|000000032AC8|1 on 1}}
-{{DataRow|00000000BDA8|Please select a different hero|000000032AC9|Torbjorn}}
-{{DataRow|00000000BDAB|Please press the information button|000000032ACA|Symmetra}}
-{{DataRow|00000000BDAC|Now confirm your selection to switch to the selected hero|000000032ACB|Sombra}}
-{{DataRow|00000000BDBB|Follow the marker to your objective|000000032ACC|Soldier 76}}
-{{DataRow|00000000BDBC|Please exit the target range and approach your objective|000000032ACD|Reaper}}
-{{DataRow|00000000BDBE|To capture it, move inside the area|000000032ACE|Reinhardt}}
-{{DataRow|00000000BDBF|Please move into the area marked by the bright outline|000000032ACF|Roadhog}}
-{{DataRow|00000000BDC0|Move into the area to capture the objective|000000032AD0|Recover your flag}}
-{{DataRow|00000000BDC1|While you are within the area, you make progress towards capturing the objective|000000032AD1|Flawless}}
-{{DataRow|00000000BDC3|Capture progress pauses if you move outside of the area|000000032AD2|Perfect}}
-{{DataRow|00000000BDC4|If there are enemies in the area with you, capture progress is paused|000000032AD3|Pharah}}
-{{DataRow|00000000BDC5|You have successfully captured the objective|000000032AD4|Tracer}}
-{{DataRow|00000000BDC6|Round 2, lost|000000032AD5|Zenyatta}}
-{{DataRow|00000000BDC7|Round 2, won|000000032AD6|D.Va}}
-{{DataRow|00000000BDC8|Your primary weapon is your heavy pulse rifle|000000032AD7|Bastion}}
-{{DataRow|00000000BDCC|Aim at the training bot then fire your rifle|000000032AD8|You have returned the flag}}
-{{DataRow|00000000BDCD|Shoot the training bot to continue|000000032AD9|Enemy flag returned}}
-{{DataRow|00000000BDD1|Sometimes its easy to hit an enemy with a melee attack|000000032ADA|Your team has dropped the flag}}
-{{DataRow|00000000BDD2|Enemies in the field may be a little harder to hit than that one|000000032ADB|Your flag has been dropped}}
-{{DataRow|00000000BDD4|Let me get you something a little more challenging to shoot at|000000032ADC|Your team has captured the flag}}
-{{DataRow|00000000BDD7|Most weapons fire a limited amount of ammo before they need to be reloaded|000000032ADD|The enemy has captured your flag}}
-{{DataRow|00000000BDDA|There are still targets remaining|000000032ADE|Even strength}}
-{{DataRow|00000000BDDC|Destroy all the bots to continue|000000032AE3|Your flagged was returned}}
-{{DataRow|00000000BDDE|Great work, that covers the basics of your weapon|000000032AE5|Enemy has been revealed}}
-{{DataRow|00000000BDDF|Nice shooting|000000032AE6|Enemy eliminated}}
-{{DataRow|000000021F4A|In addition to sprint you also have the ability to heal yourself with biotic field|000000032AE7|Teammate eliminated}}
-{{DataRow|000000021F4C|Keep following Tracer|000000032AE8|D.Va}}
-{{DataRow|000000021F4E|Try moving sideways|000000032AEA|Capture the enemy flag}}
-{{DataRow|000000021F4F|Try moving backwards, it's useful if you need to retreat|000000032AEB|Bastion}}
-{{DataRow|000000021F51|Let's go over the basics of movement|000000032AEC|Ana}}
-{{DataRow|000000021F54|Excellent, now watch Tracer run to the center of the room|000000032AED|Enemy advantage}}
-{{DataRow|000000021F56|Let's get started, please use your controls to look at Tracer as she moves around the room|000000032AEE|Advantage}}
-{{DataRow|000000021F58|Use your controls to look up at the dropship|000000032AEF|1 player advantage}}
-{{DataRow|000000021F59|Would you like me to set up your controls to work that way|000000032AF0|Arriving at Ecopoint Antarctica}}
-{{DataRow|000000021F5A|I will be guiding you through the Overwatch training program|000000032AF2|The enemy has taken your flag}}
-{{DataRow|000000021F5C|If it reaches 0, you die|000000032AF3|Your team has taken the flag}}
-{{DataRow|000000021F5D|Next to it is your current health|000000032AF4|Ana}}
-{{DataRow|000000021F5E|Your portrait is displayed in the lower left corner of your screen, that's you Soldier 76|000000032AF5|Battle}}
-{{DataRow|000000021F60|Excellent|000000032AF6|Battle}}
-{{DataRow|000000021F62|Jump up onto the ledge and go through the blast door|000000032AF7|Eliminate the enemy}}
-{{DataRow|000000021F63|Welcome to the target range, please proceed to the highlighted area|000000032AF8|Eliminate the enemy team}}
-{{DataRow|000000021F64|If you run out of ammo you will automatically reload it or you can manually reload at any time|000000032AF9|Fight}}
-{{DataRow|000000021F65|Your current ammo is displayed here, in the bottom right of the screen|000000032AFA|Match point}}
-{{DataRow|000000021F66|Damaging an enemy causes their current health to be displayed above their head|000000032AFB|Mercy}}
-{{DataRow|000000021F67|Enemies likes these training bots are marked with a red outline|000000032AFC|Now entering the arena}}
-{{DataRow|000000021F68|Move next to the training bot and strike it with a melee attack|000000032AFD|Gladiator}}
-{{DataRow|000000021F69|Move next to the training bot, aim, then strike it with a melee attack|000000032AFE|Challenger}}
-{{DataRow|000000021F6A|Nicely done, you can also strike a target near you with a melee attack|000000032AFF|Flag taken}}
-{{DataRow|000000021F6C|Aim through the crosshairs in the middle of your screen, move them over the training bot then fire|000000032B00|3 on 3 duel}}
-{{DataRow|000000021F6D|I'll get you something to shoot at|000000032B01|Duel}}
-{{DataRow|000000021F6E|Let me walk you through the basics of combat|000000032B02|1 on 1 duel}}
-{{DataRow|000000021F70|Sextuple kill|000000032B03|McCree}}
-{{DataRow|000000021F71|Quintuple kill|000000032B04|Mei}}
-{{DataRow|000000021F72|Quadruple kill|000000032B05|All teammates have been eliminated}}
-{{DataRow|000000021F73|You're on fire|000000032B07|1 enemy remaining}}
-{{DataRow|000000021F74|Your current progress is displayed here on your screen|000000032B08|Lucio}}
-{{DataRow|000000021F75|The objective is marked with a bright outline on the ground|000000032B09|Junkrat}}
-{{DataRow|000000021F76|Head through the open door and proceed to the objective|000000032B0A|Hanzo}}
-{{DataRow|000000021F77|Your current objective is indicated with a directional marker Labeled A|000000032B0B|Genji}}
-{{DataRow|000000021F78|For the final phase of the training program, I will show you how to capture an objective|000000032B0C|2 on 2 duel}}
-{{DataRow|000000021F79|You'll need to move forward to attack your enemies|000000032B0D|Zarya}}
-{{DataRow|000000021F7A|Triple kill|000000032B0E|All teammates eliminated}}
-{{DataRow|000000021F7B|Confirm your selection to continue|000000034606|Prepare for battle}}
-{{DataRow|000000021F7C|Please confirm your selection to continue|000000034607|Your team has returned the flag}}
-{{DataRow|000000021F80|Now arriving at Lijiang Tower|000000034608|The enemy has your flag}}
-{{DataRow|000000021F81|Now changing skirmish locations|000000034609|Flag taken}}
-{{DataRow|000000021F82|Double kill|00000003460A|Your teammate has taken the flag}}
-{{DataRow|000000021F84|I'll deploy some additional training bots|00000003460B|Your team has the flag}}
-{{DataRow|000000021F85|I'll bring out some targets for you|00000003460C|Your teammate has the flag}}
-{{DataRow|000000021F86|Your current charge level is display here at the bottom of your screen|00000003460D|Flag returned}}
-{{DataRow|000000021F87|But you must fully charge it before using it|00000003460F|Last hero standing}}
-{{DataRow|000000021F89|These powerful abilities can change the course of a game|000000034610|Get ready}}
-{{DataRow|000000021F8D|We'll begin with sprint|000000034611|Flag captured}}
-{{DataRow|000000021F8E|Fire your helix rockets at the targets|000000034612|The enemy captured your flag}}
-{{DataRow|000000021F8F|You can launch a volley of rockets in the direction your aiming|000000034613|The enemy is taking your flag}}
-{{DataRow|000000021F90|Your rifle is also equipped with helix rockets|000000034614|Protect your flag}}
-{{DataRow|000000021F91|You'll heal while your within the glowing area|000000034616|Flag returned}}
-{{DataRow|000000021F92|Now deploy a biotic field|000000034617|Your teammate has dropped the flag}}
-{{DataRow|000000021F93|To demonstrate it, I need to damage you slightly|000000034618|Flag dropped}}
-{{DataRow|000000021F94|Finally, let me explain tactical visor, your ultimate ability|00000003461B|Verses}}
-{{DataRow|000000021F95|Destroy the training bots to continue|00000003461F|Welcome to the new season}}
-{{DataRow|000000021F98|Press this button to view additional information about your selected hero|000000034623|Flag captured}}
-{{DataRow|000000021F99|When you have a hero selected you can view details about them by pressing the information button|000000034624|Your team captured the flag}}
-{{DataRow|000000021F9A|Select a different hero from the list below|000000034625|Your flag can be recovered}}
-{{DataRow|000000021F9B|Before you begin, there is one thing I wanted to go over with you. There will be times when you want to switch heroes during a game|000000034626|Flag dropped}}
-{{DataRow|000000021F9D|Now changing practice locations|000000034627|You have dropped the flag}}
-{{DataRow|000000021F9E|Beginning practice round against the AI|000000034628|Return your flag}}
-{{DataRow|000000021F9F|You can now skirmish while I search for a game|000000034629|Your team is taking the flag}}
-{{DataRow|000000021FA0|You man now skirmish while I find you a game|000000034F4F|You have the flag}}
-{{DataRow|000000021FA1|Now entering a skirmish|00000003763F|Entering Oasis University}}
-{{DataRow|000000021FA3|Now entering a skirmish while you look for a game|00000003764A|Welcome to the Oasis Gardens}}
-{{DataRow|000000021FAF|There is 1 bot remaining|00000003764B|Now arriving at the Nepal Village}}
-{{DataRow|000000029458|This training program has prepared you to use the weapon and abilities unique to Soldier 76|000000037653|Now arriving at Oasis City Center}}
-{{DataRow|00000002945C|Please enter the highlighted area|000000037654|Welcome to the Illios Lighthouse}}
-{{DataRow|000000029460|The tactical visor optimizes your shots so they do not miss|000000037655|Now arriving at the Illios Well}}
-{{DataRow|000000029461|To learn more about the other heroes of Overwatch, please enter the practice range from the training menu|000000037656|This is Illios}}
-{{DataRow|000000029462|This is a place where you can experiment with your weapons and abilities|000000037657|Entering Lijiang Command Centre}}
-{{DataRow|000000029463|Welcome to the practice range Soldier 76|000000037658|Entering Lijiang Garden}}
-{{DataRow|000000029464|Your tactical visor is fully charged, please activate it then open fire|000000037659|Welcome to Lijiang Night Market}}
-{{DataRow|000000029465|In the practice range you can change your hero here|00000003765A|Traveling to the Nepal Shrine}}
-{{DataRow|000000029466|Move to the highlighted area|00000003765B|Entering the Nepal Sanctum}}
-{{DataRow|000000029468|While moving forward, you can activate sprint to run faster. Try it now|00000003765C|Traveling to the Illios Ruins}}
-{{DataRow|00000002946D|Once you have selected a hero, you can view their information at any time||}}
+{{DataRow|00000000BD84|Next we'll go over your abilities|000000032AAA|Reaper}}
+{{DataRow|00000000BD87|You cannot fire your weapon while sprinting|000000032AAC|Reinhardt}}
+{{DataRow|00000000BD88|Try sprinting, it could save your life|000000032AAD|Pharah}}
+{{DataRow|00000000BD89|You can only sprint while moving forward|000000032AB2|Mercy}}
+{{DataRow|00000000BD8E|You charge your ultimate ability over time or by dealing damage|000000032AB3|McCree}}
+{{DataRow|00000000BD90|Engage the training bots whenever you're ready|000000032AB4|Mei}}
+{{DataRow|00000000BD92|Once the meter reaches 100% you can activate your tactical visor|000000032AB5|Lucio}}
+{{DataRow|00000000BD93|Dealing damage will charge your ultimate|000000032AB6|Junkrat}}
+{{DataRow|00000000BD94|Your ultimate is 50% charged|000000032AB7|Hanzo}}
+{{DataRow|00000000BD95|Your ultimate is almost fully charged|000000032AB8|Roadhog}}
+{{DataRow|00000000BD96|Your tactical visor is charged|000000032AB9|Genji}}
+{{DataRow|00000000BD98|Now activate your tactical visor and destroy the training bots|000000032ABC|Winston}}
+{{DataRow|00000000BD99|I'll refresh tactical visor so you can destroy the rest of the training bots|000000032ABD|Winner}}
+{{DataRow|00000000BD9B|Your tactical visor is fully charged, please activate it now|000000032ABE|Widowmaker}}
+{{DataRow|00000000BD9D|All targets destroyed, nice work Soldier 76|000000032ABF|3 on 3}}
+{{DataRow|00000000BD9E|This concludes the Overwatch training program, good luck out there, sir|000000032AC0|3 on 2}}
+{{DataRow|00000000BD9F|You can now try a practice game versus ai, replay the tutorial or face off against other players|000000032AC1|3 on 1}}
+{{DataRow|00000000BDA2|Bring up the hero select screen to view all available characters|000000032AC2|2 on 3}}
+{{DataRow|00000000BDA3|Please activate the hero select screen|000000032AC3|2 on 2}}
+{{DataRow|00000000BDA4|Active the hero select screen to continue|000000032AC4|2 on 1}}
+{{DataRow|00000000BDA5|Lets try switching to a different hero|000000032AC5|1 on 3}}
+{{DataRow|00000000BDA7|Select a different hero from the list below to continue|000000032AC6|1 on 2}}
+{{DataRow|00000000BDA8|Please select a different hero|000000032AC8|1 on 1}}
+{{DataRow|00000000BDAB|Please press the information button|000000032AC9|Torbjorn}}
+{{DataRow|00000000BDAC|Now confirm your selection to switch to the selected hero|000000032ACA|Symmetra}}
+{{DataRow|00000000BDBB|Follow the marker to your objective|000000032ACB|Sombra}}
+{{DataRow|00000000BDBC|Please exit the target range and approach your objective|000000032ACC|Soldier 76}}
+{{DataRow|00000000BDBE|To capture it, move inside the area|000000032ACD|Reaper}}
+{{DataRow|00000000BDBF|Please move into the area marked by the bright outline|000000032ACE|Reinhardt}}
+{{DataRow|00000000BDC0|Move into the area to capture the objective|000000032ACF|Roadhog}}
+{{DataRow|00000000BDC1|While you are within the area, you make progress towards capturing the objective|000000032AD0|Recover your flag}}
+{{DataRow|00000000BDC3|Capture progress pauses if you move outside of the area|000000032AD1|Flawless}}
+{{DataRow|00000000BDC4|If there are enemies in the area with you, capture progress is paused|000000032AD2|Perfect}}
+{{DataRow|00000000BDC5|You have successfully captured the objective|000000032AD3|Pharah}}
+{{DataRow|00000000BDC6|Round 2, lost|000000032AD4|Tracer}}
+{{DataRow|00000000BDC7|Round 2, won|000000032AD5|Zenyatta}}
+{{DataRow|00000000BDC8|Your primary weapon is your heavy pulse rifle|000000032AD6|D.Va}}
+{{DataRow|00000000BDCC|Aim at the training bot then fire your rifle|000000032AD7|Bastion}}
+{{DataRow|00000000BDCD|Shoot the training bot to continue|000000032AD8|You have returned the flag}}
+{{DataRow|00000000BDD1|Sometimes its easy to hit an enemy with a melee attack|000000032AD9|Enemy flag returned}}
+{{DataRow|00000000BDD2|Enemies in the field may be a little harder to hit than that one|000000032ADA|Your team has dropped the flag}}
+{{DataRow|00000000BDD4|Let me get you something a little more challenging to shoot at|000000032ADB|Your flag has been dropped}}
+{{DataRow|00000000BDD7|Most weapons fire a limited amount of ammo before they need to be reloaded|000000032ADC|Your team has captured the flag}}
+{{DataRow|00000000BDDA|There are still targets remaining|000000032ADD|The enemy has captured your flag}}
+{{DataRow|00000000BDDC|Destroy all the bots to continue|000000032ADE|Even strength}}
+{{DataRow|00000000BDDE|Great work, that covers the basics of your weapon|000000032AE3|Your flagged was returned}}
+{{DataRow|00000000BDDF|Nice shooting|000000032AE5|Enemy has been revealed}}
+{{DataRow|000000021F4A|In addition to sprint you also have the ability to heal yourself with biotic field|000000032AE6|Enemy eliminated}}
+{{DataRow|000000021F4C|Keep following Tracer|000000032AE7|Teammate eliminated}}
+{{DataRow|000000021F4E|Try moving sideways|000000032AE8|D.Va}}
+{{DataRow|000000021F4F|Try moving backwards, it's useful if you need to retreat|000000032AEA|Capture the enemy flag}}
+{{DataRow|000000021F51|Let's go over the basics of movement|000000032AEB|Bastion}}
+{{DataRow|000000021F54|Excellent, now watch Tracer run to the center of the room|000000032AEC|Ana}}
+{{DataRow|000000021F56|Let's get started, please use your controls to look at Tracer as she moves around the room|000000032AED|Enemy advantage}}
+{{DataRow|000000021F58|Use your controls to look up at the dropship|000000032AEE|Advantage}}
+{{DataRow|000000021F59|Would you like me to set up your controls to work that way|000000032AEF|1 player advantage}}
+{{DataRow|000000021F5A|I will be guiding you through the Overwatch training program|000000032AF0|Arriving at Ecopoint Antarctica}}
+{{DataRow|000000021F5C|If it reaches 0, you die|000000032AF2|The enemy has taken your flag}}
+{{DataRow|000000021F5D|Next to it is your current health|000000032AF3|Your team has taken the flag}}
+{{DataRow|000000021F5E|Your portrait is displayed in the lower left corner of your screen, that's you Soldier 76|000000032AF4|Ana}}
+{{DataRow|000000021F60|Excellent|000000032AF5|Battle}}
+{{DataRow|000000021F62|Jump up onto the ledge and go through the blast door|000000032AF6|Battle}}
+{{DataRow|000000021F63|Welcome to the target range, please proceed to the highlighted area|000000032AF7|Eliminate the enemy}}
+{{DataRow|000000021F64|If you run out of ammo you will automatically reload it or you can manually reload at any time|000000032AF8|Eliminate the enemy team}}
+{{DataRow|000000021F65|Your current ammo is displayed here, in the bottom right of the screen|000000032AF9|Fight}}
+{{DataRow|000000021F66|Damaging an enemy causes their current health to be displayed above their head|000000032AFA|Match point}}
+{{DataRow|000000021F67|Enemies likes these training bots are marked with a red outline|000000032AFB|Mercy}}
+{{DataRow|000000021F68|Move next to the training bot and strike it with a melee attack|000000032AFC|Now entering the arena}}
+{{DataRow|000000021F69|Move next to the training bot, aim, then strike it with a melee attack|000000032AFD|Gladiator}}
+{{DataRow|000000021F6A|Nicely done, you can also strike a target near you with a melee attack|000000032AFE|Challenger}}
+{{DataRow|000000021F6C|Aim through the crosshairs in the middle of your screen, move them over the training bot then fire|000000032AFF|Flag taken}}
+{{DataRow|000000021F6D|I'll get you something to shoot at|000000032B00|3 on 3 duel}}
+{{DataRow|000000021F6E|Let me walk you through the basics of combat|000000032B01|Duel}}
+{{DataRow|000000021F70|Sextuple kill|000000032B02|1 on 1 duel}}
+{{DataRow|000000021F71|Quintuple kill|000000032B03|McCree}}
+{{DataRow|000000021F72|Quadruple kill|000000032B04|Mei}}
+{{DataRow|000000021F73|You're on fire|000000032B05|All teammates have been eliminated}}
+{{DataRow|000000021F74|Your current progress is displayed here on your screen|000000032B07|1 enemy remaining}}
+{{DataRow|000000021F75|The objective is marked with a bright outline on the ground|000000032B08|Lucio}}
+{{DataRow|000000021F76|Head through the open door and proceed to the objective|000000032B09|Junkrat}}
+{{DataRow|000000021F77|Your current objective is indicated with a directional marker Labeled A|000000032B0A|Hanzo}}
+{{DataRow|000000021F78|For the final phase of the training program, I will show you how to capture an objective|000000032B0B|Genji}}
+{{DataRow|000000021F79|You'll need to move forward to attack your enemies|000000032B0C|2 on 2 duel}}
+{{DataRow|000000021F7A|Triple kill|000000032B0D|Zarya}}
+{{DataRow|000000021F7B|Confirm your selection to continue|000000032B0E|All teammates eliminated}}
+{{DataRow|000000021F7C|Please confirm your selection to continue|000000034606|Prepare for battle}}
+{{DataRow|000000021F80|Now arriving at Lijiang Tower|000000034607|Your team has returned the flag}}
+{{DataRow|000000021F81|Now changing skirmish locations|000000034608|The enemy has your flag}}
+{{DataRow|000000021F82|Double kill|000000034609|Flag taken}}
+{{DataRow|000000021F84|I'll deploy some additional training bots|00000003460A|Your teammate has taken the flag}}
+{{DataRow|000000021F85|I'll bring out some targets for you|00000003460B|Your team has the flag}}
+{{DataRow|000000021F86|Your current charge level is display here at the bottom of your screen|00000003460C|Your teammate has the flag}}
+{{DataRow|000000021F87|But you must fully charge it before using it|00000003460D|Flag returned}}
+{{DataRow|000000021F89|These powerful abilities can change the course of a game|00000003460F|Last hero standing}}
+{{DataRow|000000021F8D|We'll begin with sprint|000000034610|Get ready}}
+{{DataRow|000000021F8E|Fire your helix rockets at the targets|000000034611|Flag captured}}
+{{DataRow|000000021F8F|You can launch a volley of rockets in the direction your aiming|000000034612|The enemy captured your flag}}
+{{DataRow|000000021F90|Your rifle is also equipped with helix rockets|000000034613|The enemy is taking your flag}}
+{{DataRow|000000021F91|You'll heal while your within the glowing area|000000034614|Protect your flag}}
+{{DataRow|000000021F92|Now deploy a biotic field|000000034616|Flag returned}}
+{{DataRow|000000021F93|To demonstrate it, I need to damage you slightly|000000034617|Your teammate has dropped the flag}}
+{{DataRow|000000021F94|Finally, let me explain tactical visor, your ultimate ability|000000034618|Flag dropped}}
+{{DataRow|000000021F95|Destroy the training bots to continue|00000003461B|Verses}}
+{{DataRow|000000021F98|Press this button to view additional information about your selected hero|00000003461F|Welcome to the new season}}
+{{DataRow|000000021F99|When you have a hero selected you can view details about them by pressing the information button|000000034623|Flag captured}}
+{{DataRow|000000021F9A|Select a different hero from the list below|000000034624|Your team captured the flag}}
+{{DataRow|000000021F9B|Before you begin, there is one thing I wanted to go over with you. There will be times when you want to switch heroes during a game|000000034625|Your flag can be recovered}}
+{{DataRow|000000021F9D|Now changing practice locations|000000034626|Flag dropped}}
+{{DataRow|000000021F9E|Beginning practice round against the AI|000000034627|You have dropped the flag}}
+{{DataRow|000000021F9F|You can now skirmish while I search for a game|000000034628|Return your flag}}
+{{DataRow|000000021FA0|You man now skirmish while I find you a game|000000034629|Your team is taking the flag}}
+{{DataRow|000000021FA1|Now entering a skirmish|000000034F4F|You have the flag}}
+{{DataRow|000000021FA3|Now entering a skirmish while you look for a game|00000003763F|Entering Oasis University}}
+{{DataRow|000000021FAF|There is 1 bot remaining|00000003764A|Welcome to the Oasis Gardens}}
+{{DataRow|000000029458|This training program has prepared you to use the weapon and abilities unique to Soldier 76|00000003764B|Now arriving at the Nepal Village}}
+{{DataRow|00000002945C|Please enter the highlighted area|000000037653|Now arriving at Oasis City Center}}
+{{DataRow|000000029460|The tactical visor optimizes your shots so they do not miss|000000037654|Welcome to the Illios Lighthouse}}
+{{DataRow|000000029461|To learn more about the other heroes of Overwatch, please enter the practice range from the training menu|000000037655|Now arriving at the Illios Well}}
+{{DataRow|000000029462|This is a place where you can experiment with your weapons and abilities|000000037656|This is Illios}}
+{{DataRow|000000029463|Welcome to the practice range Soldier 76|000000037657|Entering Lijiang Command Centre}}
+{{DataRow|000000029464|Your tactical visor is fully charged, please activate it then open fire|000000037658|Entering Lijiang Garden}}
+{{DataRow|000000029465|In the practice range you can change your hero here|000000037659|Welcome to Lijiang Night Market}}
+{{DataRow|000000029466|Move to the highlighted area|00000003765A|Traveling to the Nepal Shrine}}
+{{DataRow|000000029468|While moving forward, you can activate sprint to run faster. Try it now|00000003765B|Entering the Nepal Sanctum}}
+{{DataRow|00000002946D|Once you have selected a hero, you can view their information at any time|00000003765C|Traveling to the Illios Ruins}}
 }}
