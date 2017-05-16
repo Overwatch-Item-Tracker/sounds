@@ -5,8 +5,8 @@ const soundIDs = {}
 
 for (let hero in sounds) {
   for (let type in sounds[hero]) {
-    for (let sound of sounds[hero][type]) {
-      soundIDs[sound.id] = true
+    for (let sound in sounds[hero][type]) {
+      soundIDs[sound] = true
     }
   }
 }
