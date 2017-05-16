@@ -236,12 +236,17 @@ OWI.controller('MainCtrl', ["$http", "$scope", "$location", function($http, $sco
   this.getTooltip = sound => {
     if (loading) return ''
     if (this.showNamedSounds) return ''
-    if (this.mappedVoicelines[vm.hero] && this.mappedVoicelines[vm.hero][sound]) {
-      var item = this.items[this.hero].items.voicelines.filter(a => a.id == this.mappedVoicelines[vm.hero][sound]) || []
-      return item[0] ? item[0].name : ''
+    let out = []
+    if (this.mappedVoicelines[vm.hero] && this.mappedVoicelines[vm.hero][sound.id]) {
+      var item = this.items[this.hero].items.voicelines.filter(a => a.id == this.mappedVoicelines[vm.hero][sound.id]) || []
+      if (item[0]) out.push(item[0].name)
     }
-    if (this.mappedSounds[this.hero] && this.mappedSounds[this.hero][sound]) return this.mappedSounds[this.hero][sound]
-    return ''
+    if (this.mappedSounds[this.hero] && this.mappedSounds[this.hero][sound.id]) out.push(this.mappedSounds[this.hero][sound.id])
+    if (sound.skin) out.push(sound.skin)
+    if (sound.unused) out.push('Apparently removed??')
+    if (out.filter(Boolean)) {
+      return out.join('\n')
+    }
   }
 
   this.getItemName = sound => {

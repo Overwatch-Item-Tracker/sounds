@@ -62,12 +62,12 @@
           class="sound btn btn-default" 
           style="background-color: {{$ctrl.getColorForTS(sound.ts)}}"
           ng-repeat="sound in $ctrl.getSoundFiles() track by $index"
-          uib-tooltip="{{$ctrl.getTooltip(sound.id)}}{{sound.skin ? '\nSkin: ' + sound.skin : ''}}"
+          uib-tooltip="{{$ctrl.getTooltip(sound)}}"
           uib-enable="{{$ctrl.isItemSelected(sound.id)}}"
           tooltip-append-to-body="true"
           ng-click="$ctrl.playSound(sound.id, $index, false)"
           ng-class="{selected: $ctrl.sSound == sound.id, noname: !$ctrl.mappedSounds[$ctrl.hero][sound.id]}"
-          >{{sound.id}} {{$ctrl.isItemSelected(sound.id) ? '★' : ''}} {{sound.skin ? '⚪' : ''}}<span>{{$ctrl.getItemName(sound.id)}}</span>
+        >{{sound.id}} {{$ctrl.isItemSelected(sound.id) ? '★' : ''}} {{sound.skin ? '⚪' : ''}} {{sound.unused ? '❓' : ''}}<span>{{$ctrl.getItemName(sound.id)}}</span>
         </div>
       </div>
     </div>

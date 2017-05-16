@@ -16,6 +16,10 @@ h2 {
   text-align: center;
 }
 
+.tooltip-inner {
+  white-space: pre-wrap
+}
+
 .footer p {
   margin: 0;
   line-height: 1;
