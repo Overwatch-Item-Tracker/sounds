@@ -133,7 +133,7 @@ OWI.controller('MainCtrl', ["$http", "$scope", "$location", function($http, $sco
 
   this.getColorForTS = str => {
     if (!str) return ''
-    return shadeColor(intToRGB(hashCode(str.toString())), 0.6)
+    return shadeColor(intToRGB(hashCode(str.toString())), 0.5)
   }
 
   this.isHeroDone = hero => {
