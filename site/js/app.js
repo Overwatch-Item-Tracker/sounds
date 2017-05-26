@@ -179,7 +179,7 @@ OWI.controller('MainCtrl', ["$http", "$scope", "$location", function($http, $sco
 
   this.saveData = () => {
     download(JSON.stringify(this.mappedSounds, null, 2), `mappedSounds-${Date.now()}.json`, 'application/json');
-    //download(JSON.stringify(this.mappedVoicelines, null, 2), `mappedVoicelines-${Date.now()}.json`, 'application/json');
+    download(JSON.stringify(this.mappedVoicelines, null, 2), `mappedVoicelines-${Date.now()}.json`, 'application/json');
   }
 
   this.clearData = () => {
