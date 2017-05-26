@@ -24,7 +24,7 @@
 {{DataRow|00000000BCB2|This is why I hate working with humans|00000000BCD5|Where is everyone? Bunch of lazy bums... this is why I hate mandatory human hiring quarters}}
 {{DataRow|00000000BCB3|Roll film|00000000BCD6|Interior, whiskey jack saloon. He taps the shoulder of the man at the bar, "I got a gun with your name on it... 6 of em"}}
 {{DataRow|00000000BCB4|Roll credits|00000000BCD7|Hellooo? Let's get a move on}}
-{{DataRow|00000000BCB5|Oh I can see the reviews, a visionary directory the likes of which has not been seen since the days of Ed Wood|00000000BCD8|Where in central casting did they find you?}}
+{{DataRow|00000000BCB5|Oh I can see the reviews, a visionary director the likes of which has not been seen since the days of Ed Wood|00000000BCD8|Where in central casting did they find you?}}
 {{DataRow|00000000BCB6|Common hurry up, I don't want to lose the light|00000000BCD9|You could be a star kid}}
 {{DataRow|00000000BCB7|Play of the game|00000000BCDA|I've seen second act plot complications less bumpy than this ride}}
 {{DataRow|00000000BCB8|Aliens, rocket ships and a human with a gun? Ah audiences never change, god bless em|00000000BCDB|Hello? Anyone out there?}}

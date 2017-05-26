@@ -577,7 +577,18 @@
     "00000003765A": "Traveling to the Nepal Shrine",
     "00000003765B": "Entering the Nepal Sanctum",
     "00000003765C": "Traveling to the Illios Ruins",
-    "000000032AAA": "Reaper"
+    "000000032AAA": "Reaper",
+    "00000000B0BA": "Now entering the Black Forest",
+    "000000032AAF": "Orisa",
+    "00000003461C": "Welcome to Season 5",
+    "00000003461D": "Welcome to Season 6",
+    "00000003461E": "Welcome to Season 7",
+    "000000034620": "Welcome to Season 8",
+    "000000037638": "Entering the Necropolis",
+    "000000037641": "Tie breaker",
+    "000000037642": "Tie breaker objective activated",
+    "000000037643": "Tie breaker objective unlocked",
+    "000000037644": "Capture the objective to win"
   },
   "orisa": {
     "000000034E95": "I told you not to move",
