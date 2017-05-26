@@ -1,4 +1,5 @@
 const fs = require('fs')
+const _ = require('lodash')
 
 const existingCustomSounds = require('../data/customSounds')
 const existingSoundTS = {}
@@ -27,5 +28,11 @@ dirs.forEach(thing => {
     out[thing]['base'].push({ id: soundID, ts })
   })
 })
+
+for (let hero in out) {
+  for (let type in out[hero]) {
+    out[hero][type] = _.sortBy(out[hero][type], ['ts', 'id'])
+  }
+}
 
 fs.writeFileSync('../data/customSounds.json', JSON.stringify(out, null, 2))
