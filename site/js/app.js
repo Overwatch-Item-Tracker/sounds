@@ -269,7 +269,6 @@ OWI.controller('MainCtrl', ["$http", "$scope", "$location", function($http, $sco
     var k = Object.keys(d)
     var i = index || k.indexOf(vm.sSound)
     var nextItem = k[i + num > k.length - 1 ? 0 : i + num < 0 ? k.length -1 : i + num]
-    console.log(k.length, i, vm.sSoundIndex, nextItem)
     this.playSound(d[nextItem].id, nextItem)
     setTimeout(() => {
       document.querySelector('#soundList div.selected').scrollIntoViewIfNeeded(true)
