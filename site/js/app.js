@@ -266,8 +266,10 @@ OWI.controller('MainCtrl', ["$http", "$scope", "$location", function($http, $sco
     var num = keyCode == 40 || keyCode == 39 ? 1 : keyCode == 38 || keyCode == 37 ? -1 : undefined
     if (!num) return
     var d = this.getSoundFiles()
-    var i = index || vm.sSoundIndex
-    var nextItem = i + num > d.length - 1 ? 0 : i + num < 0 ? d.length -1 : i + num
+    var k = Object.keys(d)
+    var i = index || k.indexOf(vm.sSound)
+    var nextItem = k[i + num > k.length - 1 ? 0 : i + num < 0 ? k.length -1 : i + num]
+    console.log(k.length, i, vm.sSoundIndex, nextItem)
     this.playSound(d[nextItem].id, nextItem)
     setTimeout(() => {
       document.querySelector('#soundList div.selected').scrollIntoViewIfNeeded(true)
