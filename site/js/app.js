@@ -265,11 +265,18 @@ OWI.controller('MainCtrl', ["$http", "$scope", "$location", function($http, $sco
   this.selectNextSound = (keyCode, index) => {
     var num = keyCode == 40 || keyCode == 39 ? 1 : keyCode == 38 || keyCode == 37 ? -1 : undefined
     if (!num) return
-    var d = this.getSoundFiles()
-    var k = Object.keys(d)
-    var i = index || k.indexOf(vm.sSound)
-    var nextItem = k[i + num > k.length - 1 ? 0 : i + num < 0 ? k.length -1 : i + num]
+    const d = this.getSoundFiles()
+    let nextItem
+    if (Array.isArray(d)) {
+      let i = vm.sSoundIndex
+      nextItem = i + num > d.length - 1 ? 0 : i + num < 0 ? d.length -1 : i + num
+    } else {
+      let k = Object.keys(d)
+      let i = index || k.indexOf(vm.sSound)
+      nextItem = k[i + num > k.length - 1 ? 0 : i + num < 0 ? k.length -1 : i + num]
+    }
     this.playSound(d[nextItem].id, nextItem)
+    
     setTimeout(() => {
       document.querySelector('#soundList div.selected').scrollIntoViewIfNeeded(true)
     }, 10)
