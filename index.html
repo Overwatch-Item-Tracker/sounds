@@ -2,6 +2,7 @@
 <head>
   <title>Overwatch Sound Viewer</title>
   <meta charset="UTF-8">
+  <script src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.core.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="./site/css/main.css">
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
@@ -16,6 +17,7 @@
   <div class="middlething">
     <span>Voicelines: {{$ctrl.getVLCount() || 'None'}} | Named Sounds: {{$ctrl.getMappedSoundsCount() || 'None'}} | Total Sounds: {{$ctrl.sounds[$ctrl.hero][$ctrl.soundCategory].length}} | ⚪ = Skin Sound | ★ = Voiceline </span>
     <div class="btn btn-default" ng-click="$ctrl.toggleShowNamedSounds()">{{$ctrl.showNamedSounds ? 'Hide names' : 'Show names'}}</div>
+    <div class="btn btn-default" ng-click="$ctrl.toggleShowSkins()">{{$ctrl.showSkins ? 'Hide skins' : 'Show skins only'}}</div>
   </div>
   <div id="mainBody">
     <div id="player">

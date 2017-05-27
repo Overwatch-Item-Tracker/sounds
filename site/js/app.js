@@ -35,6 +35,7 @@ OWI.controller('MainCtrl', ["$http", "$scope", "$location", function($http, $sco
   const audio = window.audio
   const download = window.download
   const fileInput = window.fileInput
+  const _ = window._
   const baseUrl = 'https://js41637.github.io/Overwatch-Item-Tracker/data'
 
   var loading = true
@@ -52,6 +53,7 @@ OWI.controller('MainCtrl', ["$http", "$scope", "$location", function($http, $sco
   this.showNamedSounds = false
   this.noSounds = false
 
+  this.showSkins = $location.search().skins === 'true'
   this.isDevMode = location.host.startsWith('localhost')
 
   const getSoundData = () => {
@@ -157,6 +159,11 @@ OWI.controller('MainCtrl', ["$http", "$scope", "$location", function($http, $sco
 
   this.toggleShowNamedSounds = () => {
     this.showNamedSounds = !this.showNamedSounds
+  }
+
+  this.toggleShowSkins = () => {
+    this.showSkins = !this.showSkins
+    $location.search('skins', this.showSkins.toString())
   }
 
   this.clearItem = itemID => {
@@ -293,6 +300,11 @@ OWI.controller('MainCtrl', ["$http", "$scope", "$location", function($http, $sco
 
   this.getSoundFiles = () => {
     if (loading) return []
+    if (this.showSkins) {
+      return _.filter(this.sounds[this.hero][this.soundCategory], sound => {
+        return sound.skin
+      })
+    }
     return this.sounds[this.hero][this.soundCategory]
   }
 
