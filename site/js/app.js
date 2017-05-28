@@ -53,7 +53,7 @@ OWI.controller('MainCtrl', ["$http", "$scope", "$location", function($http, $sco
   this.showNamedSounds = false
   this.noSounds = false
 
-  this.showSkins = $location.search().skins === 'true'
+  this.showSkins = $location.search().skins
   this.isDevMode = location.host.startsWith('localhost')
 
   const getSoundData = () => {
@@ -113,6 +113,10 @@ OWI.controller('MainCtrl', ["$http", "$scope", "$location", function($http, $sco
     this.soundCategory = 'base'
     this.sSoundIndex = -1
     this.showNamedSounds = false
+    if (this.showSkins != 'true' || this.showSkins !== 'false') {
+      this.showSkins = false
+      $location.search('skins', false)
+    }
   }
 
   function hashCode(str) {
@@ -302,7 +306,8 @@ OWI.controller('MainCtrl', ["$http", "$scope", "$location", function($http, $sco
     if (loading) return []
     if (this.showSkins) {
       return _.filter(this.sounds[this.hero][this.soundCategory], sound => {
-        return sound.skin
+        if (this.showSkins == 'true') return sound.skin
+        else return sound.skin == this.showSkins        
       })
     }
     return this.sounds[this.hero][this.soundCategory]
