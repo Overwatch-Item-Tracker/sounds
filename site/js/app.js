@@ -166,7 +166,7 @@ OWI.controller('MainCtrl', ["$http", "$scope", "$location", function($http, $sco
   }
 
   this.toggleShowSkins = () => {
-    this.showSkins = !this.showSkins
+    this.showSkins = this.showSkins ? false : true
     $location.search('skins', this.showSkins.toString())
   }
 
@@ -306,7 +306,7 @@ OWI.controller('MainCtrl', ["$http", "$scope", "$location", function($http, $sco
     if (loading) return []
     if (this.showSkins) {
       return _.filter(this.sounds[this.hero][this.soundCategory], sound => {
-        if (this.showSkins == 'true') return sound.skin
+        if (this.showSkins === true || this.showSkins === 'true') return sound.skin
         else return sound.skin == this.showSkins        
       })
     }
