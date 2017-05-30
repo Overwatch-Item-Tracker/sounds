@@ -16,13 +16,11 @@ OWI.controller('MainCtrl', ["$scope", "$location", "DataService", function($scop
   this.isDevMode = location.host.startsWith('localhost')
   this.skin = undefined
 
-  let urlShowSkins = $location.search().skins
+  let urlShowSkins = $location.search().skins || 'false'
   this.showSkins = urlShowSkins == 'true' ? true : urlShowSkins == 'false' ? false : (() => {
     this.skin = urlShowSkins.length ? urlShowSkins : undefined
     return true
   })()
-
-  console.log(this.showSkins, this.skin)
 
   DataService.waitForInitialization().then(data => {
     console.log(data)
