@@ -54,12 +54,13 @@
     </div>
     <div id="soundList" ng-class="{filtering: $ctrl.showNamedSounds}">
       <div class="switcher">
-        <span>Category:</span>
+        <span class="title">Category:</span>
         <div
           class="btn"
           ng-repeat="(type, val) in $ctrl.sounds[$ctrl.hero]"
           ng-class="{'btn-primary': $ctrl.soundCategory == type, 'btn-default': $ctrl.soundCategory != type}"
           ng-click="$ctrl.setSoundCategory(type)">{{type}}</div>
+          <span>Sounds are color coded by time added, newest > oldest</span>
       </div>
       <div class="sounds">
         <div 

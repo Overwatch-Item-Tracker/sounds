@@ -22,9 +22,7 @@ OWI.controller('MainCtrl', ["$scope", "$location", "DataService", function($scop
     return true
   })()
 
-  DataService.waitForInitialization().then(data => {
-    console.log(data)
-    
+  DataService.waitForInitialization().then(data => {  
     Object.assign(this, data)
     
     const urlHero = $location.search().hero
