@@ -30,13 +30,14 @@ OWI.factory('DataService', ["$http", "$q", function($http, $q) { //eslint-disabl
       })
     },
     getItemsAndMappedData: () => {
-      return Promise.all(['items', 'mappedVoicelines', 'mappedSounds', 'customSounds'].map((what, i) => {
+      return Promise.all(['items', 'mappedVoicelines', 'mappedSounds', 'customSounds', '03F'].map((what, i) => {
         var url = !i ? `${baseUrl}/${what}` : `./data/${what}`
         return $http.get(`${url}.json`).then(resp => {
           if (resp.status == 200) {
             return resp.data
           } else {
             console.error(`Failed loading ${what}.json`, resp.status, resp.error);
+            if (what === '03F') return undefined
             Promise.reject(`Failed loading ${what}.json`)
           }
         }, function(resp) {
@@ -46,15 +47,16 @@ OWI.factory('DataService', ["$http", "$q", function($http, $q) { //eslint-disabl
       }))
     },
     init: () => {
-      Promise.all([service.getSoundData(), service.getItemsAndMappedData()]).then(([soundData, [items, mappedVoicelines, mappedSounds, customSounds]]) => {
+      Promise.all([service.getSoundData(), service.getItemsAndMappedData()]).then(([soundData, [items, mappedVoicelines, mappedSounds, customSounds, O3F]]) => {
         console.log('Loaded data')     
-        Object.assign(soundData.sounds, customSounds)
+        Object.assign(soundData.sounds, customSounds, O3F ? { "03F": O3F } : {})
         Object.assign(service.data, {
           mappedVoicelines,
           items,
           mappedSounds
         }, soundData)
         service.data.heroes = soundData.heroes.concat(Object.keys(customSounds))
+        if (O3F) service.data.heroes.push('03F')
         service.initialized = true
       })
     }
