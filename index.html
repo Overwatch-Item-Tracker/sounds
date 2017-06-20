@@ -17,7 +17,7 @@
     <div class="btn" ng-repeat="hero in $ctrl.heroes" ng-class="{'btn-primary': $ctrl.hero == hero, 'btn-default': $ctrl.hero != hero}" ng-click="$ctrl.selectHero(hero)">{{hero}} {{$ctrl.isHeroDone(hero) ? '✔' : ''}}</div>
   </div>
   <div class="middlething">
-    <span>Voicelines: {{$ctrl.getVLCount() || 'None'}} | Named Sounds: {{$ctrl.getMappedSoundsCount() || 'None'}} | Total Sounds: {{$ctrl.sounds[$ctrl.hero][$ctrl.soundCategory].length}} | ⚪ = Skin Sound | ★ = Voiceline </span>
+    <span>Voicelines: {{$ctrl.getVLCount() || 'None'}} | Named Sounds: {{$ctrl.getMappedSoundsCount() || 'None'}} | Total Sounds: {{$ctrl.getSoundCount()}} | ⚪ = Skin Sound | ★ = Voiceline </span>
     <div class="btn btn-default" ng-click="$ctrl.toggleShowNamedSounds()">{{$ctrl.showNamedSounds ? 'Hide names' : 'Show names'}}</div>
     <div class="btn btn-default" ng-click="$ctrl.toggleShowSkins()">{{$ctrl.showSkins ? 'Hide skins' : 'Show skins only'}}</div>
   </div>

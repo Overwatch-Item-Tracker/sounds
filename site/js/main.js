@@ -169,8 +169,14 @@ OWI.controller('MainCtrl', ["$scope", "$location", "DataService", function($scop
     }
   }
 
-  this.getTotalSounds = () => {
-    
+  this.getSoundCount = () => {
+    if (this.loading) return ''
+    const sounds = this.sounds[this.hero][this.soundCategory]
+    if (Array.isArray(sounds)) {
+      return sounds.length
+    } else {
+      return Object.keys(sounds).length
+    }
   }
 
   this.addSound = () => {
