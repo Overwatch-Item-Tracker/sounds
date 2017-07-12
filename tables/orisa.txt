@@ -1,188 +1,188 @@
 {{VoiceDataTable|
-{{DataRow|000000034E95|I told you not to move|000000035250|Yes}}
-{{DataRow|000000034FD8|Stay close to me and I will protect you|000000035251|In-affirmative}}
-{{DataRow|000000034FD9|I'm not moving|000000035252|(Shivers)}}
-{{DataRow|000000034FDA|Holding position|000000035253|(Pained sound)}}
-{{DataRow|000000034FDB|Establishing defense point|000000035254|(Shivers)}}
-{{DataRow|000000034FDC|Not budging|000000035255|(Shivers)}}
-{{DataRow|000000034FDD|Not so fast|000000035256|(Pained sound)}}
-{{DataRow|000000034FDE|Don't move|000000035257|(Pained sound)}}
-{{DataRow|000000034FDF|Stay there|000000035258|(Coughs)}}
-{{DataRow|000000034FE0|Your safety is my primary concern|000000035259|(Coughs)}}
-{{DataRow|000000034FE1|You're not getting away|00000003525A|(Coughs)}}
-{{DataRow|000000034FE2|Halt|00000003525B|(Coughs)}}
-{{DataRow|000000034FE3|Do not resist|00000003525C|(Coughs)}}
-{{DataRow|000000034FE4|Performance analysis, epic|00000003525D|(Groans)}}
-{{DataRow|000000034FE5|I was only following my programming|00000003525E|(Groans)}}
-{{DataRow|000000034FE6|Digging in|00000003525F|(Groans)}}
-{{DataRow|000000034FE7|Running post mission diagnostics|000000035260|(Groans)}}
-{{DataRow|000000034FE9|Team up for special attack|000000035261|(Groans)}}
-{{DataRow|000000034FEA|That went well|000000035262|(Groans)}}
-{{DataRow|000000034FEB|Evaluating combat performance|000000035263|(Groans)}}
-{{DataRow|000000034FEC|Orisa online|000000035264|(Groans)}}
-{{DataRow|000000034FED|Current outlook... negative|000000035265|(Groans)}}
-{{DataRow|000000034FEE|Current outlook... concerning|000000035266|(Groans)}}
-{{DataRow|000000034FEF|Current outlook... optimal|000000035267|(Groans)}}
-{{DataRow|000000034FF0|Current outlook... uncertain|000000035268|(Groans)}}
-{{DataRow|000000034FF1|On a scale of 1-10, how would you rate your pain?|000000035269|(Pained sound)}}
-{{DataRow|000000034FF2|Threat neutralized|00000003526A|(Pained sound)}}
-{{DataRow|000000034FF3|Stay there, the authorities will collect you soon|00000003526B|(Shivers)}}
-{{DataRow|000000034FF4|Thank you but I still have much to learn|00000003527C|Eliminate priority target}}
-{{DataRow|000000034FF6|For your own safety, get behind the barrier|00000003527F|It is remarkable to find a Bastion in such good operating condition, who is responsible for your upkeep?}}
-{{DataRow|000000034FF7|Please move behind the barrier|000000035284|For your safety, please stay close to me}}
-{{DataRow|000000034FF8|Barrier activated|000000035285|Saving record of exceptional combat performance}}
-{{DataRow|000000034FF9|Executing pre-combat routines, optimizing strategy|000000035288|Stop right there}}
-{{DataRow|000000034FFA|I will simulate our upcoming mission to identify all possible outcomes|000000035289|Stop}}
-{{DataRow|000000034FFB|This will be your shield|00000003528A|Fortifying defenses}}
-{{DataRow|000000034FFC|You are advised to move behind my barrier|00000003528B|Routing navigation systems to defense}}
-{{DataRow|000000034FFD|Barrier destroyed, please move to safety|00000003528C|Defense mode activated}}
-{{DataRow|000000034FFE|Barrier status critical|00000003528D|Engaging fortifications}}
-{{DataRow|000000034FFF|Analyzing previous combat performance|00000003528E|Alert, sniper located}}
-{{DataRow|000000035000|Archiving combat data|000000035290|I'm glad I was not too late}}
-{{DataRow|000000035001|I still have a job to do|000000035291|I have you covered}}
-{{DataRow|000000035002|I must rejoin my team|000000035292|Zarya, I have learned to utilize my graviton charge by watching you}}
-{{DataRow|000000035003|I'm still new at this|000000035294|I consider Reinhardt to be the model upon which I have based my own behaviors}}
-{{DataRow|000000035004|My barrier is failing, recommend moving to safety|000000035295|Torbjorn Lindholm,you are responsible in part for my creation}}
-{{DataRow|000000035005|Warning, barrier failing|000000035296|In 5 4 3 2 1}}
-{{DataRow|000000035006|Barrier destroyed|000000035298|Cease your resistance (Ultimate)}}
-{{DataRow|000000035007|Barrier integrity compromised|00000003529A|System restarting}}
-{{DataRow|000000035008|Primary threat neutralized|00000003529B|Was that the iris?}}
-{{DataRow|000000035009|Barrier is taking heavy fire|00000003529C|System restart initialized}}
-{{DataRow|00000003500A|Barrier is under sustained attack|00000003529D|Rebooting}}
-{{DataRow|00000003500E|Based on my calculations, this was the likely outcome|00000003529E|Installing updates}}
-{{DataRow|00000003500F|Saving record for future analysis|00000003529F|I am not ready to be deactivated}}
-{{DataRow|000000035010|You are advised to cease your resistance|0000000352A0|Exceeding standard performance metrics}}
-{{DataRow|000000035011|You were warned|0000000352A1|Caution, barrier has taken heavy damage}}
-{{DataRow|000000035012|Summoning emergency services|0000000352A2|I recommend moving behind my barrier}}
-{{DataRow|000000035013|Vital signs negative|0000000352A3|For your safety, please move behind the barrier}}
-{{DataRow|000000035014|Catchphrase... searching... got you|0000000352A4|For optimal transit survival, stay in range of my barriers}}
-{{DataRow|000000035015|Standing ground|0000000352A8|My systems are protected by state of the art ....}}
-{{DataRow|000000035016|Performance analysis, legendary|0000000352AB|I do not dream as humans do... But it is my desire to become the hero believes that I am}}
-{{DataRow|000000035017|Combat protocols initiated, primary objectives confirmed, beginning mission|0000000352AC|My barrier won't hold forever}}
-{{DataRow|0000000351A6|(Coughs)|0000000352AD|5 4 3 2 1}}
-{{DataRow|0000000351A7|Systems rebooted|0000000352AE|Now I can delete you from my memory}}
-{{DataRow|0000000351A8|Get to cover|0000000352AF|Stand back}}
-{{DataRow|0000000351A9|Push forward|0000000352B0|Some functionality may still be in beta}}
-{{DataRow|0000000351AA|Analysis of recent performance drills indicate victory is likely|0000000352B1|I'm simply following my programming}}
-{{DataRow|0000000351AB|If we continue upon this trajectory victory is assured|0000000352B5|Current outlook... slight chance of rain}}
-{{DataRow|0000000351AC|We cannot afford to fail securing this objective|0000000352B6|My ultimate is ready, come to my position}}
-{{DataRow|0000000351AD|If we can take this objective, victory is assured|0000000352B7|My supercharger is ready to be deployed, prepare for combat enhancement}}
-{{DataRow|0000000351AE|Scanning... Bastion model E54 detected, all models subject to termination|0000000352B8|My ultimate is ready}}
-{{DataRow|0000000351AF|I feel unstoppable|0000000352B9|Supercharger is ready to be deployed}}
-{{DataRow|0000000351B0|System output overloaded|0000000352BA|My ultimate is almost ready}}
-{{DataRow|0000000351B1|I'm on fire, please do not contact emergency services|0000000352BB|Supercharger is almost ready to be deployed}}
-{{DataRow|0000000351B2|I'm on fire|0000000352BC|Supercharger powering up}}
-{{DataRow|0000000351B3|Exceeding expected combat values, recording performance for future analysis|0000000352BD|My ultimate is charging}}
-{{DataRow|0000000351B4|(Grunts)|0000000352BE|We must halt the payload}}
-{{DataRow|0000000351B5|I'm still getting the hang of this|0000000352BF|On my way}}
-{{DataRow|0000000351B6|A repeat of our past performance will lead to our defeat|0000000352C0|I believe we need a healer}}
-{{DataRow|0000000351B7|We must improve or we will be defeated|0000000352C1|Support requested}}
-{{DataRow|0000000351B8|Clear the area|0000000352C2|I'm in need of assistance}}
-{{DataRow|0000000351B9|Systems restored|0000000352C3|Group up with me}}
-{{DataRow|0000000351BA|System health stabilizing|0000000352C4|Locate the teleporter}}
-{{DataRow|0000000351BB|Systems repaired|0000000352C5|No parking}}
-{{DataRow|0000000351BC|Updates installed|0000000352C8|I'm sorry, but I can't do that}}
-{{DataRow|0000000351BD|System integrity restored|0000000352C9|Move behind the line}}
-{{DataRow|0000000351BE|Requesting shields|0000000352CA|I told you to stop resisting}}
-{{DataRow|0000000351BF|Requesting healing|0000000352CB|Are you in distress}}
-{{DataRow|0000000351C0|Moving to engage|0000000352CC|I am programmed to avoid violence however I have made an exception}}
-{{DataRow|0000000351C1|Focus on the objective|0000000352CD|Empathy module, not responding}}
-{{DataRow|0000000351C2|Clear the area|0000000352CF|You'll require medical attention}}
-{{DataRow|0000000351C3|Engaging defense module|0000000352D0|Lethal force authorized}}
-{{DataRow|0000000351C4|Fall back|0000000352D3|Multiple targets neutralized}}
-{{DataRow|0000000351C5|Go|0000000352D4|Medical assistance has been requested}}
-{{DataRow|0000000351C6|Goodbye|0000000352D5|Error 404, sarcasm module not found}}
-{{DataRow|0000000351C7|Farewell|0000000352D6|Do you need a hug?}}
-{{DataRow|0000000351C8|Until our next interaction|0000000352D8|Error, division by 0}}
-{{DataRow|0000000351C9|I'm moving in|0000000352DD|Would you like my analysis of the situation?}}
-{{DataRow|0000000351CA|Group up|0000000352DF|That does not compute}}
-{{DataRow|0000000351CB|Rally at my position|0000000352E0|Secure the objective}}
-{{DataRow|0000000351CC|Hello|0000000352E5|The enemy is taking the objective}}
-{{DataRow|0000000351CD|Greetings|0000000352E6|The payloads stopped, has it malfunctioned}}
-{{DataRow|0000000351CE|Get ready|0000000352E7|Payload has stalled}}
-{{DataRow|0000000351CF|Incoming|0000000352E8|Commandeering the payload}}
-{{DataRow|0000000351D0|No|0000000352E9|I am moving with the payload}}
-{{DataRow|0000000351D1|Armor would be appreciated|0000000352EA|Moving the payload to the destination}}
-{{DataRow|0000000351D2|Requesting armor|0000000352EB|I'm escorting the payload, assistance requested}}
-{{DataRow|0000000351D3|Healing would be appreciated|0000000352EC|Taking possession of the objective}}
-{{DataRow|0000000351D4|I need healing|0000000352ED|Securing the objective, backup requested}}
-{{DataRow|0000000351D5|I'm in need of shields|0000000352EE|Initiating objective capture routine}}
-{{DataRow|0000000351D6|Affirmative|0000000352EF|Taking control of the objective,any resistance will be dispersed}}
-{{DataRow|0000000351D7|Your aid is appreciated|0000000352F0|Current combat simulation indicate high probability of victory}}
-{{DataRow|0000000351D8|(Grunts)|0000000352F1|Our enemies chances at success are lowering, victory is imminent}}
-{{DataRow|0000000351D9|Reinhardt, you are amazing|0000000352F2|We have no choice but to attack, time is running out}}
-{{DataRow|0000000351DA|Zarya, I wish to learn from you|0000000352F3|Missing window closing, we must achieve victory quickly}}
-{{DataRow|0000000351DB|(Pained Sound)|0000000352F4|I have sent our flag back to base}}
-{{DataRow|0000000351DC|(Pained Sound)|0000000352F5|Our flag is safe}}
-{{DataRow|0000000351DD|Enemy detected|0000000352F6|I have the flag, heading to base}}
-{{DataRow|0000000351DE|Warning, engaging the enemy|0000000352F7|I have taken the flag, initiating capture routines}}
-{{DataRow|0000000351DF|Detecting hostile signature at my position|0000000352F8|Dropping the flag}}
-{{DataRow|0000000351E0|Excuse me|0000000352F9|Relinquishing the flag}}
-{{DataRow|0000000351E4|Shine your eyes|0000000352FA|Flag capture protocol complete}}
-{{DataRow|0000000351E6|Efi will not be happy about this|0000000352FB|Enemy flag captured, new instructions}}
-{{DataRow|0000000351E7|Systems compromised|0000000352FC|The payload must be halted}}
-{{DataRow|0000000351E8|Virus detected|0000000352FD|We must capture and impound the payload}}
-{{DataRow|0000000351E9|Weapon systems optimized|0000000352FE|The payload is moving, reroute all personnel to stop it}}
-{{DataRow|0000000351EA|Damage output increased|0000000352FF|Enemy is moving the payload}}
-{{DataRow|0000000351EB|Lethality level increased|000000035300|Unauthorized personnel detected at the objective}}
-{{DataRow|0000000351EC|Behind you|000000035301|Intruders have breached the objective}}
-{{DataRow|0000000351EF|Thank you|000000035302|Our objective is under attack, disperse the enemy imminently}}
-{{DataRow|0000000351F0|I must ask Efi to get me one of those|000000035303|The payload is stopped in a no stopping zone, please move it imminently}}
-{{DataRow|0000000351F1|Enemy turret neutralized|000000035304|We must get the payload moving again}}
-{{DataRow|0000000351F2|(Grunts)|00000003530E|(Laughs)}}
-{{DataRow|0000000351F3|Please stand back|00000003530F|(Laughs)}}
-{{DataRow|0000000351F4|Fistbump|000000035310|One electric sheep, two electric sheep, three electric sheep}}
-{{DataRow|0000000351F5|Stop resisting|000000035311|Error detected}}
-{{DataRow|0000000351F6|Systems operating at maximum potential|000000035312|System malfunction}}
-{{DataRow|0000000351F8|Radar is clear, all enemies eliminated|000000035313|We must secure our flag imminently}}
-{{DataRow|0000000351FB|Enemies reviving, prepare to reengage|000000035314|The enemy has taken possession of our flag}}
-{{DataRow|0000000351FC|Enemy shield generator destroyed|000000035315|Enemy has lost possession of our flag}}
-{{DataRow|0000000351FD|Enemy shield generator located|000000035316|Priority objective, recover the flag}}
-{{DataRow|0000000351FE|Enemy shield generator detected|000000035317|We need to increase our flag security protocols}}
-{{DataRow|0000000351FF|Enemy spotted|000000035318|(Laughs)}}
-{{DataRow|000000035200|Enemy visually confirmed|000000035319|We must not let that happen again}}
-{{DataRow|000000035201|Enemies found, preparing to engage|00000003531B|I would advise against it}}
-{{DataRow|000000035202|Enemy gathering detected, preparing to disperse|00000003531C|That does not compute}}
-{{DataRow|000000035203|Sniper detected. Threat level, lethal|00000003531D|If I believed in luck, I would consider that lucky}}
-{{DataRow|000000035204|Enemy teleporter destroyed|00000003531E|An improbable escape}}
-{{DataRow|000000035205|Enemy teleporter located|000000035322|I agree}}
-{{DataRow|000000035206|Priority task, find the enemy teleporter|000000035324|I am feeling a rush of positive emotion}}
-{{DataRow|000000035207|Enemy turret located|000000035335|Goodbye}}
-{{DataRow|000000035209|Understood|000000035336|Scanning files... combat diagnostics... important cat photos... wait, Efi}}
-{{DataRow|00000003520A|Reinhardt, I will avenge you|000000035397|(Laughs)}}
-{{DataRow|00000003520B|(Grunts)|000000038FA3|Objective eliminated}}
-{{DataRow|00000003520C|(Grunts)|000000038FA4|Objective is damaged, keep up our attack}}
-{{DataRow|00000003520D|(Grunts)|000000038FA5|Continue to focus your attacks on the objective}}
-{{DataRow|00000003520E|(Grunts)|000000038FA6|Update, objective status critical}}
-{{DataRow|00000003520F|(Grunts)|000000038FA7|Destroy the target}}
-{{DataRow|000000035210|(Grunts)|000000038FA8|Destroy the objective}}
-{{DataRow|000000035211|(Sighs)|000000038FA9|Defend the objective}}
-{{DataRow|000000035212|(Sighs)|000000038FAA|Enemy detected on the right}}
-{{DataRow|000000035213|(Sighs)|000000038FAB|Enemy detected on the left}}
-{{DataRow|000000035214|(Sighs)|000000038FAC|Enemy detected straight ahead}}
-{{DataRow|000000035215|(Sighs)|000000038FAD|Enemy detected in the doorway}}
-{{DataRow|000000035216|(Sighs)|000000038FAE|Enemy detected below us}}
-{{DataRow|000000035217|(Sighs)|000000038FAF|Enemy detected to our rear}}
-{{DataRow|000000035218|(Sighs)|000000038FB0|Enemy detected above us}}
-{{DataRow|000000035219|(Sighs)|000000038FB1|Status, incapacitated}}
-{{DataRow|00000003521A|(Pained sound)|000000038FB2|I need to be revived}}
-{{DataRow|00000003521B|(Pained sound)|000000038FB3|Enemy bastion destroyed}}
-{{DataRow|00000003521C|(Pained sound)|000000038FB4|Enemy OR-14 spotted}}
-{{DataRow|00000003521D|(Pained sound)|000000038FB5|Enemy bastion detected}}
-{{DataRow|00000003521E|(Pained sound)|000000038FB6|Can't I guide your way tonight}}
-{{DataRow|00000003521F|(Pained sound)|000000038FB7|Meet on the objective}}
-{{DataRow|000000035220|(Grunts)|000000038FB8|We must group up before we can continue}}
-{{DataRow|000000035221|(Pained sound)|000000038FB9|Escorting the objective to the destination}}
-{{DataRow|000000035222|(Pained sound)|000000038FBA|Status update, objective has taken damage}}
-{{DataRow|000000035223|(Grunts)|000000038FBB|Team status, 1 ally incapacitated}}
-{{DataRow|000000035224|(Grunts)|000000038FBC|Team status, 2 allies incapacitated}}
-{{DataRow|000000035225|(Pained sound)|000000038FBD|A member of our team needs to be revived}}
-{{DataRow|000000035226|(Pained sound)|000000038FBE|Detonator incoming}}
-{{DataRow|000000035227|(Pained sound)|000000038FBF|Detonator neutralized}}
-{{DataRow|000000035228|(Pained sound)|000000038FC6|Enemy B73 detected}}
-{{DataRow|000000035229|(Pained sound)|000000038FC7|Nulltroopers engaging}}
-{{DataRow|00000003522A|(Pained sound)|000000038FC8|Nulltrooper engaging}}
-{{DataRow|00000003522B|(Pained sound)|000000038FC9|I will protect this city, whatever the cost}}
+{{DataRow|000000034E95|I told you not to move|000000035256|(Pained sound)}}
+{{DataRow|000000034FD8|Stay close to me and I will protect you|000000035257|(Pained sound)}}
+{{DataRow|000000034FD9|I'm not moving|000000035258|(Coughs)}}
+{{DataRow|000000034FDA|Holding position|000000035259|(Coughs)}}
+{{DataRow|000000034FDB|Establishing defense point|00000003525A|(Coughs)}}
+{{DataRow|000000034FDC|Not budging|00000003525B|(Coughs)}}
+{{DataRow|000000034FDD|Not so fast|00000003525C|(Coughs)}}
+{{DataRow|000000034FDE|Don't move|00000003525D|(Groans)}}
+{{DataRow|000000034FDF|Stay there|00000003525E|(Groans)}}
+{{DataRow|000000034FE0|Your safety is my primary concern|00000003525F|(Groans)}}
+{{DataRow|000000034FE1|You're not getting away|000000035260|(Groans)}}
+{{DataRow|000000034FE2|Halt|000000035261|(Groans)}}
+{{DataRow|000000034FE3|Do not resist|000000035262|(Groans)}}
+{{DataRow|000000034FE4|Performance analysis, epic|000000035263|(Groans)}}
+{{DataRow|000000034FE5|I was only following my programming|000000035264|(Groans)}}
+{{DataRow|000000034FE6|Digging in|000000035265|(Groans)}}
+{{DataRow|000000034FE7|Running post mission diagnostics|000000035266|(Groans)}}
+{{DataRow|000000034FE9|Team up for special attack|000000035267|(Groans)}}
+{{DataRow|000000034FEA|That went well|000000035268|(Groans)}}
+{{DataRow|000000034FEB|Evaluating combat performance|000000035269|(Pained sound)}}
+{{DataRow|000000034FEC|Orisa online|00000003526A|(Pained sound)}}
+{{DataRow|000000034FED|Current outlook... negative|00000003526B|(Shivers)}}
+{{DataRow|000000034FEE|Current outlook... concerning|00000003527C|Eliminate priority target}}
+{{DataRow|000000034FEF|Current outlook... optimal|00000003527F|It is remarkable to find a Bastion in such good operating condition, who is responsible for your upkeep?}}
+{{DataRow|000000034FF0|Current outlook... uncertain|000000035284|For your safety, please stay close to me}}
+{{DataRow|000000034FF1|On a scale of 1-10, how would you rate your pain?|000000035285|Saving record of exceptional combat performance}}
+{{DataRow|000000034FF2|Threat neutralized|000000035288|Stop right there}}
+{{DataRow|000000034FF3|Stay there, the authorities will collect you soon|000000035289|Stop}}
+{{DataRow|000000034FF4|Thank you but I still have much to learn|00000003528A|Fortifying defenses}}
+{{DataRow|000000034FF6|For your own safety, get behind the barrier|00000003528B|Routing navigation systems to defense}}
+{{DataRow|000000034FF7|Please move behind the barrier|00000003528C|Defense mode activated}}
+{{DataRow|000000034FF8|Barrier activated|00000003528D|Engaging fortifications}}
+{{DataRow|000000034FF9|Executing pre-combat routines, optimizing strategy|00000003528E|Alert, sniper located}}
+{{DataRow|000000034FFA|I will simulate our upcoming mission to identify all possible outcomes|000000035290|I'm glad I was not too late}}
+{{DataRow|000000034FFB|This will be your shield|000000035291|I have you covered}}
+{{DataRow|000000034FFC|You are advised to move behind my barrier|000000035292|Zarya, I have learned to utilize my graviton charge by watching you}}
+{{DataRow|000000034FFD|Barrier destroyed, please move to safety|000000035294|I consider Reinhardt to be the model upon which I have based my own behaviors}}
+{{DataRow|000000034FFE|Barrier status critical|000000035295|Torbjorn Lindholm,you are responsible in part for my creation}}
+{{DataRow|000000034FFF|Analyzing previous combat performance|000000035296|In 5 4 3 2 1}}
+{{DataRow|000000035000|Archiving combat data|000000035298|Cease your resistance (Ultimate)}}
+{{DataRow|000000035001|I still have a job to do|00000003529A|System restarting}}
+{{DataRow|000000035002|I must rejoin my team|00000003529B|Was that the iris?}}
+{{DataRow|000000035003|I'm still new at this|00000003529C|System restart initialized}}
+{{DataRow|000000035004|My barrier is failing, recommend moving to safety|00000003529D|Rebooting}}
+{{DataRow|000000035005|Warning, barrier failing|00000003529E|Installing updates}}
+{{DataRow|000000035006|Barrier destroyed|00000003529F|I am not ready to be deactivated}}
+{{DataRow|000000035007|Barrier integrity compromised|0000000352A0|Exceeding standard performance metrics}}
+{{DataRow|000000035008|Primary threat neutralized|0000000352A1|Caution, barrier has taken heavy damage}}
+{{DataRow|000000035009|Barrier is taking heavy fire|0000000352A2|I recommend moving behind my barrier}}
+{{DataRow|00000003500A|Barrier is under sustained attack|0000000352A3|For your safety, please move behind the barrier}}
+{{DataRow|00000003500E|Based on my calculations, this was the likely outcome|0000000352A4|For optimal transit survival, stay in range of my barriers}}
+{{DataRow|00000003500F|Saving record for future analysis|0000000352A8|My systems are protected by state of the art ....}}
+{{DataRow|000000035010|You are advised to cease your resistance|0000000352AA|You may be surprised, I have received a number of upgrades since that battle}}
+{{DataRow|000000035011|You were warned|0000000352AB|I do not dream as humans do... But it is my desire to become the hero believes that I am}}
+{{DataRow|000000035012|Summoning emergency services|0000000352AC|My barrier won't hold forever}}
+{{DataRow|000000035013|Vital signs negative|0000000352AD|5 4 3 2 1}}
+{{DataRow|000000035014|Catchphrase... searching... got you|0000000352AE|Now I can delete you from my memory}}
+{{DataRow|000000035015|Standing ground|0000000352AF|Stand back}}
+{{DataRow|000000035016|Performance analysis, legendary|0000000352B0|Some functionality may still be in beta}}
+{{DataRow|000000035017|Combat protocols initiated, primary objectives confirmed, beginning mission|0000000352B1|I'm simply following my programming}}
+{{DataRow|0000000351A6|(Coughs)|0000000352B5|Current outlook... slight chance of rain}}
+{{DataRow|0000000351A7|Systems rebooted|0000000352B6|My ultimate is ready, come to my position}}
+{{DataRow|0000000351A8|Get to cover|0000000352B7|My supercharger is ready to be deployed, prepare for combat enhancement}}
+{{DataRow|0000000351A9|Push forward|0000000352B8|My ultimate is ready}}
+{{DataRow|0000000351AA|Analysis of recent performance drills indicate victory is likely|0000000352B9|Supercharger is ready to be deployed}}
+{{DataRow|0000000351AB|If we continue upon this trajectory victory is assured|0000000352BA|My ultimate is almost ready}}
+{{DataRow|0000000351AC|We cannot afford to fail securing this objective|0000000352BB|Supercharger is almost ready to be deployed}}
+{{DataRow|0000000351AD|If we can take this objective, victory is assured|0000000352BC|Supercharger powering up}}
+{{DataRow|0000000351AE|Scanning... Bastion model E54 detected, all models subject to termination|0000000352BD|My ultimate is charging}}
+{{DataRow|0000000351AF|I feel unstoppable|0000000352BE|We must halt the payload}}
+{{DataRow|0000000351B0|System output overloaded|0000000352BF|On my way}}
+{{DataRow|0000000351B1|I'm on fire, please do not contact emergency services|0000000352C0|I believe we need a healer}}
+{{DataRow|0000000351B2|I'm on fire|0000000352C1|Support requested}}
+{{DataRow|0000000351B3|Exceeding expected combat values, recording performance for future analysis|0000000352C2|I'm in need of assistance}}
+{{DataRow|0000000351B4|(Grunts)|0000000352C3|Group up with me}}
+{{DataRow|0000000351B5|I'm still getting the hang of this|0000000352C4|Locate the teleporter}}
+{{DataRow|0000000351B6|A repeat of our past performance will lead to our defeat|0000000352C5|No parking}}
+{{DataRow|0000000351B7|We must improve or we will be defeated|0000000352C6|Thank you for your compliance}}
+{{DataRow|0000000351B8|Clear the area|0000000352C8|I'm sorry, but I can't do that}}
+{{DataRow|0000000351B9|Systems restored|0000000352C9|Move behind the line}}
+{{DataRow|0000000351BA|System health stabilizing|0000000352CA|I told you to stop resisting}}
+{{DataRow|0000000351BB|Systems repaired|0000000352CB|Are you in distress}}
+{{DataRow|0000000351BC|Updates installed|0000000352CC|I am programmed to avoid violence however I have made an exception}}
+{{DataRow|0000000351BD|System integrity restored|0000000352CD|Empathy module, not responding}}
+{{DataRow|0000000351BE|Requesting shields|0000000352CE|For Numbani}}
+{{DataRow|0000000351BF|Requesting healing|0000000352CF|You'll require medical attention}}
+{{DataRow|0000000351C0|Moving to engage|0000000352D0|Lethal force authorized}}
+{{DataRow|0000000351C1|Focus on the objective|0000000352D3|Multiple targets neutralized}}
+{{DataRow|0000000351C2|Clear the area|0000000352D4|Medical assistance has been requested}}
+{{DataRow|0000000351C3|Engaging defense module|0000000352D5|Error 404, sarcasm module not found}}
+{{DataRow|0000000351C4|Fall back|0000000352D6|Do you need a hug?}}
+{{DataRow|0000000351C5|Go|0000000352D8|Error, division by 0}}
+{{DataRow|0000000351C6|Goodbye|0000000352DD|Would you like my analysis of the situation?}}
+{{DataRow|0000000351C7|Farewell|0000000352DE|Are you satisfied with your protection}}
+{{DataRow|0000000351C8|Until our next interaction|0000000352DF|That does not compute}}
+{{DataRow|0000000351C9|I'm moving in|0000000352E0|Secure the objective}}
+{{DataRow|0000000351CA|Group up|0000000352E5|The enemy is taking the objective}}
+{{DataRow|0000000351CB|Rally at my position|0000000352E6|The payloads stopped, has it malfunctioned}}
+{{DataRow|0000000351CC|Hello|0000000352E7|Payload has stalled}}
+{{DataRow|0000000351CD|Greetings|0000000352E8|Commandeering the payload}}
+{{DataRow|0000000351CE|Get ready|0000000352E9|I am moving with the payload}}
+{{DataRow|0000000351CF|Incoming|0000000352EA|Moving the payload to the destination}}
+{{DataRow|0000000351D0|No|0000000352EB|I'm escorting the payload, assistance requested}}
+{{DataRow|0000000351D1|Armor would be appreciated|0000000352EC|Taking possession of the objective}}
+{{DataRow|0000000351D2|Requesting armor|0000000352ED|Securing the objective, backup requested}}
+{{DataRow|0000000351D3|Healing would be appreciated|0000000352EE|Initiating objective capture routine}}
+{{DataRow|0000000351D4|I need healing|0000000352EF|Taking control of the objective,any resistance will be dispersed}}
+{{DataRow|0000000351D5|I'm in need of shields|0000000352F0|Current combat simulation indicate high probability of victory}}
+{{DataRow|0000000351D6|Affirmative|0000000352F1|Our enemies chances at success are lowering, victory is imminent}}
+{{DataRow|0000000351D7|Your aid is appreciated|0000000352F2|We have no choice but to attack, time is running out}}
+{{DataRow|0000000351D8|(Grunts)|0000000352F3|Missing window closing, we must achieve victory quickly}}
+{{DataRow|0000000351D9|Reinhardt, you are amazing|0000000352F4|I have sent our flag back to base}}
+{{DataRow|0000000351DA|Zarya, I wish to learn from you|0000000352F5|Our flag is safe}}
+{{DataRow|0000000351DB|(Pained Sound)|0000000352F6|I have the flag, heading to base}}
+{{DataRow|0000000351DC|(Pained Sound)|0000000352F7|I have taken the flag, initiating capture routines}}
+{{DataRow|0000000351DD|Enemy detected|0000000352F8|Dropping the flag}}
+{{DataRow|0000000351DE|Warning, engaging the enemy|0000000352F9|Relinquishing the flag}}
+{{DataRow|0000000351DF|Detecting hostile signature at my position|0000000352FA|Flag capture protocol complete}}
+{{DataRow|0000000351E0|Excuse me|0000000352FB|Enemy flag captured, new instructions}}
+{{DataRow|0000000351E4|Shine your eyes|0000000352FC|The payload must be halted}}
+{{DataRow|0000000351E6|Efi will not be happy about this|0000000352FD|We must capture and impound the payload}}
+{{DataRow|0000000351E7|Systems compromised|0000000352FE|The payload is moving, reroute all personnel to stop it}}
+{{DataRow|0000000351E8|Virus detected|0000000352FF|Enemy is moving the payload}}
+{{DataRow|0000000351E9|Weapon systems optimized|000000035300|Unauthorized personnel detected at the objective}}
+{{DataRow|0000000351EA|Damage output increased|000000035301|Intruders have breached the objective}}
+{{DataRow|0000000351EB|Lethality level increased|000000035302|Our objective is under attack, disperse the enemy imminently}}
+{{DataRow|0000000351EC|Behind you|000000035303|The payload is stopped in a no stopping zone, please move it imminently}}
+{{DataRow|0000000351EF|Thank you|000000035304|We must get the payload moving again}}
+{{DataRow|0000000351F0|I must ask Efi to get me one of those|00000003530E|(Laughs)}}
+{{DataRow|0000000351F1|Enemy turret neutralized|00000003530F|(Laughs)}}
+{{DataRow|0000000351F2|(Grunts)|000000035310|One electric sheep, two electric sheep, three electric sheep}}
+{{DataRow|0000000351F3|Please stand back|000000035311|Error detected}}
+{{DataRow|0000000351F4|Fistbump|000000035312|System malfunction}}
+{{DataRow|0000000351F5|Stop resisting|000000035313|We must secure our flag imminently}}
+{{DataRow|0000000351F6|Systems operating at maximum potential|000000035314|The enemy has taken possession of our flag}}
+{{DataRow|0000000351F8|Radar is clear, all enemies eliminated|000000035315|Enemy has lost possession of our flag}}
+{{DataRow|0000000351FB|Enemies reviving, prepare to reengage|000000035316|Priority objective, recover the flag}}
+{{DataRow|0000000351FC|Enemy shield generator destroyed|000000035317|We need to increase our flag security protocols}}
+{{DataRow|0000000351FD|Enemy shield generator located|000000035318|(Laughs)}}
+{{DataRow|0000000351FE|Enemy shield generator detected|000000035319|We must not let that happen again}}
+{{DataRow|0000000351FF|Enemy spotted|00000003531B|I would advise against it}}
+{{DataRow|000000035200|Enemy visually confirmed|00000003531C|That does not compute}}
+{{DataRow|000000035201|Enemies found, preparing to engage|00000003531D|If I believed in luck, I would consider that lucky}}
+{{DataRow|000000035202|Enemy gathering detected, preparing to disperse|00000003531E|An improbable escape}}
+{{DataRow|000000035203|Sniper detected. Threat level, lethal|000000035322|I agree}}
+{{DataRow|000000035204|Enemy teleporter destroyed|000000035324|I am feeling a rush of positive emotion}}
+{{DataRow|000000035205|Enemy teleporter located|000000035335|Goodbye}}
+{{DataRow|000000035206|Priority task, find the enemy teleporter|000000035336|Scanning files... combat diagnostics... important cat photos... wait, Efi}}
+{{DataRow|000000035207|Enemy turret located|000000035397|(Laughs)}}
+{{DataRow|000000035209|Understood|000000038FA3|Objective eliminated}}
+{{DataRow|00000003520A|Reinhardt, I will avenge you|000000038FA4|Objective is damaged, keep up our attack}}
+{{DataRow|00000003520B|(Grunts)|000000038FA5|Continue to focus your attacks on the objective}}
+{{DataRow|00000003520C|(Grunts)|000000038FA6|Update, objective status critical}}
+{{DataRow|00000003520D|(Grunts)|000000038FA7|Destroy the target}}
+{{DataRow|00000003520E|(Grunts)|000000038FA8|Destroy the objective}}
+{{DataRow|00000003520F|(Grunts)|000000038FA9|Defend the objective}}
+{{DataRow|000000035210|(Grunts)|000000038FAA|Enemy detected on the right}}
+{{DataRow|000000035211|(Sighs)|000000038FAB|Enemy detected on the left}}
+{{DataRow|000000035212|(Sighs)|000000038FAC|Enemy detected straight ahead}}
+{{DataRow|000000035213|(Sighs)|000000038FAD|Enemy detected in the doorway}}
+{{DataRow|000000035214|(Sighs)|000000038FAE|Enemy detected below us}}
+{{DataRow|000000035215|(Sighs)|000000038FAF|Enemy detected to our rear}}
+{{DataRow|000000035216|(Sighs)|000000038FB0|Enemy detected above us}}
+{{DataRow|000000035217|(Sighs)|000000038FB1|Status, incapacitated}}
+{{DataRow|000000035218|(Sighs)|000000038FB2|I need to be revived}}
+{{DataRow|000000035219|(Sighs)|000000038FB3|Enemy bastion destroyed}}
+{{DataRow|00000003521A|(Pained sound)|000000038FB4|Enemy OR-14 spotted}}
+{{DataRow|00000003521B|(Pained sound)|000000038FB5|Enemy bastion detected}}
+{{DataRow|00000003521C|(Pained sound)|000000038FB6|Can't I guide your way tonight}}
+{{DataRow|00000003521D|(Pained sound)|000000038FB7|Meet on the objective}}
+{{DataRow|00000003521E|(Pained sound)|000000038FB8|We must group up before we can continue}}
+{{DataRow|00000003521F|(Pained sound)|000000038FB9|Escorting the objective to the destination}}
+{{DataRow|000000035220|(Grunts)|000000038FBA|Status update, objective has taken damage}}
+{{DataRow|000000035221|(Pained sound)|000000038FBB|Team status, 1 ally incapacitated}}
+{{DataRow|000000035222|(Pained sound)|000000038FBC|Team status, 2 allies incapacitated}}
+{{DataRow|000000035223|(Grunts)|000000038FBD|A member of our team needs to be revived}}
+{{DataRow|000000035224|(Grunts)|000000038FBE|Detonator incoming}}
+{{DataRow|000000035225|(Pained sound)|000000038FBF|Detonator neutralized}}
+{{DataRow|000000035226|(Pained sound)|000000038FC6|Enemy B73 detected}}
+{{DataRow|000000035227|(Pained sound)|000000038FC7|Nulltroopers engaging}}
+{{DataRow|000000035228|(Pained sound)|000000038FC8|Nulltrooper engaging}}
+{{DataRow|000000035229|(Pained sound)|000000038FC9|I will protect this city, whatever the cost}}
+{{DataRow|00000003522A|(Pained sound)|000000038FCA|Attack the enemy flag}}
+{{DataRow|00000003522B|(Pained sound)|000000038FCB|Capture the flag}}
 {{DataRow|00000003522C|(Pained sound)|000000038FCC|Slicer incoming}}
 {{DataRow|00000003522D|(Pained sound)|000000038FCD|Slicers detected}}
 {{DataRow|00000003522E|(Pained sound)|000000038FCE|We need you in the fight}}
@@ -196,26 +196,32 @@
 {{DataRow|000000035236|(Pained sound)|000000038FD6|Status update, objective health crirical}}
 {{DataRow|000000035237|(Pained sound)|000000038FD7|Team status, all allies incapacitated}}
 {{DataRow|000000035238|(Pained sound)|000000038FD8|Altering strategy for solo engagement}}
-{{DataRow|000000035239|(Pained sound)|000000038FDB|This is my current location}}
-{{DataRow|00000003523A|Our numbers are reduced, be careful|000000038FDC|Reporting location}}
-{{DataRow|00000003523B|(Pained sound)|000000038FDD|Before Efi rebuilds me, I was defeated here by Doomfist, I must learn from the memory}}
-{{DataRow|00000003523C|(Pained sound)|000000038FDE|Efi would be honored to be able to meet such an accomplished scientist and a member of Overwatch}}
-{{DataRow|00000003523D|(Pained sound)|000000038FDF|Thank you E54, it seems that you are growing from your original programming as well}}
-{{DataRow|00000003523E|(Pained sound)|000000038FE0|I do not know about this Vishkar, but I am programmed to assist where I can}}
-{{DataRow|00000003523F|(Pained sound)|000000038FE1|I am sure she would love to, she is a big fan of your music, as am I}}
-{{DataRow|000000035240|(Pained sound)|000000038FE2|My artificial intelligence makes it possible to learn from my experiences and from everything I observe}}
-{{DataRow|000000035241|(Pained sound)|000000038FE4|Move to the objective}}
-{{DataRow|000000035242|(Pained sound)|000000038FE6|I am seriously damaged}}
-{{DataRow|000000035243|(Pained sound)|000000038FE7|Saving for future analysis}}
-{{DataRow|000000035244|(Pained sound)|000000038FE8|Eradicator detected}}
-{{DataRow|000000035245|(Pained sound)|000000038FE9|Our teammate needs to be revived}}
-{{DataRow|000000035246|(Pained sound)|000000038FEC|I'm over here}}
-{{DataRow|000000035247|I'm on route|000000038FED|System integrity greatly compromised}}
-{{DataRow|000000035248|Push forward|000000038FEE|Eliminate the objective}}
-{{DataRow|000000035249|Move the payload|00000003CB61|Eliminate priority target}}
-{{DataRow|00000003524A|Systems ready|00000003CB62|Secure the objective}}
-{{DataRow|00000003524B|Setup here|00000003CB63|Our enemies chances at success are lowering, victory is imminent}}
-{{DataRow|00000003524C|Thank you|00000003CB64|Mission window closing, we must achieve victory quickly}}
-{{DataRow|00000003524D|Thanks|00000003CB65|Current combat simulation indicate high probability of victory}}
-{{DataRow|00000003524E|I am with you||}}
+{{DataRow|000000035239|(Pained sound)|000000038FD9|Defend our flag}}
+{{DataRow|00000003523A|Our numbers are reduced, be careful|000000038FDA|We must defend our flag}}
+{{DataRow|00000003523B|(Pained sound)|000000038FDB|This is my current location}}
+{{DataRow|00000003523C|(Pained sound)|000000038FDC|Reporting location}}
+{{DataRow|00000003523D|(Pained sound)|000000038FDD|Before Efi rebuilds me, I was defeated here by Doomfist, I must learn from the memory}}
+{{DataRow|00000003523E|(Pained sound)|000000038FDE|Efi would be honored to be able to meet such an accomplished scientist and a member of Overwatch}}
+{{DataRow|00000003523F|(Pained sound)|000000038FDF|Thank you E54, it seems that you are growing from your original programming as well}}
+{{DataRow|000000035240|(Pained sound)|000000038FE0|I do not know about this Vishkar, but I am programmed to assist where I can}}
+{{DataRow|000000035241|(Pained sound)|000000038FE1|I am sure she would love to, she is a big fan of your music, as am I}}
+{{DataRow|000000035242|(Pained sound)|000000038FE2|My artificial intelligence makes it possible to learn from my experiences and from everything I observe}}
+{{DataRow|000000035243|(Pained sound)|000000038FE3|I wish Efi could be here... perhaps some day}}
+{{DataRow|000000035244|(Pained sound)|000000038FE4|Move to the objective}}
+{{DataRow|000000035245|(Pained sound)|000000038FE5|Recording... Efi will want to see this}}
+{{DataRow|000000035246|(Pained sound)|000000038FE6|I am seriously damaged}}
+{{DataRow|000000035247|I'm on route|000000038FE7|Saving for future analysis}}
+{{DataRow|000000035248|Push forward|000000038FE8|Eradicator detected}}
+{{DataRow|000000035249|Move the payload|000000038FE9|Our teammate needs to be revived}}
+{{DataRow|00000003524A|Systems ready|000000038FEA|We must get our flag back}}
+{{DataRow|00000003524B|Setup here|000000038FEB|Recover our flag}}
+{{DataRow|00000003524C|Thank you|000000038FEC|I'm over here}}
+{{DataRow|00000003524D|Thanks|000000038FED|System integrity greatly compromised}}
+{{DataRow|00000003524E|I am with you|000000038FEE|Eliminate the objective}}
+{{DataRow|000000035250|Yes|00000003CB61|Eliminate priority target}}
+{{DataRow|000000035251|In-affirmative|00000003CB62|Secure the objective}}
+{{DataRow|000000035252|(Shivers)|00000003CB63|Our enemies chances at success are lowering, victory is imminent}}
+{{DataRow|000000035253|(Pained sound)|00000003CB64|Mission window closing, we must achieve victory quickly}}
+{{DataRow|000000035254|(Shivers)|00000003CB65|Current combat simulation indicate high probability of victory}}
+{{DataRow|000000035255|(Shivers)||}}
 }}

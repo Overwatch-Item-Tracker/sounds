@@ -588,7 +588,8 @@
     "000000037641": "Tie breaker",
     "000000037642": "Tie breaker objective activated",
     "000000037643": "Tie breaker objective unlocked",
-    "000000037644": "Capture the objective to win"
+    "000000037644": "Capture the objective to win",
+    "00000000B0A5": "Travelling to Horizon Lunar Colony"
   },
   "orisa": {
     "000000034E95": "I told you not to move",
@@ -1027,7 +1028,19 @@
     "000000038FDF": "Thank you E54, it seems that you are growing from your original programming as well",
     "000000038FE0": "I do not know about this Vishkar, but I am programmed to assist where I can",
     "000000038FE1": "I am sure she would love to, she is a big fan of your music, as am I",
-    "000000038FE2": "My artificial intelligence makes it possible to learn from my experiences and from everything I observe"
+    "000000038FE2": "My artificial intelligence makes it possible to learn from my experiences and from everything I observe",
+    "000000038FEB": "Recover our flag",
+    "000000038FEA": "We must get our flag back",
+    "000000038FDA": "We must defend our flag",
+    "000000038FD9": "Defend our flag",
+    "000000038FCB": "Capture the flag",
+    "000000038FCA": "Attack the enemy flag",
+    "0000000352DE": "Are you satisfied with your protection",
+    "0000000352C6": "Thank you for your compliance",
+    "000000038FE5": "Recording... Efi will want to see this",
+    "000000038FE3": "I wish Efi could be here... perhaps some day",
+    "0000000352CE": "For Numbani",
+    "0000000352AA": "You may be surprised, I have received a number of upgrades since that battle"
   },
   "snowball-offensive": {
     "0000000342BA": "Alright listen up. We brought you here because you represent the best, strongest, most effective warriors we... you can't be serious",
@@ -1832,5 +1845,8 @@
     "000000063E50": "Year of the Rooster Menu, Mei",
     "00000006669D": "Uprising Menu",
     "00000006607A": "Uprising Death Sound"
+  },
+  "doomfist": {
+    "000000041034": ""
   }
 }

@@ -1,104 +1,105 @@
 {{VoiceDataTable|
-{{DataRow|00000000A8B6|Thank you for playing Overwatch|00000002A33C|Welcome to China agents}}
-{{DataRow|00000000A8B8|Now entering King's Row|00000002A33E|As a reminder, it is against Overwatch safety protocols to discharge weapons within the dropship}}
-{{DataRow|00000000A8B9|Traveling to Hanamura|00000002A340|Welcome to Nepal agents, make sure you watch your step, it's a long way down}}
-{{DataRow|00000000A8BA|Now entering the Temple of Anubis|00000002A341|Welcome to Greece agents, but i'm afraid this isn't a holiday}}
-{{DataRow|00000000A8BC|Select your hero|00000002A342|Over the past week Talon activity has been detected in the area. It is my belief that they are attempting to steal the newly unearthed artifacts from the temple ruins atop Illios}}
-{{DataRow|00000000A8BD|Welcome to Overwatch|00000002A343|The ancient ruins in Illios are an internationally protected heritage site, please try to avoid unnecessary damage}}
-{{DataRow|00000000A8BE|Multiple Personal Bests|00000002A497|Destroy all the training bots to continue}}
-{{DataRow|00000000A8BF|New Personal Best|00000002A498|Charge your tactical visor by damaging the training bots}}
-{{DataRow|00000000A8C0|Killstreak|00000002A5A7|Round 4 begins in 10 seconds}}
-{{DataRow|00000000A8C1|Team Kill|00000002A5A8|Round 5}}
-{{DataRow|00000000A8C2|Multikill|00000002A5A9|Round 4}}
-{{DataRow|00000000A8C3|Next round beginning soon|00000002A5AA|Round 3}}
-{{DataRow|00000000A8C4|Play of the Game|00000002A5AB|Round 2}}
-{{DataRow|00000000A8C6|Draw|00000002A5AC|Round 1}}
-{{DataRow|00000000A8C7|Defeat|00000002A5AE|The round is almost over}}
-{{DataRow|00000000A8C8|Victory|00000002A5AF|Now, where is she}}
-{{DataRow|00000000A8C9|Sudden Death|00000002A5B0|When you are ready please close this window to continue}}
-{{DataRow|00000000A8CA|Overtime|00000002A5B1|When you are finished you can leave the practice range at any time}}
-{{DataRow|00000000A8CB|10 seconds remaining|00000002A5B2|Feel free to explore the practice range, I encourage you to come back here anytime you want to experiment with different heroes or try out your skills}}
-{{DataRow|00000000A8CC|30 seconds remaining|00000002A5B3|Round 3, lost}}
-{{DataRow|00000000A8CD|60 seconds remaining|00000002A5B4|Keep all of this in mind if you ever want to change your hero during gameplay}}
-{{DataRow|00000000A8CE|Additional time added|00000002A5B7|Round 5, capture the objective}}
-{{DataRow|00000000A8CF|Stop the payload|00000002A5B8|Round 4, capture the objective}}
-{{DataRow|00000000A8D0|The payload is stopped|00000002A5B9|Round 4, won}}
-{{DataRow|00000000A8D2|The payload has reached the checkpoint|00000002A5BA|Round 3, won}}
-{{DataRow|00000000A8D3|The payload is approaching it's destination|00000002A5BB|Round 5 begins in 60 seconds}}
-{{DataRow|00000000A8D4|The payload is approaching the checkpoint|00000002A5BC|Round 4 begins in 60 seconds}}
-{{DataRow|00000000A8D5|The payload is moving|00000002A5BD|Round 5 begins in 30 seconds}}
-{{DataRow|00000000A8D6|Escort the payload|00000002A5BE|Round 4 begins in 30 seconds}}
-{{DataRow|00000000A8D7|Objective lost|00000002A5BF|Round 5 begins in 10 seconds}}
-{{DataRow|00000000A8D8|Objective E has been lost|00000002A5C0|To learn more about other heroes, go to the practice range}}
-{{DataRow|00000000A8D9|Objective D has been lost|00000002A5C1|Round 4, lost}}
-{{DataRow|00000000A8DA|Objective C has been lost|00000002A723|On other maps you can only change your hero in the room where you entered the match or rooms where you reappear after dying}}
-{{DataRow|00000000A8DB|Objective B has been lost|00000002A94D|Season ending}}
-{{DataRow|00000000A8DC|Objective A has been lost|00000002A94E|to 7}}
-{{DataRow|00000000A8DD|Objective captured|00000002A94F|to 4}}
-{{DataRow|00000000A8DE|Objective E captured|00000002A950|to 6}}
-{{DataRow|00000000A8DF|Objective D captured|00000002A951|0}}
-{{DataRow|00000000A8E0|Objective C captured|00000002A952|to 1}}
-{{DataRow|00000000A8E1|Objective B captured|00000002A953|30}}
-{{DataRow|00000000A8E2|Objective A captured|00000002A954|26}}
-{{DataRow|00000000A8E3|The objective is under attack|00000002A955|27}}
-{{DataRow|00000000A8E4|Objective E is under attack|00000002A956|25}}
-{{DataRow|00000000A8E5|Objective D is under attack|00000002A957|28}}
-{{DataRow|00000000A8E6|Objective C is under attack|00000002A958|29}}
-{{DataRow|00000000A8E7|Objective B is under attack|00000002A959|16}}
-{{DataRow|00000000A8E8|Objective A is under attack|00000002A95A|17}}
-{{DataRow|00000000A8E9|New defense point, objective d|00000002A95B|18}}
-{{DataRow|00000000A8EA|You are taking the objective|00000002A95C|14}}
-{{DataRow|00000000A8EB|You are taking objective E|00000002A95D|19}}
-{{DataRow|00000000A8EC|You are taking objective D|00000002A95E|12}}
-{{DataRow|00000000A8ED|You are taking objective C|00000002A95F|13}}
-{{DataRow|00000000A8EE|You are taking objective B|00000002A960|11}}
-{{DataRow|00000000A8EF|You are taking objective A|00000002A961|10}}
-{{DataRow|00000000A8F0|New defense point, objective E|00000002A962|5}}
-{{DataRow|00000000A8F1|Commence attack on objective E|00000002A963|3}}
-{{DataRow|00000000A8F2|Commence attack on objective D|00000002A964|1}}
-{{DataRow|00000000A8F3|New defense point, objective C|00000002A965|to 0}}
-{{DataRow|00000000A8F4|New defense point, objective B|00000002A966|to 11}}
-{{DataRow|00000000A8F5|Defend objective A|00000002A967|to 14}}
-{{DataRow|00000000A8F6|Commence attack on objective C|00000002A968|to 13}}
-{{DataRow|00000000A8F7|Commence attack on objective B|00000002A969|Attacking}}
-{{DataRow|00000000A8F8|Capture objective A|00000002A96A|Round 20}}
-{{DataRow|00000000A8F9|Defend the objective|00000002A96B|Round 19}}
-{{DataRow|00000000A8FA|Capture the objective|00000002A96C|Round 14}}
-{{DataRow|00000000A8FB|Attackers incoming|00000002A96D|Round 15}}
-{{DataRow|00000000A8FC|Attack commencing|00000002A96E|Round 16}}
-{{DataRow|00000000A8FD|9|00000002A96F|Round 17}}
-{{DataRow|00000000A8FE|8|00000002A970|Round 18}}
-{{DataRow|00000000A8FF|7|00000002A971|Welcome to season 2}}
-{{DataRow|00000000A900|6|00000002A972|Lifesaver}}
-{{DataRow|00000000A901|5|00000002A973|Sharpshooter}}
-{{DataRow|00000000A902|4|00000002A974|Final attempt}}
-{{DataRow|00000000A903|3|00000002A975|Score}}
-{{DataRow|00000000A904|2|00000002A976|to 30}}
-{{DataRow|00000000A905|10|00000002A977|to 26}}
-{{DataRow|00000000A906|1|00000002A978|to 27}}
-{{DataRow|00000000A907|Attackers incoming in 10 seconds|00000002A979|to 28}}
-{{DataRow|00000000A908|Attackers incoming in 20 seconds|00000002A97A|to 29}}
-{{DataRow|00000000A909|Attack commences in 20 seconds|00000002A97B|to 23}}
-{{DataRow|00000000A90A|Attack commences in 10 seconds|00000002A97C|to 16}}
-{{DataRow|00000000A90B|Attackers incoming in 30 seconds|00000002A97D|to 17}}
-{{DataRow|00000000A90C|Attack commences in 30 seconds|00000002A97E|to 18}}
-{{DataRow|00000000A90D|Attackers in 60 seconds|00000002A97F|to 19}}
-{{DataRow|00000000A90E|Attack commences in 60 seconds|00000002A980|to 12}}
-{{DataRow|00000000A90F|Prepare your defenses|00000002A981|Final score}}
-{{DataRow|00000000A910|Prepare to attack|00000002A982|Congratulations, top 500 ranking}}
-{{DataRow|00000000ACE3|Arriving at Watchpoint Gibraltar|00000002A983|Shrine}}
-{{DataRow|00000000B08A|Traveling to Numbani|00000002A984|Village}}
-{{DataRow|00000000B08E|Traveling to Dorado|00000002A985|23}}
-{{DataRow|00000000B093|Searching for heroes|00000002A986|24}}
-{{DataRow|00000000B094|Destination|00000002A987|21}}
-{{DataRow|00000000B095|Welcome to Hollywood|00000002A988|20}}
-{{DataRow|00000000B097|Hello Winston|00000002A989|15}}
-{{DataRow|00000000B098|Greetings agent|00000002A98A|6}}
-{{DataRow|00000000B09B|Team assembled|00000002A98B|7}}
-{{DataRow|00000000B09C|Balancing teams|00000002A98C|8}}
-{{DataRow|00000000B09D|Traveling to Volskaya Industries|00000002A98D|4}}
-{{DataRow|00000000B09F|Initiating match|00000002A98E|9}}
-{{DataRow|00000000B0A2|Next match beginning soon|00000002A98F|2}}
+{{DataRow|00000000A8B6|Thank you for playing Overwatch|000000029477|Please go to the highlighted area in center of the room}}
+{{DataRow|00000000A8B8|Now entering King's Row|00000002A33C|Welcome to China agents}}
+{{DataRow|00000000A8B9|Traveling to Hanamura|00000002A33E|As a reminder, it is against Overwatch safety protocols to discharge weapons within the dropship}}
+{{DataRow|00000000A8BA|Now entering the Temple of Anubis|00000002A340|Welcome to Nepal agents, make sure you watch your step, it's a long way down}}
+{{DataRow|00000000A8BC|Select your hero|00000002A341|Welcome to Greece agents, but i'm afraid this isn't a holiday}}
+{{DataRow|00000000A8BD|Welcome to Overwatch|00000002A342|Over the past week Talon activity has been detected in the area. It is my belief that they are attempting to steal the newly unearthed artifacts from the temple ruins atop Illios}}
+{{DataRow|00000000A8BE|Multiple Personal Bests|00000002A343|The ancient ruins in Illios are an internationally protected heritage site, please try to avoid unnecessary damage}}
+{{DataRow|00000000A8BF|New Personal Best|00000002A497|Destroy all the training bots to continue}}
+{{DataRow|00000000A8C0|Killstreak|00000002A498|Charge your tactical visor by damaging the training bots}}
+{{DataRow|00000000A8C1|Team Kill|00000002A5A7|Round 4 begins in 10 seconds}}
+{{DataRow|00000000A8C2|Multikill|00000002A5A8|Round 5}}
+{{DataRow|00000000A8C3|Next round beginning soon|00000002A5A9|Round 4}}
+{{DataRow|00000000A8C4|Play of the Game|00000002A5AA|Round 3}}
+{{DataRow|00000000A8C6|Draw|00000002A5AB|Round 2}}
+{{DataRow|00000000A8C7|Defeat|00000002A5AC|Round 1}}
+{{DataRow|00000000A8C8|Victory|00000002A5AE|The round is almost over}}
+{{DataRow|00000000A8C9|Sudden Death|00000002A5AF|Now, where is she}}
+{{DataRow|00000000A8CA|Overtime|00000002A5B0|When you are ready please close this window to continue}}
+{{DataRow|00000000A8CB|10 seconds remaining|00000002A5B1|When you are finished you can leave the practice range at any time}}
+{{DataRow|00000000A8CC|30 seconds remaining|00000002A5B2|Feel free to explore the practice range, I encourage you to come back here anytime you want to experiment with different heroes or try out your skills}}
+{{DataRow|00000000A8CD|60 seconds remaining|00000002A5B3|Round 3, lost}}
+{{DataRow|00000000A8CE|Additional time added|00000002A5B4|Keep all of this in mind if you ever want to change your hero during gameplay}}
+{{DataRow|00000000A8CF|Stop the payload|00000002A5B7|Round 5, capture the objective}}
+{{DataRow|00000000A8D0|The payload is stopped|00000002A5B8|Round 4, capture the objective}}
+{{DataRow|00000000A8D2|The payload has reached the checkpoint|00000002A5B9|Round 4, won}}
+{{DataRow|00000000A8D3|The payload is approaching it's destination|00000002A5BA|Round 3, won}}
+{{DataRow|00000000A8D4|The payload is approaching the checkpoint|00000002A5BB|Round 5 begins in 60 seconds}}
+{{DataRow|00000000A8D5|The payload is moving|00000002A5BC|Round 4 begins in 60 seconds}}
+{{DataRow|00000000A8D6|Escort the payload|00000002A5BD|Round 5 begins in 30 seconds}}
+{{DataRow|00000000A8D7|Objective lost|00000002A5BE|Round 4 begins in 30 seconds}}
+{{DataRow|00000000A8D8|Objective E has been lost|00000002A5BF|Round 5 begins in 10 seconds}}
+{{DataRow|00000000A8D9|Objective D has been lost|00000002A5C0|To learn more about other heroes, go to the practice range}}
+{{DataRow|00000000A8DA|Objective C has been lost|00000002A5C1|Round 4, lost}}
+{{DataRow|00000000A8DB|Objective B has been lost|00000002A723|On other maps you can only change your hero in the room where you entered the match or rooms where you reappear after dying}}
+{{DataRow|00000000A8DC|Objective A has been lost|00000002A94D|Season ending}}
+{{DataRow|00000000A8DD|Objective captured|00000002A94E|to 7}}
+{{DataRow|00000000A8DE|Objective E captured|00000002A94F|to 4}}
+{{DataRow|00000000A8DF|Objective D captured|00000002A950|to 6}}
+{{DataRow|00000000A8E0|Objective C captured|00000002A951|0}}
+{{DataRow|00000000A8E1|Objective B captured|00000002A952|to 1}}
+{{DataRow|00000000A8E2|Objective A captured|00000002A953|30}}
+{{DataRow|00000000A8E3|The objective is under attack|00000002A954|26}}
+{{DataRow|00000000A8E4|Objective E is under attack|00000002A955|27}}
+{{DataRow|00000000A8E5|Objective D is under attack|00000002A956|25}}
+{{DataRow|00000000A8E6|Objective C is under attack|00000002A957|28}}
+{{DataRow|00000000A8E7|Objective B is under attack|00000002A958|29}}
+{{DataRow|00000000A8E8|Objective A is under attack|00000002A959|16}}
+{{DataRow|00000000A8E9|New defense point, objective d|00000002A95A|17}}
+{{DataRow|00000000A8EA|You are taking the objective|00000002A95B|18}}
+{{DataRow|00000000A8EB|You are taking objective E|00000002A95C|14}}
+{{DataRow|00000000A8EC|You are taking objective D|00000002A95D|19}}
+{{DataRow|00000000A8ED|You are taking objective C|00000002A95E|12}}
+{{DataRow|00000000A8EE|You are taking objective B|00000002A95F|13}}
+{{DataRow|00000000A8EF|You are taking objective A|00000002A960|11}}
+{{DataRow|00000000A8F0|New defense point, objective E|00000002A961|10}}
+{{DataRow|00000000A8F1|Commence attack on objective E|00000002A962|5}}
+{{DataRow|00000000A8F2|Commence attack on objective D|00000002A963|3}}
+{{DataRow|00000000A8F3|New defense point, objective C|00000002A964|1}}
+{{DataRow|00000000A8F4|New defense point, objective B|00000002A965|to 0}}
+{{DataRow|00000000A8F5|Defend objective A|00000002A966|to 11}}
+{{DataRow|00000000A8F6|Commence attack on objective C|00000002A967|to 14}}
+{{DataRow|00000000A8F7|Commence attack on objective B|00000002A968|to 13}}
+{{DataRow|00000000A8F8|Capture objective A|00000002A969|Attacking}}
+{{DataRow|00000000A8F9|Defend the objective|00000002A96A|Round 20}}
+{{DataRow|00000000A8FA|Capture the objective|00000002A96B|Round 19}}
+{{DataRow|00000000A8FB|Attackers incoming|00000002A96C|Round 14}}
+{{DataRow|00000000A8FC|Attack commencing|00000002A96D|Round 15}}
+{{DataRow|00000000A8FD|9|00000002A96E|Round 16}}
+{{DataRow|00000000A8FE|8|00000002A96F|Round 17}}
+{{DataRow|00000000A8FF|7|00000002A970|Round 18}}
+{{DataRow|00000000A900|6|00000002A971|Welcome to season 2}}
+{{DataRow|00000000A901|5|00000002A972|Lifesaver}}
+{{DataRow|00000000A902|4|00000002A973|Sharpshooter}}
+{{DataRow|00000000A903|3|00000002A974|Final attempt}}
+{{DataRow|00000000A904|2|00000002A975|Score}}
+{{DataRow|00000000A905|10|00000002A976|to 30}}
+{{DataRow|00000000A906|1|00000002A977|to 26}}
+{{DataRow|00000000A907|Attackers incoming in 10 seconds|00000002A978|to 27}}
+{{DataRow|00000000A908|Attackers incoming in 20 seconds|00000002A979|to 28}}
+{{DataRow|00000000A909|Attack commences in 20 seconds|00000002A97A|to 29}}
+{{DataRow|00000000A90A|Attack commences in 10 seconds|00000002A97B|to 23}}
+{{DataRow|00000000A90B|Attackers incoming in 30 seconds|00000002A97C|to 16}}
+{{DataRow|00000000A90C|Attack commences in 30 seconds|00000002A97D|to 17}}
+{{DataRow|00000000A90D|Attackers in 60 seconds|00000002A97E|to 18}}
+{{DataRow|00000000A90E|Attack commences in 60 seconds|00000002A97F|to 19}}
+{{DataRow|00000000A90F|Prepare your defenses|00000002A980|to 12}}
+{{DataRow|00000000A910|Prepare to attack|00000002A981|Final score}}
+{{DataRow|00000000ACE3|Arriving at Watchpoint Gibraltar|00000002A982|Congratulations, top 500 ranking}}
+{{DataRow|00000000B08A|Traveling to Numbani|00000002A983|Shrine}}
+{{DataRow|00000000B08E|Traveling to Dorado|00000002A984|Village}}
+{{DataRow|00000000B093|Searching for heroes|00000002A985|23}}
+{{DataRow|00000000B094|Destination|00000002A986|24}}
+{{DataRow|00000000B095|Welcome to Hollywood|00000002A987|21}}
+{{DataRow|00000000B097|Hello Winston|00000002A988|20}}
+{{DataRow|00000000B098|Greetings agent|00000002A989|15}}
+{{DataRow|00000000B09B|Team assembled|00000002A98A|6}}
+{{DataRow|00000000B09C|Balancing teams|00000002A98B|7}}
+{{DataRow|00000000B09D|Traveling to Volskaya Industries|00000002A98C|8}}
+{{DataRow|00000000B09F|Initiating match|00000002A98D|4}}
+{{DataRow|00000000B0A2|Next match beginning soon|00000002A98E|9}}
+{{DataRow|00000000B0A5|Travelling to Horizon Lunar Colony|00000002A98F|2}}
 {{DataRow|00000000B0A7|Alert, weapons discharge detected in ordnance bay|00000002A990|22}}
 {{DataRow|00000000B0AC|New heroes joining|00000002A991|Ruins}}
 {{DataRow|00000000B0B0|Initiate prelaunch procedures|00000002A992|Command centre}}
@@ -293,5 +294,4 @@
 {{DataRow|00000002946F|The objective is now active|00000003765A|Traveling to the Nepal Shrine}}
 {{DataRow|000000029471|Activate tactical visor then fire at the targets with your rifle|00000003765B|Entering the Nepal Sanctum}}
 {{DataRow|000000029472|Now arriving at Illios|00000003765C|Traveling to the Illios Ruins}}
-{{DataRow|000000029477|Please go to the highlighted area in center of the room||}}
 }}
