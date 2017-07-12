@@ -1,0 +1,213 @@
+{{VoiceDataTable|
+{{DataRow|00000000A3E4|Fly like an egyptian|00000000B16A|Keep together}}
+{{DataRow|00000000A3E5|Play nice, play Pharah|00000000B16B|(Shivers)}}
+{{DataRow|00000000A3E9|Sorry but I need to jet|00000000B16C|I need armor}}
+{{DataRow|00000000A3EA|I've got you on my radar|00000000B16D|Hello}}
+{{DataRow|00000000A3EB|[Ultimate] JUSTICE RAINS FROM ABOVE|00000000B16E|Taking point}}
+{{DataRow|00000000A3EC|(Pained Sound)|00000000B16F|Now we're even}}
+{{DataRow|00000000A3ED|(Pained Sound)|00000000B171|(Shivers)}}
+{{DataRow|00000000A3EE|We are in this together|00000000B174|(Shivers)}}
+{{DataRow|00000000A3EF|I will fight by your side|00000000B175|I have honed my skills}}
+{{DataRow|00000000A3F0|Fall back and regroup|00000000B176|Go}}
+{{DataRow|00000000A3F1|Lets defend as one|00000000B177|That's how we do it}}
+{{DataRow|00000000A3F2|Hostiles eliminated|00000000B178|Reinhardt, you know I had a poster of you on my wall when I was younger}}
+{{DataRow|00000000A3F3|Justice is done|00000000B179|Attacking}}
+{{DataRow|00000000A3F6|Target eliminated|00000000B17A|We're on my home turf now}}
+{{DataRow|00000000A3F7|You're going to come with me... dead or alive|00000000B17B|Yes}}
+{{DataRow|00000000A3F8|Rocket jump? That sounds dangerous|00000000B17D|That was too close}}
+{{DataRow|00000000A3F9|Enemies reengaging|00000000B17E|Thank you}}
+{{DataRow|00000000A3FA|Follow my lead, attack|00000000B17F|Negative}}
+{{DataRow|00000000A3FB|(Pained Sound)|00000000B180|We need a healer}}
+{{DataRow|00000000A3FC|(Pained Sound)|00000000B181|Right on target}}
+{{DataRow|00000000A3FD|(Pained Sound)|00000000B182|(Shivers)}}
+{{DataRow|00000000A3FE|(Pained Sound)|00000000B184|(Pained Sound)}}
+{{DataRow|00000000A3FF|(Pained Sound)|00000000B185|Enemy turret destroyed}}
+{{DataRow|00000000A400|(Pained Sound)|00000000B186|Enemy contact}}
+{{DataRow|00000000A404|Get back!|00000000B187|(Shivers)}}
+{{DataRow|00000000A405|Clearing the area|00000000B188|I keep the peace}}
+{{DataRow|00000000A406|Move back|00000000B189|Stay on target}}
+{{DataRow|00000000A409|(Coughs)|00000000B18A|Get the payload moving}}
+{{DataRow|00000000A40A|(Coughs)|00000000B18B|Group up}}
+{{DataRow|00000000A40B|(Coughs)|00000000B18D|(Pained Sound)}}
+{{DataRow|00000000A40C|(Coughs)|00000000B18E|Form up}}
+{{DataRow|00000000A40D|(Coughs)|00000000B18F|Get to cover}}
+{{DataRow|00000000A40E|(Sighs)|00000000B190|Affirmative}}
+{{DataRow|00000000A40F|(Sighs)|00000000B191|Converge on the objective}}
+{{DataRow|00000000A410|(Sighs)|00000000B192|Locate the teleporter}}
+{{DataRow|00000000A411|(Sighs)|00000000B193|(Pained Sound)}}
+{{DataRow|00000000A412|(Grunts)|00000000B194|(Shivers)}}
+{{DataRow|00000000A413|(Grunts)|00000000B195|Did someone call for air support?}}
+{{DataRow|00000000A414|(Grunts)|00000000B196|Ugh I hate being grounded}}
+{{DataRow|00000000A415|(Grunts)|00000000B197|Clearing the board}}
+{{DataRow|00000000A416|(Grunts)|00000000B198|Defend the objective}}
+{{DataRow|00000000A417|(Grunts)|00000001FC93|[Ultimate] ROCKET BARRAGE INCOMING!}}
+{{DataRow|00000000A418|(Grunts)|00000001FC94|Raptora systems online}}
+{{DataRow|00000000A419|(Grunts)|00000001FC95|Time to pick up where I left off}}
+{{DataRow|00000000A41A|(Grunts)|00000001FC96|Now this looks interesting}}
+{{DataRow|00000000A41B|(Grunts)|00000001FC97|To the victor go the spoils}}
+{{DataRow|00000000A41C|(Grunts)|00000001FC98|Group up with me}}
+{{DataRow|00000000A41D|(Grunts)|00000001FC99|Group up here}}
+{{DataRow|00000000A41E|(Grunts)|00000001FC9A|Greetings}}
+{{DataRow|00000000A41F|(Grunts)|00000001FC9B|Systems at max}}
+{{DataRow|00000000A420|(Grunts)|00000001FC9C|Hello}}
+{{DataRow|00000000A421|(Grunts)|00000001FC9D|Need armor}}
+{{DataRow|00000000A422|(Grunts)|00000001FC9E|I need help}}
+{{DataRow|00000000A423|(Grunts)|00000001FC9F|Require assistance at my location}}
+{{DataRow|00000000A424|(Grunts)|00000001FCA0|I need healing}}
+{{DataRow|00000000A425|(Grunts)|00000001FCA1|Need shields}}
+{{DataRow|00000000A426|(Grunts)|00000001FCA2|Thanks}}
+{{DataRow|00000000A427|(Grunts)|00000001FCA3|You have my thanks}}
+{{DataRow|00000000A428|(Grunts)|00000001FCA4|My ultimate is almost ready}}
+{{DataRow|00000000A429|(Grunts)|00000001FCA5|Get ready}}
+{{DataRow|00000000A42A|(Grunts)|00000001FCA6|Operating at maximum efficiency}}
+{{DataRow|00000000A42B|(Grunts)|00000001FCA7|I am on a roll}}
+{{DataRow|00000000A42C|(Grunts)|00000001FCA8|I always dreamed of being stationed here}}
+{{DataRow|00000000A42D|(Grunts)|00000001FCAB|Shot down}}
+{{DataRow|00000000A42E|(Sighs)|00000001FCAC|Not a chance}}
+{{DataRow|00000000A42F|(Sighs)|00000001FCAD|Leave this to a professional}}
+{{DataRow|00000000A430|(Sighs)|00000001FCAE|Target eliminated}}
+{{DataRow|00000000A431|(Sighs)|00000001FCAF|Targets destroyed}}
+{{DataRow|00000000A432|(Sighs)|00000001FCB0|The board is clear}}
+{{DataRow|00000000A433|(Coughs)|00000001FCB1|Enemy team nuteralized}}
+{{DataRow|00000000A434|(Pained Sound)|00000001FCB2|Get out of there}}
+{{DataRow|00000000A435|(Pained Sound)|00000001FCB4|Clear skies ahead}}
+{{DataRow|00000000A436|(Pained Sound)|00000001FCB5|Mission accomplished}}
+{{DataRow|00000000A437|(Pained Sound)|00000001FCB6|After action report, unstoppable}}
+{{DataRow|00000000A438|(Pained Sound)|00000001FCB7|I serve with distinction}}
+{{DataRow|00000000A439|(Pained Sound)|00000001FCB8|Commence combat operations}}
+{{DataRow|00000000A43A|(Pained Sound)|00000001FCBA|There's a first time for everything I guess}}
+{{DataRow|00000000A43B|(Pained Sound)|00000001FCBB|You didn't know my mother very well then}}
+{{DataRow|00000000A43C|(Pained Sound)|00000001FCBC|My ultimate is charging}}
+{{DataRow|00000000A43D|(Pained Sound)|00000001FCBD|My ultimate is ready}}
+{{DataRow|00000000A43E|(Pained Sound)|0000000294C3|(Pained Sound)}}
+{{DataRow|00000000A43F|(Pained Sound)|0000000294C4|(Pained Sound)}}
+{{DataRow|00000000A440|(Pained Sound)|0000000294C5|(Pained Sound)}}
+{{DataRow|00000000A441|(Pained Sound)|00000002A8CD|Win here and victory is ours}}
+{{DataRow|00000000A442|(Pained Sound)|00000002A8CE|We've almost won but we can't let up now}}
+{{DataRow|00000000A443|(Pained Sound)|00000002A8CF|It all comes down to this, lets make it happen}}
+{{DataRow|00000000A444|(Pained Sound)|00000002A8D0|Everyone lets work together and win this}}
+{{DataRow|00000000A445|(Pained Sound)|00000002A8D1|You're so lucky Tracer, ever since I was a little girl I dreamed of joining Overwatch}}
+{{DataRow|00000000A446|(Pained Sound)|00000002A8D2|Hey Torbjorn, check out my new suit, mark 6, state of the art}}
+{{DataRow|00000000A447|(Grunts)|00000002A8D3|McCree, where did you learn to shoot like that? Was it Jack? Gabriel?}}
+{{DataRow|00000000A448|(Grunts)|00000002A8D4|Work together and we can overcome this}}
+{{DataRow|00000000A449|(Grunts)|00000002A8D5|Mum, I know why you didn't want me to join Overwatch but it's still what I want}}
+{{DataRow|00000000A44A|Pharah reporting|00000002A8D6|Then I have nothing to worry about}}
+{{DataRow|00000000A44F|Aerial superiority achieved|00000002A8D9|I am on fire}}
+{{DataRow|00000000A454|Back in action|00000002A8DB|I am unstoppable}}
+{{DataRow|00000000A455|Back online|00000002A8DC|Systems at max}}
+{{DataRow|00000000A456|Remember your training and we'll get through this just fine|00000002A8DD|I always dreamed of the day we would fight together}}
+{{DataRow|00000000A458|Much better|00000002A8DE|Another loss, it's over. We can't let that happen}}
+{{DataRow|00000000A459|Sniper detected|00000002A8DF|Mum, you're amazing}}
+{{DataRow|00000000A45A|Targets neutralized|00000002A8E0|Reinhardt you've still got it}}
+{{DataRow|00000000A45B|I am with you|00000002A8E1|Want to know the forecast?}}
+{{DataRow|00000000A45C|Push forward|00000002A8E3|Try me}}
+{{DataRow|00000000A45D|Incoming|00000002A8EA|Fly casual}}
+{{DataRow|00000000A45E|Fallback|00000002A8EB|Systems compromised}}
+{{DataRow|00000000A45F|Turret detected|00000002A8EC|Something is not feeling right}}
+{{DataRow|00000000A460|It's nearly over, keep up our defense|00000002A8ED|Enemy detected}}
+{{DataRow|00000000A461|Their time is running out, push them back|00000002A8EE|There's a hidden enemy here}}
+{{DataRow|00000000A462|We don't have much time, don't let up|00000002A8EF|There is someone here}}
+{{DataRow|00000000A463|Time is running out, press the attack|00000002A8F0|Oh sorry Reinhardt}}
+{{DataRow|00000000A464|Get the payload moving, we can do this|00000002A8F1|That's how it's done}}
+{{DataRow|00000000A465|The payload is stopped, let's get it moving|00000002A8F4|Thunderbird systems online}}
+{{DataRow|00000000A466|We must work together, move the payload|00000002EBA5|(Laughs)}}
+{{DataRow|00000000A467|Thanks for the assist|000000036AEF|Hey Torbjorn, what do you think of my new suit?}}
+{{DataRow|00000000A468|I will not waste this opportunity|000000036AF1|Hey Torbjorn, check out this new raptorian prototype. Ever seen anything like it?}}
+{{DataRow|00000000A469|I am empowered|000000036AF2|Raptorian systems online}}
+{{DataRow|00000000A46A|I always get my prey|000000036AF3|Detonator spotted, destroy it before it explodes}}
+{{DataRow|00000000A46C|You're not going anywhere|000000036AF4|Contact, OR-14 on my radar}}
+{{DataRow|00000000A46D|Tango down|000000036AF7|Nulltroopers inbound}}
+{{DataRow|00000000A46E|Stay down|000000036AF8|Nulltrooper spotted}}
+{{DataRow|00000000A471|Keep it up|000000036AFD|I'm hit!}}
+{{DataRow|00000000A472|I'm impressed|000000036B06|So this is where mums been hiding}}
+{{DataRow|00000000A474|Down|000000036B07|After hearing all of Reinhardts stories i've always wanted to come here}}
+{{DataRow|00000000A475|Cretin|000000036B09|Not coming back from this one}}
+{{DataRow|00000000A476|I knew I could count on you|000000036B0A|They're coming from above}}
+{{DataRow|00000000A477|Area pacified|000000036B0B|Enemies above us}}
+{{DataRow|00000000A478|Defend the point, strike as one|000000036B0C|Objective is damaged}}
+{{DataRow|00000000A479|Work together, push them back|000000036B0D|We're making progress, keep it up}}
+{{DataRow|00000000A47A|Defend the objective|000000036B0E|Objective is going critical, keep it up}}
+{{DataRow|00000000A47B|Moving the payload, fall in behind me|000000036B0F|The objective is almost destroyed}}
+{{DataRow|00000000A47C|Lets keep the payload moving|000000036B10|Concentrate your attacks on the objective}}
+{{DataRow|00000000A47D|I have secured the payload, lets move|000000036B11|Destroy the objective}}
+{{DataRow|00000000A47E|I'm taking the objective, converge on me|000000036B12|Setup our defenses at the objective}}
+{{DataRow|00000000A47F|In range of the objective, form up on me|000000036B13|On the right}}
+{{DataRow|00000000A480|Securing the objective|000000036B14|Target right side}}
+{{DataRow|00000000A481|Health restored|000000036B15|On your right}}
+{{DataRow|00000000A482|System repaired|000000036B16|On the left}}
+{{DataRow|00000000A483|I'm not done yet|000000036B17|Target left side}}
+{{DataRow|00000000A484|I'm back|000000036B18|On your left}}
+{{DataRow|00000000A485|I will protect the innocent|000000036B19|Enemy target dead ahead}}
+{{DataRow|00000000A486|Defend with me|000000036B1A|Contact, straight ahead}}
+{{DataRow|00000000A487|On guard|000000036B1B|They're coming through the doorway}}
+{{DataRow|00000000A488|Attack with me|000000036B1C|Watch the doorway}}
+{{DataRow|00000000A489|All systems checked out, ready for combat manouvers|000000036B1D|Enemies below us}}
+{{DataRow|00000000A48A|Together we will not fail|000000036B1E|Watch for targets from below}}
+{{DataRow|00000000A48B|Stop the payload|000000036B1F|Watch behind us}}
+{{DataRow|00000000A48C|They're moving the payload, stop them|000000036B20|Watch the rear for enemy contacts}}
+{{DataRow|00000000A48D|We need to stop the payload|000000036B21|It all looks so peaceful from up here}}
+{{DataRow|00000000A48F|Back in the fray|000000036B22|Let's get the objective moving out}}
+{{DataRow|00000000A490|I will not fail again|000000036B26|Don't mess with my family}}
+{{DataRow|00000000A491|My team needs me|000000036B28|Kill confirmed}}
+{{DataRow|00000000A492|Thank you|000000036B29|You made a tactical error}}
+{{DataRow|00000000A493|Excellent teamwork|000000036B2A|Got you this time Jessie}}
+{{DataRow|00000000A494|I require healing|000000036B2E|Enemy shield generator destroyed, good hunting}}
+{{DataRow|00000000A495|Target down|000000036B36|I am the rocket queen}}
+{{DataRow|00000000B12A|(Pained Sound)|000000036B38|Enemy Bastion on my radar}}
+{{DataRow|00000000B12B|In 5 4 3 2 1|000000036B39|Don't take it personally}}
+{{DataRow|00000000B12C|I copy|000000036B3A|Enemy shield generator taken out}}
+{{DataRow|00000000B12D|On my way|000000036B3B|Enemy shield generator located}}
+{{DataRow|00000000B12E|I need shields|000000036B3C|Find their shield generator}}
+{{DataRow|00000000B12F|Enemy teleporter destroyed|000000036B3E|I'm really hurt here}}
+{{DataRow|00000000B130|Enemy turret down|000000036B3F|I need healing}}
+{{DataRow|00000000B131|(Sighs)|000000036B40|You show em Reinhardt}}
+{{DataRow|00000000B132|Clear the area|000000036B41|Securing our flag}}
+{{DataRow|00000000B133|5 4 3 2 1|000000036B42|Returning the flag to base}}
+{{DataRow|00000000B134|(Pained Sound)|000000036B43|I have the flag, heading back to base}}
+{{DataRow|00000000B135|(Pained Sound)|000000036B44|Flag secure, cover me}}
+{{DataRow|00000000B136|They have a teleporter|000000036B45|Enemy has taken our flag, cut them off}}
+{{DataRow|00000000B137|They're almost out of time, hold on and we win|000000036B46|Converge on the enemy flag carrier}}
+{{DataRow|00000000B138|Nice shot|000000036B47|They dropped their flag, get on it}}
+{{DataRow|00000000B139|(Laughs)|000000036B48|Flag is free, someone recover it}}
+{{DataRow|00000000B13A|Ready|000000036B49|Forget about it, just get the next one}}
+{{DataRow|00000000B13B|(Shivers)|000000036B4B|We get it back}}
+{{DataRow|00000000B13C|I'm going in|000000036B4C|Flag dropped, someone pick it up}}
+{{DataRow|00000000B13F|Press the attack|000000036B4D|Jettisoning the flag}}
+{{DataRow|00000000B140|Hmm? Something for me?|000000036B4E|Enemy flag captured}}
+{{DataRow|00000000B141|Damn|000000036B4F|Pharah scores, anyone else want a turn?}}
+{{DataRow|00000000B142|The enemy is forming up here|000000036B50|Heads up, Eradicator inbound}}
+{{DataRow|00000000B143|Behind you|000000036B53|Secure the objective and move it out}}
+{{DataRow|00000000B144|Goodbye|000000036B54|We need to group up before we can move out}}
+{{DataRow|00000000B145|I agree|000000036B55|Team mate down}}
+{{DataRow|00000000B146|Put your security in my hands|000000036B56|We lost one}}
+{{DataRow|00000000B147|I've located their teleporter|000000036B59|This is my position}}
+{{DataRow|00000000B148|Flying the friendly skies|000000036B5A|I'm over here}}
+{{DataRow|00000000B149|(Pained Sound)|000000036B5B|Slicer incoming, handle it}}
+{{DataRow|00000000B14A|(Pained Sound)|000000036B5C|On your feet, get back in the fight}}
+{{DataRow|00000000B14B|Friendly down|000000036B5D|You're not done yet, come on}}
+{{DataRow|00000000B14C|Acknowledged|000000036B5E|Don't slip up now, we got this}}
+{{DataRow|00000000B14D|(Pained Sound)|000000036B5F|Priority mission, take the objective}}
+{{DataRow|00000000B14F|I've got you covered|000000036B60|Capture the objective}}
+{{DataRow|00000000B150|My ultimate is ready|000000036B61|Objective is taking damage}}
+{{DataRow|00000000B151|See you in the air|000000036B62|They're getting through to the objective, tighten up our defense}}
+{{DataRow|00000000B152|Eliminate the target|000000036B63|Emergency defensive maneuvers now}}
+{{DataRow|00000000B153|No|000000036B64|Our objective is about to be destroyed}}
+{{DataRow|00000000B154|System check initiated, green across the board and ready for action|000000036B65|Looks like it's up to me}}
+{{DataRow|00000000B155|(Pained Sound)|000000036B66|Just me, I'll show you how it's done}}
+{{DataRow|00000000B156|Contact!|000000036B67|Priority objective eliminated}}
+{{DataRow|00000000B157|Peace be upon you, Khalil|000000036B68|Objective is down}}
+{{DataRow|00000000B158|I lost many good soldiers here|000000036B69|Just a little bit more, don't loose focus}}
+{{DataRow|00000000B15A|There is always room for improvement|000000036B6A|Don't let up now, victory is imminent}}
+{{DataRow|00000000B15B|I always get my prey|000000036B6B|Take out the target, weapons free}}
+{{DataRow|00000000B15C|Lets setup here|000000036B6C|Move to the objective}}
+{{DataRow|00000000B15D|We're out of time, everyone attack now|000000036B6D|Rally together}}
+{{DataRow|00000000B15E|Stop the payload|000000036DD3|Defend the objective}}
+{{DataRow|00000000B15F|Barrage ready|000000036DD4|Converge on the objective}}
+{{DataRow|00000000B160|All in a days work|000000036DD5|Eliminate the target}}
+{{DataRow|00000000B161|(Laughs)|000000036DD6|We don't have much time, don't let up}}
+{{DataRow|00000000B162|I earned this|00000003D160|Defend the objective}}
+{{DataRow|00000000B163|Pharah out|00000003D161|Enemy has taken our flag, cut them off}}
+{{DataRow|00000000B165|Lets keep the skies clear together|00000003D162|Converge on the enemy flag carrier}}
+{{DataRow|00000000B168|(Pained Sound)|00000003D163|Converge on the objective}}
+{{DataRow|00000000B169|Understood||}}
+}}
