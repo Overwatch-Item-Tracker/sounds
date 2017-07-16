@@ -1,0 +1,293 @@
+{{VoiceDataTable|
+{{DataRow|00000000A497|Mercy on call|00000001FF76|Pharah, if your mother could see you now I think she'd be proud of you}}
+{{DataRow|00000000A498|There's no prescription to treat what you have|00000001FF77|You seem well Genji}}
+{{DataRow|00000000A49E|The doctor is in|00000001FF78|Victory does not come easily, but now we have a chance}}
+{{DataRow|00000000A49F|(Pained Sound)|00000001FF79|If we succeed here we will be victorious}}
+{{DataRow|00000000A4A0|(Pained Sound)|00000001FF7A|This is our opportunity, lets not let it go to waste}}
+{{DataRow|00000000A4A1|Maximum health|00000001FF7B|We've made the first step, now lets go for victory}}
+{{DataRow|00000000A4A2|Fully healed, now get out there|00000001FF7C|It is not over yet, we can turn this around}}
+{{DataRow|00000000A4A3|All better|00000001FF7D|The fight has only just begun}}
+{{DataRow|00000000A4A4|I require medical attention|00000001FF7E|Keep an eye on your health and call for me if you need assistance}}
+{{DataRow|00000000A4A5|Did someone call a doctor?|00000001FF7F|Be careful out there}}
+{{DataRow|00000000A4A6|Get them off me!|00000001FF80|I couldn't have done it alone}}
+{{DataRow|00000000A4A7|They're all over me|00000001FF81|I am touched by your support}}
+{{DataRow|00000000A4A8|Ohh, you are good|00000001FF82|It's nice to be appreciated}}
+{{DataRow|00000000A4AA|(Sigh) I'll be busy soon enough|00000001FF87|Doctors orders}}
+{{DataRow|00000000A4AB|I'm being attacked!|00000001FF89|Join me}}
+{{DataRow|00000000A4AC|I'm under attack!|00000001FF8A|Group up with me}}
+{{DataRow|00000000A4AD|Damage boost engaged|00000001FF8B|Group up here}}
+{{DataRow|00000000A4AF|You are not looking well|00000001FF8C|Affirmative}}
+{{DataRow|00000000A4B0|Medic! Wait, that's me|00000001FF8D|I understand}}
+{{DataRow|00000000A4B1|(Pained Sound)|00000001FF8E|Helping those is need is it's own reward}}
+{{DataRow|00000000A4B2|(Pained Sound)|00000001FF8F|Well this is a pleasant surprise}}
+{{DataRow|00000000A4B3|(Pained Sound)|00000001FF94|A clean bill of health}}
+{{DataRow|00000000A4B4|(Pained Sound)|00000001FF95|I'm on fire}}
+{{DataRow|00000000A4B5|(Pained Sound)|00000001FF96|Operating at optimal levels}}
+{{DataRow|00000000A4B6|(Pained Sound)|00000001FF97|I am operating at peek performance levels}}
+{{DataRow|00000000A4B7|[Ultimate] HEROES NEVER DIE|00000001FF98|Must violence always be the solution?}}
+{{DataRow|00000000A4B8|Still here|00000001FF99|Overwatch was shutdown for a reason... maybe it's best it stay that way}}
+{{DataRow|00000000A4B9|I'm right here|00000001FF9A|Greetings}}
+{{DataRow|00000000A4BA|Still with you|00000001FF9B|Hello there}}
+{{DataRow|00000000A4BB|I'm taking care of you|00000001FF9C|Get ready}}
+{{DataRow|00000000A4BC|Lets get you back out there|00000001FF9D|Need armor}}
+{{DataRow|00000000A4BD|Healing stream engaged|00000001FF9F|I'm still here}}
+{{DataRow|00000000A4BE|Patching you up|00000001FFA0|Damage amplified}}
+{{DataRow|00000000A4BF|Where does it hurt?|00000001FFA1|Damage increased}}
+{{DataRow|00000000A4C1|Right beside you|00000001FFA2|Cover me}}
+{{DataRow|00000000A4C3|I've got you|00000001FFA3|I could use some assistance}}
+{{DataRow|00000000A4C4|I'm here|00000001FFA4|[Uprising] Another patient for my operating table}}
+{{DataRow|00000000A4C5|We make a great team|00000001FFA6|Reinhardt, I don't approve of you dragging that poor girl around on your adventures}}
+{{DataRow|00000000A4C6|We are unstoppable|00000001FFA8|I am ready to resurrect you}}
+{{DataRow|00000000A4C7|Don't let up on them|00000001FFA9|My ultimate is charging}}
+{{DataRow|00000000A4C8|Keep going, i've got you|00000001FFAA|My ultimate is almost ready}}
+{{DataRow|00000000A4C9|Keep it up|00000001FFAB|My thanks}}
+{{DataRow|00000000A4CA|Still here|00000001FFAC|Thanks}}
+{{DataRow|00000000A4CC|Still with you|00000001FFAD|I need shields}}
+{{DataRow|00000000A4CD|Powered up|00000001FFAE|I need health}}
+{{DataRow|00000000A4CE|You're ready to do some damage|00000001FFAF|I could use a hand}}
+{{DataRow|00000000A4CF|(Cough)|00000001FFB0|My ultimate is ready, go, i'll be watching over you}}
+{{DataRow|00000000A4D0|(Cough)|00000001FFB1|Mei you haven't aged a day, what's your secret?}}
+{{DataRow|00000000A4D1|(Cough)|00000002939F|Valkyrie online}}
+{{DataRow|00000000A4D2|(Cough)|0000000293A0|Super!}}
+{{DataRow|00000000A4D3|(Cough)|0000000293A1|Danke}}
+{{DataRow|00000000A4D4|(Sighs)|0000000293A2|(German) Die Wunder der modernen Medizin}}
+{{DataRow|00000000A4D5|(Sighs)|0000000293A3|(German) Mercy im Bereitschaftsdienst}}
+{{DataRow|00000000A4D6|(Sighs)|0000000293A4|(German) Gute arbeit!}}
+{{DataRow|00000000A4D7|(Sighs)|0000000293A5|Connection ongoing}}
+{{DataRow|00000000A4D8|(Grunts)|0000000293A7|(German) Ich brauche Hilfe!}}
+{{DataRow|00000000A4D9|(Grunts)|0000000293A9|Ya}}
+{{DataRow|00000000A4DA|(Grunts)|0000000293AA|(German) Heilstrahl aktiviert}}
+{{DataRow|00000000A4DB|(Grunts)|0000000293AB|(German) Hat jemand den Arzt gerufen?}}
+{{DataRow|00000000A4DC|(Grunts)|0000000293AC|(German) Und, wo tut's jetzt weh?}}
+{{DataRow|00000000A4DD|(Grunts)|0000000293AD|(German) Auf einer Skala von eins bis zehn, wie fest tut es weh?}}
+{{DataRow|00000000A4DE|(Grunts)|0000000293AE|(German) Ich kümmere mich um dich}}
+{{DataRow|00000000A4DF|(Grunts)|0000000293AF|(German) Schaden verstärkt}}
+{{DataRow|00000000A4E0|(Grunts)|0000000293B0|Danke}}
+{{DataRow|00000000A4E1|(Pained Sound)|0000000293B1|Take two and call me in the morning}}
+{{DataRow|00000000A4E2|(Pained Sound)|0000000293B2|Chow}}
+{{DataRow|00000000A4E3|(Pained Sound)|0000000293B3|(German) Entschuldigung}}
+{{DataRow|00000000A4E4|(Pained Sound)|0000000293B4|(German) Verstanden}}
+{{DataRow|00000000A4E5|(Pained Sound)|0000000293B5|(German) Bedauerlich}}
+{{DataRow|00000000A4E6|(Pained Sound)|0000000293B6|[Ultimate] (German) Helden sterben nicht!}}
+{{DataRow|00000000A4E7|(Pained Sound)|0000000293B7|(German) Ich bin da}}
+{{DataRow|00000000A4E8|(Pained Sound)|0000000293B8|Nein}}
+{{DataRow|00000000A4E9|(Grunts)|0000000293B9|(German) Schöner Treffer!}}
+{{DataRow|00000000A4EA|(Grunts)|0000000293C0|(German)}}
+{{DataRow|00000000A4EB|(Grunts)|0000000293C3|[Uprising] (German)}}
+{{DataRow|00000000A4EC|(Grunts)|0000000293C5|(German) 5 4 3 2 1}}
+{{DataRow|00000000A4ED|(Grunts)|0000000293C6|(German) Verdammt}}
+{{DataRow|00000000A4EE|(Grunts)|0000000293C7|(German)}}
+{{DataRow|00000000A4EF|(Grunts)|0000000293C9|(German) Sprechstunde bei der Frau Doktor.}}
+{{DataRow|00000000A4F0|(Grunts)|000000029479|Connection ongoing}}
+{{DataRow|00000000A4F1|(Grunts)|000000029494|(German) Immer unterbricht mich jemand bei der Arbeit}}
+{{DataRow|00000000A4F2|(Grunts)|00000002949C|(Pained Sound)}}
+{{DataRow|00000000A4F3|(Grunts)|00000002949D|(Pained Sound)}}
+{{DataRow|00000000A4F4|(Sighs)|00000002949E|(Pained Sound)}}
+{{DataRow|00000000A4F5|(Sighs)|00000002A478|[Ultimate] Till Valhalla!}}
+{{DataRow|00000000A4F6|(Sighs)|00000002A894|Piece of cake}}
+{{DataRow|00000000A4F7|(Sighs)|00000002A896|Ana, I don't approve of what you've done with my biotic technology}}
+{{DataRow|00000000A4F8|(Sighs)|00000002A89A|You know, smoking's bad for your health}}
+{{DataRow|00000000A4F9|(Cough)|00000002A89B|I got you some chocolates Genji, Swiss, they're the best}}
+{{DataRow|00000000A4FA|(Pained Sound)|00000002A89C|You know Ana, there are procedures we could look into to repair your eye}}
+{{DataRow|00000000A4FB|(Pained Sound)|00000002A89D|Ah, I suppose it will have to do, thank you Genji}}
+{{DataRow|00000000A4FC|(Pained Sound)|00000002A89E|Why are you looking at me Mei?}}
+{{DataRow|00000000A4FD|(Pained Sound)|00000002A8A0|I feel unstoppable}}
+{{DataRow|00000000A4FE|(Pained Sound)|00000002A8A1|I am unstopabble}}
+{{DataRow|00000000A4FF|(Pained Sound)|00000002A8A2|I feel empowered}}
+{{DataRow|00000000A500|(Pained Sound)|00000002A8A7|I've detected a hidden enemy}}
+{{DataRow|00000000A501|(Pained Sound)|00000002A8A8|Enemy detected}}
+{{DataRow|00000000A502|(Pained Sound)|00000002A8A9|Someones hiding here}}
+{{DataRow|00000000A503|(Pained Sound)|00000002A8B1|[Uprising] Sometimes i'm not sure why I even bother}}
+{{DataRow|00000000A504|(Pained Sound)|00000002A8B7|[Uprising] You really should take better care of yourself}}
+{{DataRow|00000000A505|(Pained Sound)|00000002A8B8|I'm not feeling well}}
+{{DataRow|00000000A506|(Pained Sound)|00000002A8B9|I'm feeling my best}}
+{{DataRow|00000000A507|(Pained Sound)|00000002A8BC|You're welcome}}
+{{DataRow|00000000A508|(Pained Sound)|00000002A8BE|Mercy, as summoned}}
+{{DataRow|00000000A509|(Pained Sound)|00000002A8C5|Enchanting your damage}}
+{{DataRow|00000000A50A|(Pained Sound)|00000002A8C6|Maintaining the damage enchantment}}
+{{DataRow|00000000A50B|(Pained Sound)|00000002A8C7|Casting a healing spell}}
+{{DataRow|00000000A50C|(Pained Sound)|00000002A8C8|Maintaining the healing spell}}
+{{DataRow|00000000A50D|(Pained Sound)|00000002A8C9|Witches don't die that easily}}
+{{DataRow|00000000A50E|(Pained Sound)|00000002A8CA|Mercy as summoned}}
+{{DataRow|00000000A50F|(Pained Sound)|00000002A8CB|Mercy is here}}
+{{DataRow|00000000A512|I'm not a miracle worker, well, not always|00000002EB58|(Laughs)}}
+{{DataRow|00000000A513|Please state the nature of the medical emergency|00000002ED1B|[Halloween] What if I gave you the chance to undo the choices you've made?}}
+{{DataRow|00000000A514|Need a second opinion?|00000002ED1C|[Halloween] What would you give me, were I to heal your arm, Gunslinger?}}
+{{DataRow|00000000A516|Enemies reviving!|00000002ED1D|[Halloween] I could restore your sight... my price would only be a very small thing}}
+{{DataRow|00000000A517|Now where am I needed?|00000002ED1E|[Halloween] You believe your brother Archer... but he lives}}
+{{DataRow|00000000A518|A speedy recovery|00000002ED1F|I use to believe that witches lived in these woods... ridiculous, isn't it?}}
+{{DataRow|00000000A519|Much better|00000002ED20|Starting over from the beginning}}
+{{DataRow|00000000A51A|Sniper, be careful|00000002ED21|Ah, the wonders of modern medicine}}
+{{DataRow|00000000A51B|I'm no angel|00000002ED22|Go my servant, destroy them}}
+{{DataRow|00000000A51C|I'm with you|00000002ED23|I must go where i'm needed}}
+{{DataRow|00000000A51D|Push forward|00000002ED24|[Halloween] Those enchanted can never die}}
+{{DataRow|00000000A51E|Incoming|00000002ED29|[Ultimate] MY SERVANTS NEVER DIE!}}
+{{DataRow|00000000A51F|Fallback|00000002ED2A|Come here and I will heal you}}
+{{DataRow|00000000A521|Pull together, we can do this|00000002ED2B|[Halloween] A dark power calls you forth}}
+{{DataRow|00000000A522|Don't let up, it's almost over|00000002ED2C|Come here for healing}}
+{{DataRow|00000000A523|Pick up the pace, we can do this|00000002ED2D|[Halloween] Dr. Junkenstein... remember the price agreed upon}}
+{{DataRow|00000000A524|We're running out of time|00000002ED30|Heh, superstition}}
+{{DataRow|00000000A525|Lets get the payload moving again|00000002ED31|Your guardian angel}}
+{{DataRow|00000000A526|The payloads stopped|00000002ED33|A most impressive display}}
+{{DataRow|00000000A527|We need to keep the payload moving forward|00000002ED38|You should be at peak performance levels}}
+{{DataRow|00000000A528|I feel powerful|00000002ED39|Well done}}
+{{DataRow|00000000A529|Thank you|00000002ED3A|Don't stop now}}
+{{DataRow|00000000A52A|Ah, so that's how it feels|00000002ED3B|You've got this}}
+{{DataRow|00000000A52B|The prognoses is not good|00000002ED3C|Your support has arrived}}
+{{DataRow|00000000A52C|You've been discharged|00000002ED3D|You needed a doctor?}}
+{{DataRow|00000000A52E|Where does it hurt?|00000002ED3E|Let me get you patched up}}
+{{DataRow|00000000A52F|You might not want to tell your friends about that|00000002ED3F|Questionable judgement}}
+{{DataRow|00000000A530|It had to be done|00000002ED40|[Uprising] Genji, I was too late}}
+{{DataRow|00000000A531|Great job|00000002ED41|Mercy has been summoned}}
+{{DataRow|00000000A532|Nice shot|00000002ED42|Casting a spell on you}}
+{{DataRow|00000000A533|Flatlined|00000002ED43|My damage spell is upon you}}
+{{DataRow|00000000A535|Say "ahh"|00000002ED44|I have empowered you}}
+{{DataRow|00000000A536|Clear|00000002ED45|I sense a concealed enemy}}
+{{DataRow|00000000A537|Thanks for looking out for me|00000002ED46|Did someone call for a witch?}}
+{{DataRow|00000000A538|Never knew I had it in me|00000002ED47|My healing spell is upon you}}
+{{DataRow|00000000A539|Clear the point|00000002ED48|My spell is still upon you}}
+{{DataRow|00000000A53A|We need to defend the objective|00000002ED49|Your health is restored}}
+{{DataRow|00000000A53B|Protect the objective|00000002ED4A|I'm on fire... but this witch doesn't burn}}
+{{DataRow|00000000A53C|Lets keep it moving|00000002ED4B|[Uprising] That poor lost soul}}
+{{DataRow|00000000A53D|I'm moving the payload|00000002ED4C|I am the chooser of the slain}}
+{{DataRow|00000000A53E|Protect the payload|00000002ED4D|(Evil Laugh)}}
+{{DataRow|00000000A53F|I'm taking the point|00000002EE4A|My spell is still upon you}}
+{{DataRow|00000000A540|Taking the objective|000000033487|[Ultimate] MY SERVANTS NEVER DIE}}
+{{DataRow|00000000A541|I'm capturing the objective|000000037F41|[Uprising] That's what you always say}}
+{{DataRow|00000000A542|That's better|000000037F43|[Uprising] Torbjorn, the payload doesn't look like it's doing too well}}
+{{DataRow|00000000A543|Self medicating|000000037F44|[Uprising] We can't let the payload take anymore damage}}
+{{DataRow|00000000A544|I'll be watching over you|000000037F46|[Uprising] What about you?}}
+{{DataRow|00000000A545|Defend with me|000000037F48|[Uprising] I can't heal the payload, we need to keep it safe}}
+{{DataRow|00000000A546|Attack with me|000000037F49|[Uprising] Remember we are here to save lives}}
+{{DataRow|00000000A547|I'll enjoy the quiet while it lasts|000000037F4A|[Uprising] Keep quiet, we don't want to attract any unnecessary attention}}
+{{DataRow|00000000A548|Take a deep breath, now, lets achieve our objectives|000000037F4B|[Uprising] Hopefully most people were able to escape}}
+{{DataRow|00000000A549|The payload is on the move|000000037F4C|[Uprising] Speak for yourself}}
+{{DataRow|00000000A54A|Push them back|000000037F4D|[Uprising] It's not working is it Torbjorn?}}
+{{DataRow|00000000A54B|We need to stop them|000000037F4E|[Uprising] Even Omnics worry about death but not these Null Sector extremists}}
+{{DataRow|00000000A54D|Back in the fight|000000037F4F|[Uprising] Torbjorn, what was that sound?}}
+{{DataRow|00000000A54E|The wonders of modern medicine|000000037F50|[Uprising] Define "little snag"}}
+{{DataRow|00000000A54F|Good as new|000000037F52|[Uprising] Here we go}}
+{{DataRow|00000000A550|(Relief) Ahh|000000037F53|[Uprising] Inspires confidence, doesn't he}}
+{{DataRow|00000000A551|Much better|000000037F54|[Uprising] This is the last one, there's no time to lose}}
+{{DataRow|00000000A552|I need healing|000000037F55|[Uprising] Fine, just watch my back}}
+{{DataRow|00000000B0BD|On my way|000000037F56|[Uprising] There's so many of them}}
+{{DataRow|00000000B0BE|Enemy turret neutralized|000000037F58|[Uprising] Just a couple of targets left, lets take them out quickly}}
+{{DataRow|00000000B0BF|Enemy seen|000000037F59|[Uprising] We'll find a way but first we need to save whats left}}
+{{DataRow|00000000B0C0|I can't do this all myself|000000037F5A|[Uprising] Someone needs to get back to the terminal}}
+{{DataRow|00000000B0C1|We're out of time, attack|000000037F5B|[Uprising] We half to believe that there's still something to be saved}}
+{{DataRow|00000000B0C2|Maintaining connection|000000037F5F|[Uprising] Beginning the hack, stay near the terminal while it's in progress}}
+{{DataRow|00000000B0C3|Back to square one|000000037F61|[Uprising] Rights for Omnics, so they say}}
+{{DataRow|00000000B0C4|That was close|000000037F62|[Uprising] Tracer, are feeling alright?}}
+{{DataRow|00000000B0C5|Find their teleporter|000000037F63|[Uprising] You let me know if that changes}}
+{{DataRow|00000000B0C7|Understood|000000037F64|[Uprising] Don't worry Lena, i'll keep you safe out there}}
+{{DataRow|00000000B0C9|Improvements have been made|000000037F65|[Uprising] Can't have anything happen to our recruit on her first mission}}
+{{DataRow|00000000B0CB|We need to clear the area|000000037F67|[Uprising] It's strange to see the streets so empty}}
+{{DataRow|00000000B0CC|Now this is a role reverser|000000037F68|[Uprising] Someone needs to stay on the node or the hack stops}}
+{{DataRow|00000000B0CD|(Pained Sound)|000000037F69|[Uprising] There's a long way to go, a lot can still go wrong}}
+{{DataRow|00000000B0CE|Hmmph|000000037F6C|[Uprising] Someone watch my back}}
+{{DataRow|00000000B0CF|(Pained Sound)|000000037F6D|[Uprising] Remember someone needs to stay near the node while the hack is underway}}
+{{DataRow|00000000B0D0|Absolutely not|000000037F6E|[Uprising] Hack underway}}
+{{DataRow|00000000B0D1|(Pained Sound)|000000037F6F|[Uprising] Even their own}}
+{{DataRow|00000000B0D2|They have a teleporter|000000037F70|[Uprising] Easier said than done}}
+{{DataRow|00000000B0D3|Yes|000000037F71|[Uprising] Just a few more to go, don't worry, i'll keep you all in the fight}}
+{{DataRow|00000000B0D4|They're grouping up here|000000038036|Someone recover our flag}}
+{{DataRow|00000000B0D5|I am ready to revive you|000000038037|[Uprising] Detonator approaching from the right}}
+{{DataRow|00000000B0D6|Ah, a moment to enjoy some piece and quiet, probably just a moment though|000000038038|[Uprising] Enemy Bastion on the right}}
+{{DataRow|00000000B0D7|Take cover|000000038039|Enemies on the left}}
+{{DataRow|00000000B0D8|I concur|00000003803A|Watch the left side}}
+{{DataRow|00000000B0D9|(Pained Sound)|00000003803B|[Uprising] Detonator approaching on the left}}
+{{DataRow|00000000B0DA|We need another healer|00000003803C|[Uprising] Enemy Bastion on the left}}
+{{DataRow|00000000B0DB|Behind you|00000003803D|Watch in front of us}}
+{{DataRow|00000000B0DC|Your personal guardian angel|00000003803E|They're attacking from the front}}
+{{DataRow|00000000B0DD|We of the same mind|00000003803F|[Uprising] Enemy Bastion straight ahead}}
+{{DataRow|00000000B0DE|In 5 4 3 2 1|000000038040|Watch the right}}
+{{DataRow|00000000B0E0|We need to move the payload|000000038041|[Uprising] Watch for enemies in the doorway}}
+{{DataRow|00000000B0E1|[Uprising] I lost her|000000038042|Be careful, they're below us}}
+{{DataRow|00000000B0E2|What happened to you?|000000038043|They're coming from below}}
+{{DataRow|00000000B0E4|So that's what it feels like|000000038044|The enemy is behind us}}
+{{DataRow|00000000B0E5|I require shields|000000038045|Watch behind us}}
+{{DataRow|00000000B0E6|Setup here|000000038046|[Uprising] Enemy Bastion behind us}}
+{{DataRow|00000000B0E8|Go|000000038047|Watch for targets above you}}
+{{DataRow|00000000B0E9|(Pained Sound)|000000038048|Enemies coming in from above}}
+{{DataRow|00000000B0EA|I've learned a lot from my experiences|000000038049|[Uprising] Get me back into the fight}}
+{{DataRow|00000000B0EB|I'm ready|00000003804A|[Uprising] I need to be revived}}
+{{DataRow|00000000B0ED|(Pained Sound)|00000003804B|[Uprising] They're coming through the doorway}}
+{{DataRow|00000000B0EE|Something I could use?|00000003804C|Enemies on the right side}}
+{{DataRow|00000000B0EF|(Pained Sound)|00000003804D|[Uprising] Destroy the objective}}
+{{DataRow|00000000B0F0|Help me!|00000003804E|Destroying the objective is our top priority}}
+{{DataRow|00000000B0F1|[Uprising] Dammit, couldn't get there in time|00000003804F|Get up Torbjorn, you're not going to die that easily}}
+{{DataRow|00000000B0F2|Damn|000000038050|No lying down on the job lieutenant}}
+{{DataRow|00000000B0F3|The enemy teleporter is here|000000038051|We need to capture the objective}}
+{{DataRow|00000000B0F4|Always consult your doctor before engaging in strenuous activity|000000038052|Don't let them destroy the objective}}
+{{DataRow|00000000B0F5|Well, I suppose I'll be patching you up... as usual|000000038053|Our objective's taking fire}}
+{{DataRow|00000000B0F6|[Uprising] I lost him|000000038054|We can't let them destroy our objective}}
+{{DataRow|00000000B0F7|I need armor|000000038055|Our objective is about to be destroyed, this is it}}
+{{DataRow|00000000B0F8|(Pained Sound)|000000038056|I suppose i'll be handling this on my own then}}
+{{DataRow|00000000B0F9|No|000000038057|Well it looks like it's up to me}}
+{{DataRow|00000000B0FA|I don't do this for the reward but I won't turn it down either|000000038058|No vital signs detected}}
+{{DataRow|00000000B0FB|My ultimate is ready|000000038059|Target eliminated}}
+{{DataRow|00000000B0FC|I'm defending|00000003805A|We need to take out the target}}
+{{DataRow|00000000B0FD|On a scale of 1-10, how is your pain?|00000003805B|Rendezvous at the objective}}
+{{DataRow|00000000B0FE|(Pained Sound)|00000003805C|Go to the objective}}
+{{DataRow|00000000B0FF|Eliminate the target|00000003805D|We need to gather together before we can continue}}
+{{DataRow|00000000B101|(Pained Sound)|00000003805E|Escort the objective to the destination}}
+{{DataRow|00000000B102|Defend the objective|00000003805F|Lets move with the objective}}
+{{DataRow|00000000B103|I'm at the top of my field|000000038060|The objective is taking damage, pay attention}}
+{{DataRow|00000000B104|Vital signs negative|000000038061|We're making progress on the objective, keep it up}}
+{{DataRow|00000000B105|I'm going in|000000038062|Enemy objective is hanging by a thread, lets get in there}}
+{{DataRow|00000000B106|Excellent|000000038063|Objective health is critical}}
+{{DataRow|00000000B107|Enemy teleporter destroyed|000000038064|Torbjorn needs to be revived}}
+{{DataRow|00000000B108|Goodbye|000000038065|Reinhardt's down, get him back up}}
+{{DataRow|00000000B109|Stop the payload|000000038066|Tracer's down, someone revive her}}
+{{DataRow|00000000B10A|Enemy turret ahead, watch yourselves|000000038067|OR14 engaging}}
+{{DataRow|00000000B10B|(Laughs)|000000038068|The enemy has a shield generator}}
+{{DataRow|00000000B10C|Keep the skies clear for me|000000038069|I've located the shield generator}}
+{{DataRow|00000000B10D|Not good|00000003806A|Enemy shield generator destroyed}}
+{{DataRow|00000000B10E|I have the distinct feeling that i'm needed somewhere|00000003806C|Detonator spotted, we need to keep that at bay}}
+{{DataRow|00000000B10F|(Pained Sound)|00000003806D|Detonator destroyed}}
+{{DataRow|00000000B110|(Pained Sound)|000000038072|Enemy Bastion, be careful}}
+{{DataRow|00000000B111|What do we have here?|000000038073|Enemy Bastion destroyed}}
+{{DataRow|00000000B112|We could all use a helping hand sometime|000000038076|I lost him}}
+{{DataRow|00000000B113|Now this must be a surprise to you|000000038077|We need to revive them}}
+{{DataRow|00000000B114|Press the attack|000000038078|We have an ally down}}
+{{DataRow|00000000B115|[Uprising] I'm sorry, I was too late|000000038079|One of our allies needs to be revived}}
+{{DataRow|00000000B116|I believe they have a teleporter|00000003807C|Our flag is free, someone tag it}}
+{{DataRow|00000000B117|Our time is running out, everyone get on defence|00000003807E|The commander would never forgive me if I lost you on your first mission}}
+{{DataRow|00000000B118|Don't thank me, just doing my job|00000003807F|Eradicator spotted, proceed with caution}}
+{{DataRow|00000000B119|(Pained Sound)|000000038080|Enemy flag captured}}
+{{DataRow|00000000B11B|I'll send you my consultation fee|000000038082|Nulltrooper spotted}}
+{{DataRow|00000000B11C|Attack|000000038083|Nulltroopers closing in}}
+{{DataRow|00000000B11D|[Uprising] I can see I have my work cut out for me|000000038087|It all seems so peaceful from up here}}
+{{DataRow|00000000B11E|(Laughs)|000000038088|I need healing}}
+{{DataRow|00000000B11F|5 4 3 2 1|000000038089|I'm seriously injured}}
+{{DataRow|00000000B120|(Pained Sound)|00000003808A|Sending the flag back to base}}
+{{DataRow|00000000B121|Maintaining connection|00000003808B|Recovering our flag and sending it back to base}}
+{{DataRow|00000000B122|Thank you|00000003808C|I am in possession of the enemy flag}}
+{{DataRow|00000000B123|(Pained Sound)|00000003808D|Taking the enemy flag}}
+{{DataRow|00000000B124|Form up|00000003808E|Hurry and recover our flag}}
+{{DataRow|00000000B125|Attack the objective|00000003808F|Our flag has been taken, recover it!}}
+{{DataRow|00000000B126|(Pained Sound)|000000038090|The enemy has dropped our flag}}
+{{DataRow|00000000B127|Hello|000000038091|Our flag is free, someone return it}}
+{{DataRow|00000000B128|Group up|000000038092|Disappointing}}
+{{DataRow|00000000B129|Protect the objective|000000038093|That was not in the plan}}
+{{DataRow|00000000B53E|[Ultimate] HEROES NEVER DIE... for a price|000000038094|Dropping the flag}}
+{{DataRow|00000001FF5E|And neither have you, Mei|000000038095|Relinquishing the flag}}
+{{DataRow|00000001FF5F|I'm not use to state of the art facilities these days|000000038096|I'm only doing my part}}
+{{DataRow|00000001FF60|I'm still here|000000038097|We need still need you}}
+{{DataRow|00000001FF61|Get out of there|000000038098|Lets get you back into the fight}}
+{{DataRow|00000001FF62|I'm with you|000000038099|Slicers coming in}}
+{{DataRow|00000001FF63|Support has arrived|00000003809A|Capture the flag}}
+{{DataRow|00000001FF64|[Uprising] Start a fight and this is what happens|00000003809B|Attack the enemy flag}}
+{{DataRow|00000001FF65|Regrettable... but necessary|00000003809C|Defend the flag}}
+{{DataRow|00000001FF66|The enemy team is down|00000003809D|Protect the flag}}
+{{DataRow|00000001FF67|Our enemies our down, we have a distinct tactical advantage|00000003809E|I'm right here}}
+{{DataRow|00000001FF68|This does not look good for you|00000003809F|I'm over here}}
+{{DataRow|00000001FF69|Turn the other cheek|000000038160|Defend the objective}}
+{{DataRow|00000001FF6A|I choose not to seek revenge|000000038161|Protect the objective}}
+{{DataRow|00000001FF6C|How barbaric|000000038162|Eliminate the target}}
+{{DataRow|00000001FF70|Combat procedures optimized|000000038163|Pull together, we can do this}}
+{{DataRow|00000001FF71|I have my eye on you|000000038164|Don't let up, it's almost over}}
+{{DataRow|00000001FF72|New advancements discovered|000000038165|We're out of time, attack}}
+{{DataRow|00000001FF74|Reinhardt, don't you think it's time you hung it up? You're not getting any younger|000000038166|Attack the objective}}
+{{DataRow|00000001FF75|Winston, are you experiencing any issues with your genetic therapy?|000000038167|Pick up the pace, we can do this}}
+}}
