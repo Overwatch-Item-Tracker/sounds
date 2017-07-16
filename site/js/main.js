@@ -121,9 +121,17 @@ OWI.controller('MainCtrl', ["$scope", "$location", "DataService", function($scop
     this.selectedItems[itemID] = this.sSound
   }
 
+  function downloadJSON(data, name) {
+    const dataStr = JSON.stringify(data, null, 2)
+    const el = document.createElement('a')
+    el.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(dataStr))
+    el.setAttribute('download', `${name}-${Date.now()}.json`)
+    el.click()
+  }
+
   this.saveData = () => {
-    download(JSON.stringify(this.mappedSounds, null, 2), `mappedSounds-${Date.now()}.json`, 'application/json');
-    download(JSON.stringify(this.mappedVoicelines, null, 2), `mappedVoicelines-${Date.now()}.json`, 'application/json');
+    downloadJSON(this.mappedSounds, 'mappedSounds')
+    downloadJSON(this.mappedVoicelines, 'mappedVoicelines')
   }
 
   this.clearData = () => {
