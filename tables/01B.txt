@@ -1,0 +1,7 @@
+{{VoiceDataTable|
+{{DataRow|0000000619FB|Summer Games Menu|000000063E7D|Year of the Rooster Menu, D.Va}}
+{{DataRow|000000062754|Junkenstein's Castle "Incoming" Musical Sting|00000006607A|Uprising Death Sound}}
+{{DataRow|000000062763|Halloween Menu|00000006669D|Uprising Menu}}
+{{DataRow|000000063672|Christmas Menu|000000066B11|Anniversary Menu}}
+{{DataRow|000000063E50|Year of the Rooster Menu, Mei||}}
+}}
