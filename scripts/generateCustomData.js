@@ -15,7 +15,7 @@ for (let hero in existingCustomSounds) {
 
 const newTime = Date.now()
 
-const dirs = ['unknown', 'athena', 'hollywood-guy', 'lucioball', 'snowball-offensive', 'uprising', 'junkenstein', 'random']
+const dirs = ['unknown', 'athena', 'hollywood-guy', 'lucioball', 'snowball-offensive', 'uprising', 'junkenstein', 'random', 'thequeen']
 
 const out = {}
 dirs.forEach(thing => {
