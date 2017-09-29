@@ -3,6 +3,7 @@ OWI.factory('DataService', ["$http", "$q", function($http, $q) { //eslint-disabl
   const service = {
     initialized: false,
     data: {},
+    heroes: [],
     waitForInitialization: () => {
       return $q(function(resolve) {
         function waitForInitialize() {
@@ -55,6 +56,7 @@ OWI.factory('DataService', ["$http", "$q", function($http, $q) { //eslint-disabl
           items,
           mappedSounds
         }, soundData)
+        service.heroes = [...soundData.heroes]
         service.data.heroes = soundData.heroes.concat(Object.keys(customSounds))
         if (O3F) service.data.heroes.push('03F')
         service.initialized = true
