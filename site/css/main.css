@@ -89,11 +89,12 @@ h2 {
 #player .vl-list .inner .vl.btn {
   width: 100%;
   text-transform: uppercase;
+  font-size: 13px;
 }
-
 
 #player .vl-list .inner .clear.btn {
   margin-left: 3px;
+  font-size: 12px;
 }
 
 #soundList {
@@ -132,16 +133,24 @@ h2 {
   font-size: 13px;
 }
 
-.addname textarea {
+.dev-section {
+  margin-top: 13px;
+}
+
+.dev-section .download-options {
+  margin-bottom: 5px;
+}
+
+.dev-section h2 {
+  margin-top: 0px;
+}
+
+.dev-section textarea {
   font-size: 13px;
 }
 
 #soundList.filtering .sound {
     width: 230px;
-}
-
-.bottomoptions {
-  margin-top: 5px;
 }
 
 .importbtn {

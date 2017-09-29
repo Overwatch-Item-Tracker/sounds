@@ -1,7 +1,6 @@
 OWI.controller('MainCtrl', ["$scope", "$location", "DataService", function($scope, $location, DataService) { //eslint-disable-line
   const vm = this;
   const audio = window.audio
-  const download = window.download
   const fileInput = window.fileInput
   const _ = window._
 
@@ -15,6 +14,8 @@ OWI.controller('MainCtrl', ["$scope", "$location", "DataService", function($scop
   this.showNamedSounds = false
   this.isDevMode = location.host.startsWith('localhost')
   this.skin = undefined
+
+  this.toggleDevMode = () => this.isDevMode = !this.isDevMode
 
   let urlShowSkins = $location.search().skins || 'false'
   this.showSkins = urlShowSkins == 'true' ? true : urlShowSkins == 'false' ? false : (() => {
@@ -51,6 +52,7 @@ OWI.controller('MainCtrl', ["$scope", "$location", "DataService", function($scop
     }
   }
 
+  // Returns a unique-ish color for a timestamp
   this.getColorForTS = str => {
     if (!str) return ''
     
@@ -73,6 +75,11 @@ OWI.controller('MainCtrl', ["$scope", "$location", "DataService", function($scop
     }
     
     return shadeColor(intToRGB(hashCode(str.toString())), 0.5)
+  }
+
+  this.isActualHero = () => {
+    if (vm.loading) return false
+    return Object.keys(this.items).includes(this.hero)
   }
 
   this.isHeroDone = hero => {
@@ -122,16 +129,33 @@ OWI.controller('MainCtrl', ["$scope", "$location", "DataService", function($scop
   }
 
   function downloadJSON(data, name) {
-    const dataStr = JSON.stringify(data, null, 2)
+    const url = URL.createObjectURL(new Blob([ JSON.stringify(data, null, 2) ],  { type: 'application/json' }))
     const el = document.createElement('a')
-    el.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(dataStr))
+    el.setAttribute('href', url)
     el.setAttribute('download', `${name}-${Date.now()}.json`)
     el.click()
+    setTimeout(() => {
+      URL.revokeObjectURL(url)
+    }, 1000)
   }
 
-  this.saveData = () => {
-    downloadJSON(this.mappedSounds, 'mappedSounds')
-    downloadJSON(this.mappedVoicelines, 'mappedVoicelines')
+  this.saveData = what => {
+    switch (what) {
+      case 'names':
+        downloadJSON(this.mappedSounds, 'mappedSounds')
+        break
+      case 'voicelines':
+        downloadJSON(this.mappedVoicelines, 'mappedVoicelines')
+        break
+      case 'raw':
+        downloadJSON(this.sounds, 'soundFiles')
+        break;
+      case 'all':
+        downloadJSON(this.mappedSounds, 'mappedSounds')
+        downloadJSON(this.mappedVoicelines, 'mappedVoicelines')
+        downloadJSON(this.sounds, 'soundFiles')
+        break;
+    }
   }
 
   this.clearData = () => {
@@ -277,7 +301,9 @@ OWI.controller('MainCtrl', ["$scope", "$location", "DataService", function($scop
     this.currentURL = `./sounds/${this.hero}/${hero}${soundID}.ogg`
   }
 
+  // Show an alert on reloading when in dev mode so you don't loose changes
   window.onbeforeunload = () => {
-    return 'Are you sure??'
+    if (this.isDevMode) return 'Are you sure??'
+    return undefined
   }
 }])

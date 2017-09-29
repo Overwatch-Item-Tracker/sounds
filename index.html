@@ -1,4 +1,5 @@
 <html ng-app="OWI">
+
 <head>
   <title>Overwatch Sound Viewer</title>
   <meta charset="UTF-8">
@@ -12,14 +13,17 @@
   <script src="./site/js/services.js"></script>
   <script src="./site/js/main.js"></script>
 </head>
+
 <body ng-controller="MainCtrl as $ctrl" ng-keydown="$ctrl.handleKeyPress($event)">
   <div id="heroes">
-    <div class="btn" ng-repeat="hero in $ctrl.heroes" ng-class="{'btn-primary': $ctrl.hero == hero, 'btn-default': $ctrl.hero != hero}" ng-click="$ctrl.selectHero(hero)">{{hero}} {{$ctrl.isHeroDone(hero) ? '✔' : ''}}</div>
+    <div class="btn" ng-repeat="hero in $ctrl.heroes" ng-class="{'btn-primary': $ctrl.hero == hero, 'btn-default': $ctrl.hero != hero}"
+      ng-click="$ctrl.selectHero(hero)">{{hero}} {{$ctrl.isHeroDone(hero) ? '✔' : ''}}</div>
   </div>
   <div class="middlething">
-    <span>Voicelines: {{$ctrl.getVLCount() || 'None'}} | Named Sounds: {{$ctrl.getMappedSoundsCount() || 'None'}} | Total Sounds: {{$ctrl.getSoundCount()}} | ⚪ = Skin Sound | ★ = Voiceline </span>
+    <span>Voicelines: {{$ctrl.getVLCount() || 'None'}} | Named Sounds: {{$ctrl.getMappedSoundsCount() || 'None'}} | Total Sounds: {{$ctrl.getSoundCount()}} | ⚪ = Skin Sound | ★ = Voiceline |</span>
     <div class="btn btn-default" ng-click="$ctrl.toggleShowNamedSounds()">{{$ctrl.showNamedSounds ? 'Hide names' : 'Show names'}}</div>
     <div class="btn btn-default" ng-click="$ctrl.toggleShowSkins()">{{$ctrl.showSkins ? 'Hide skins' : 'Show skins only'}}</div>
+    <div class="btn btn-warning" ng-click="$ctrl.toggleDevMode()">Toggle Dev Mode</div>
   </div>
   <div id="mainBody">
     <div id="player">
@@ -28,51 +32,59 @@
         <div class="btn btn-default" ng-click="$ctrl.replaySound()">Play</div>
         <div class="btn btn-default" ng-click="$ctrl.toggleLoop()">{{$ctrl.looping ? "Unloop" : "Loop"}}</div>
         <span class="selectedSound">Selected Sound: {{$ctrl.sSound || 'None'}}</span>
-        <div class="addname" ng-if="$ctrl.isDevMode">
-          <h2>Add name to sound</h2>
-          <div class="form-group">
-            <textarea id="nameInput" class="form-control" rows="3" ng-model="$ctrl.mappedSounds[$ctrl.hero][$ctrl.sSound]" placeholder="Name of Item" ng-keypress="$event.keyCode == 13 && $ctrl.selectNextSound(40)"></textarea>
+        <div class="dev-container" ng-if="$ctrl.isDevMode">
+          <div class="dev-section">
+            <h2>Add name to sound</h2>
+            <div class="form-group">
+              <textarea id="nameInput" class="form-control" rows="3" ng-model="$ctrl.mappedSounds[$ctrl.hero][$ctrl.sSound]" placeholder="Name of Item"
+                ng-keypress="$event.keyCode == 13 && $ctrl.selectNextSound(40)"></textarea>
+            </div>
+          </div>
+          <div class="dev-section" ng-if="$ctrl.isActualHero()">
+            <h2>Add skin to sound</h2>
+            <div class="form-group">
+              <input id="skinInput" class="form-control" rows="3" ng-model="$ctrl.sounds[$ctrl.hero][$ctrl.soundCategory][$ctrl.sSound].skin"
+                placeholder="Name of Skin"></input>
+            </div>
+          </div>
+          <div class="dev-section">
+            <div class="download-options">
+              <h2>Download</h2>
+              <div class="btn btn-primary" ng-click="$ctrl.saveData('names')">Sound Names</div>
+              <div class="btn btn-primary" ng-click="$ctrl.saveData('voicelines')">Voiceline Data</div>
+              <div class="btn btn-primary" ng-click="$ctrl.saveData('raw')">Raw Data</div>
+              <div class="btn btn-primary" ng-click="$ctrl.saveData('all')">All</div>
+            </div>
+            <div class="importbtn">
+              <div class="btn btn-primary" ng-click="$ctrl.saveData()" ng-class="{hover: inputhover}">Import Data</div>
+              <input id="fileInput" type="file" fileread="$ctrl.importData" ng-mouseover="inputhover=true" ng-mouseleave="inputhover=false">
+            </div>
+            <div class="btn btn-danger" ng-click="$ctrl.clearData()">Erase Data</div>
           </div>
         </div>
         <div class="vl-list" ng-show="$ctrl.items[$ctrl.hero]">
           <h2>Voice Lines for {{$ctrl.items[$ctrl.hero].name}}</h2>
           <div class="inner">
             <div class="btn-cont" ng-repeat="vl in $ctrl.items[$ctrl.hero].items.voicelines track by $index">
-              <div class="vl btn btn-default" ng-class="{unselected: !$ctrl.selectedItems[vl.id]}" ng-click="$ctrl.selectItem(vl.id)">{{$ctrl.selectedItems[vl.id] ? '★' : ''}} {{vl.name}}</div> <div ng-if="$ctrl.isDevMode" ng-disabled="!$ctrl.selectedItems[vl.id]" ng-click="$ctrl.clearItem(vl.id)" class="clear btn btn-danger">Clear</div>
+              <div class="vl btn btn-default" ng-class="{unselected: !$ctrl.selectedItems[vl.id]}" ng-click="$ctrl.selectItem(vl.id)">{{$ctrl.selectedItems[vl.id] ? '★' : ''}} {{vl.name}}</div>
+              <div ng-if="$ctrl.isDevMode" ng-disabled="!$ctrl.selectedItems[vl.id]"
+                ng-click="$ctrl.clearItem(vl.id)" class="clear btn btn-danger">Clear</div>
             </div>
           </div>
-        </div>
-        <div class="bottomoptions" ng-if="$ctrl.isDevMode">
-          <div class="btn btn-primary" ng-click="$ctrl.saveData()">Download Data</div>
-          <div class="importbtn">
-            <div class="btn btn-primary" ng-click="$ctrl.saveData()" ng-class="{hover: inputhover}">Import Data</div>
-            <input id="fileInput" type="file" fileread="$ctrl.importData" ng-mouseover="inputhover=true" ng-mouseleave="inputhover=false">
-          </div>
-          <div class="btn btn-danger" ng-click="$ctrl.clearData()">Erase Data</div>
         </div>
       </div>
     </div>
     <div id="soundList" ng-class="{filtering: $ctrl.showNamedSounds}">
       <div class="switcher">
         <span class="title">Category:</span>
-        <div
-          class="btn"
-          ng-repeat="(type, val) in $ctrl.sounds[$ctrl.hero]"
-          ng-class="{'btn-primary': $ctrl.soundCategory == type, 'btn-default': $ctrl.soundCategory != type}"
+        <div class="btn" ng-repeat="(type, val) in $ctrl.sounds[$ctrl.hero]" ng-class="{'btn-primary': $ctrl.soundCategory == type, 'btn-default': $ctrl.soundCategory != type}"
           ng-click="$ctrl.setSoundCategory(type)">{{type}}</div>
-          <span>Sounds are color coded by time added, newest > oldest</span>
+        <span>Sounds are color coded by time added, newest > oldest</span>
       </div>
       <div class="sounds">
-        <div 
-          class="sound btn btn-default" 
-          style="background-color: {{$ctrl.getColorForTS(sound.ts)}}"
-          ng-repeat="sound in $ctrl.getSoundFiles() track by $index"
-          uib-tooltip="{{$ctrl.getTooltip(sound)}}"
-          uib-enable="{{$ctrl.isItemSelected(sound.id)}}"
-          tooltip-append-to-body="true"
-          ng-click="$ctrl.playSound(sound.id, $index, false)"
-          ng-class="{selected: $ctrl.sSound == sound.id, noname: !$ctrl.mappedSounds[$ctrl.hero][sound.id]}"
-        >{{sound.id}} {{$ctrl.isItemSelected(sound.id) ? '★' : ''}} {{sound.skin ? '⚪' : ''}} {{sound.unused ? '❓' : ''}}<span>{{$ctrl.getItemName(sound.id)}}</span>
+        <div class="sound btn btn-default" style="background-color: {{$ctrl.getColorForTS(sound.ts)}}" ng-repeat="sound in $ctrl.getSoundFiles() track by $index"
+          uib-tooltip="{{$ctrl.getTooltip(sound)}}" uib-enable="{{$ctrl.isItemSelected(sound.id)}}" tooltip-append-to-body="true"
+          ng-click="$ctrl.playSound(sound.id, $index, false)" ng-class="{selected: $ctrl.sSound == sound.id, noname: !$ctrl.mappedSounds[$ctrl.hero][sound.id]}">{{sound.id}} {{$ctrl.isItemSelected(sound.id) ? '★' : ''}} {{sound.skin ? '⚪' : ''}} {{sound.unused ? '❓' : ''}}<span>{{$ctrl.getItemName(sound.id)}}</span>
         </div>
       </div>
     </div>
@@ -83,4 +95,5 @@
     <p>©2017 Blizzard Entertainment, Inc. All rights reserved.</p>
   </div>
 </body>
+
 </html>
