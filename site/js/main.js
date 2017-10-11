@@ -15,6 +15,9 @@ OWI.controller('MainCtrl', ["$scope", "$location", "DataService", function($scop
   this.isDevMode = location.host.startsWith('localhost')
   this.skin = undefined
 
+  this.debugging = false
+  this.debugMapping = {}
+
   this.toggleDevMode = () => this.isDevMode = !this.isDevMode
 
   let urlShowSkins = $location.search().skins || 'false'
@@ -141,6 +144,9 @@ OWI.controller('MainCtrl', ["$scope", "$location", "DataService", function($scop
 
   this.saveData = what => {
     switch (what) {
+      case 'debugMapping':
+        downloadJSON(this.debugMapping, 'debugMapping')
+        break;
       case 'names':
         downloadJSON(this.mappedSounds, 'mappedSounds')
         break

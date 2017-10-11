@@ -33,6 +33,20 @@
         <div class="btn btn-default" ng-click="$ctrl.toggleLoop()">{{$ctrl.looping ? "Unloop" : "Loop"}}</div>
         <span class="selectedSound">Selected Sound: {{$ctrl.sSound || 'None'}}</span>
         <div class="dev-container" ng-if="$ctrl.isDevMode">
+        <div class="dev-section" ng-if="$ctrl.debugging">
+            <h2>Add Hero to sound</h2>
+            <div class="form-group">
+              <input id="heroInput" class="form-control" rows="3" ng-model="$ctrl.debugMapping[$ctrl.sSound].hero"
+                placeholder="Name of Hero"></input>
+            </div>
+          </div>
+          <div class="dev-section" ng-if="$ctrl.debugging">
+            <h2>Add skin to sound</h2>
+            <div class="form-group">
+              <input id="skinInput" class="form-control" rows="3" ng-model="$ctrl.debugMapping[$ctrl.sSound].skin"
+                placeholder="Name of Skin"></input>
+            </div>
+          </div>
           <div class="dev-section">
             <h2>Add name to sound</h2>
             <div class="form-group">
@@ -54,6 +68,7 @@
               <div class="btn btn-primary" ng-click="$ctrl.saveData('voicelines')">Voiceline Data</div>
               <div class="btn btn-primary" ng-click="$ctrl.saveData('raw')">Raw Data</div>
               <div class="btn btn-primary" ng-click="$ctrl.saveData('all')">All</div>
+              <div class="btn btn-primary" ng-if="$ctrl.debugging" ng-click="$ctrl.saveData('debugMapping')">Debug Mapping</div>
             </div>
             <div class="importbtn">
               <div class="btn btn-primary" ng-click="$ctrl.saveData()" ng-class="{hover: inputhover}">Import Data</div>
