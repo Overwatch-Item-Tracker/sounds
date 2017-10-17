@@ -19,7 +19,7 @@ OWI.controller('MainCtrl', ["$scope", "$location", "DataService", function($scop
   this.skin = undefined
   this.moveHeroQuery = null
 
-  this.debugging = true
+  this.debugging = false
   this.debugMapping = {}
 
   this.toggleDevMode = () => this.isDevMode = !this.isDevMode
