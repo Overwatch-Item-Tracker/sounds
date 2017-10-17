@@ -8,6 +8,8 @@ OWI.controller('MainCtrl', ["$scope", "$location", "DataService", function($scop
   this.looping = false
   this.hero = undefined
   this.selectedItems = {}
+  this.mappedSounds = {}
+  this.sounds = {}
   this.soundCategory = 'base'
   this.sSound = undefined
   this.sSoundIndex = -1
@@ -15,7 +17,7 @@ OWI.controller('MainCtrl', ["$scope", "$location", "DataService", function($scop
   this.isDevMode = location.host.startsWith('localhost')
   this.skin = undefined
 
-  this.debugging = false
+  this.debugging = true
   this.debugMapping = {}
 
   this.toggleDevMode = () => this.isDevMode = !this.isDevMode
@@ -40,6 +42,25 @@ OWI.controller('MainCtrl', ["$scope", "$location", "DataService", function($scop
       $scope.$digest()
     }, 1000)
   })
+
+  this.categoryToggle = (where) => {
+    if (this.sounds[this.hero][where]) {
+      if (this.sounds[this.hero][where][this.sSound]) {
+        console.log('Sound already exists??', this.sSound)
+      }
+
+      const index = _.clone(this.sSoundIndex)
+      const sound = _.clone(this.sSound)
+      this.sounds[this.hero][where][sound] = this.sounds[this.hero][this.soundCategory][sound]
+      delete this.sounds[this.hero][this.soundCategory][sound]
+      sortSounds(this.hero, where)
+      this.selectNextSound(39, index - 1)
+    }
+  }
+
+  const sortSounds = (hero, where) => {
+    this.sounds[hero][where] = _.keyBy(_.orderBy(this.sounds[hero][where], ['ts', 'id'], ['desc']), 'id')
+  }
 
   this.selectHero = hero => {
     if (hero == this.hero) return
@@ -255,15 +276,19 @@ OWI.controller('MainCtrl', ["$scope", "$location", "DataService", function($scop
     if (!num) return
     const d = this.getSoundFiles()
     let nextItem
+    let newIndex
     if (Array.isArray(d)) {
       let i = vm.sSoundIndex
-      nextItem = i + num > d.length - 1 ? 0 : i + num < 0 ? d.length -1 : i + num
+      newIndex = i + num > d.length - 1 ? 0 : i + num < 0 ? d.length -1 : i + num
+      nextItem = newIndex
     } else {
       let k = Object.keys(d)
       let i = index || k.indexOf(vm.sSound)
-      nextItem = k[i + num > k.length - 1 ? 0 : i + num < 0 ? k.length -1 : i + num]
+      
+      newIndex = i + num > k.length - 1 ? 0 : i + num < 0 ? k.length -1 : i + num
+      nextItem = k[newIndex]
     }
-    this.playSound(d[nextItem].id, nextItem)
+    this.playSound(d[nextItem].id, newIndex)
     
     setTimeout(() => {
       document.querySelector('#soundList div.selected').scrollIntoViewIfNeeded(true)

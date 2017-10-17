@@ -1,5 +1,5 @@
 OWI.factory('DataService', ["$http", "$q", function($http, $q) { //eslint-disable-line
-  const baseUrl = 'https://js41637.github.io/Overwatch-Item-Tracker/data'
+  const baseUrl = './data'
   const service = {
     initialized: false,
     data: {},

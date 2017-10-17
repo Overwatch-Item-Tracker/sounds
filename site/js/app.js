@@ -2,7 +2,6 @@ var OWI = angular.module('OWI', ['ui.bootstrap']) // eslint-disable-line
 
 // Setup some angular config stuff
 OWI.config(['$compileProvider', '$locationProvider', function($compileProvider, $locationProvider) {
-  $compileProvider.debugInfoEnabled(false); // more perf
   $locationProvider.html5Mode({
     enabled: true,
     requireBase: false,

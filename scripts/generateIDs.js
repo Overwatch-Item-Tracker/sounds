@@ -4,11 +4,12 @@ const moreSounds = require('../data/customSounds.json')
 const evenMoreSounds = require('../data/03F.json')
 
 const outputEvenMoreSounds = false
+const badRx = /(01B|dupes)$/
 
 const soundIDs = {}
 
 for (let hero in sounds) {
-	if (hero === '01B') continue
+	if (hero.match(badRx)) continue
   for (let type in sounds[hero]) {
     for (let sound in sounds[hero][type]) {
       soundIDs[sound] = true
@@ -17,6 +18,7 @@ for (let hero in sounds) {
 }
 
 for (let hero in moreSounds) {
+  if (hero.match(badRx)) continue
   for (let type in moreSounds[hero]) {
     for (let sound of moreSounds[hero][type]) {
       soundIDs[sound.id] = true
