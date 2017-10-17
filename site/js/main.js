@@ -13,9 +13,11 @@ OWI.controller('MainCtrl', ["$scope", "$location", "DataService", function($scop
   this.soundCategory = 'base'
   this.sSound = undefined
   this.sSoundIndex = -1
+  this.originalSoundHeroes = []
   this.showNamedSounds = false
   this.isDevMode = location.host.startsWith('localhost')
   this.skin = undefined
+  this.moveHeroQuery = null
 
   this.debugging = true
   this.debugMapping = {}
@@ -43,10 +45,27 @@ OWI.controller('MainCtrl', ["$scope", "$location", "DataService", function($scop
     }, 1000)
   })
 
+  this.moveToHero = () => {
+    if (!this.moveHeroQuery || this.moveHeroQuery.length < 3) return
+    if (!this.originalSoundHeroes.includes(this.moveHeroQuery)) return
+    if (this.sounds[this.moveHeroQuery][this.soundCategory][this.sSound]) {
+      console.log('Sound already exists??', this.sSound)
+      return
+    }
+
+    console.log(this.moveHeroQuery)
+    this.sounds[this.moveHeroQuery][this.soundCategory][this.sSound] = this.sounds[this.hero][this.soundCategory][this.sSound]
+    delete this.sounds[this.hero][this.soundCategory][this.sSound]
+    sortSounds(this.moveHeroQuery, this.soundCategory)
+    sortSounds(this.hero, this.soundCategory)
+    this.selectNextSound(39, this.sSoundIndex - 1)
+  }
+
   this.categoryToggle = (where) => {
     if (this.sounds[this.hero][where]) {
       if (this.sounds[this.hero][where][this.sSound]) {
         console.log('Sound already exists??', this.sSound)
+        return
       }
 
       const index = _.clone(this.sSoundIndex)
@@ -164,6 +183,7 @@ OWI.controller('MainCtrl', ["$scope", "$location", "DataService", function($scop
   }
 
   this.saveData = what => {
+    var soundFiles
     switch (what) {
       case 'debugMapping':
         downloadJSON(this.debugMapping, 'debugMapping')
@@ -175,12 +195,24 @@ OWI.controller('MainCtrl', ["$scope", "$location", "DataService", function($scop
         downloadJSON(this.mappedVoicelines, 'mappedVoicelines')
         break
       case 'raw':
-        downloadJSON(this.sounds, 'soundFiles')
+        soundFiles = _.reduce(this.sounds, (res, data, key) => {
+          if (!this.originalSoundHeroes.includes(key)) return res
+          res[key] = data
+          return res
+        }, {})
+
+        downloadJSON(soundFiles, 'soundFiles')
         break;
       case 'all':
+        soundFiles = _.reduce(this.sounds, (res, data, key) => {
+          if (!this.originalSoundHeroes.includes(key)) return res
+          res[key] = data
+          return res
+        }, {})
+
         downloadJSON(this.mappedSounds, 'mappedSounds')
         downloadJSON(this.mappedVoicelines, 'mappedVoicelines')
-        downloadJSON(this.sounds, 'soundFiles')
+        downloadJSON(soundFiles, 'soundFiles')
         break;
     }
   }

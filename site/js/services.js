@@ -50,8 +50,10 @@ OWI.factory('DataService', ["$http", "$q", function($http, $q) { //eslint-disabl
     init: () => {
       Promise.all([service.getSoundData(), service.getItemsAndMappedData()]).then(([soundData, [items, mappedVoicelines, mappedSounds, customSounds, O3F]]) => {
         console.log('Loaded data')     
+        const originalSoundHeroes = Object.keys(soundData.sounds)
         Object.assign(soundData.sounds, customSounds, O3F ? { "03F": O3F } : {})
         Object.assign(service.data, {
+          originalSoundHeroes,
           mappedVoicelines,
           items,
           mappedSounds

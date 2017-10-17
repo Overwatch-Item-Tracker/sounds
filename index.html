@@ -32,11 +32,21 @@
         <div class="btn btn-default" ng-click="$ctrl.toggleLoop()">{{$ctrl.looping ? "Unloop" : "Loop"}}</div>
         <span class="selectedSound">Selected Sound: {{$ctrl.sSound || 'None'}}</span>
         <div class="dev-container" ng-if="$ctrl.isDevMode">
-        <div class="dev-section" ng-if="$ctrl.debugging">
+          <div class="dev-section" ng-if="$ctrl.debugging">
+            <h2>Move around</h2>
+            <div class="btn btn-default" ng-click="$ctrl.categoryToggle('base')" ng-if="$ctrl.soundCategory === 'misc'">Move to Base</div>
+            <div class="btn btn-default" ng-click="$ctrl.categoryToggle('misc')" ng-if="$ctrl.soundCategory === 'base'">Move to Misc</div>
+            <div class="input-group">
+              <input type="text" class="form-control" ng-model="$ctrl.moveHeroQuery" placeholder="Enter hero to move to...">
+              <span class="input-group-btn">
+                  <button class="btn btn-primary" ng-click="$ctrl.moveToHero()">Move!</button>
+                </span>
+            </div>
+          </div>
+          <div class="dev-section" ng-if="$ctrl.debugging">
             <h2>Add Hero to sound</h2>
             <div class="form-group">
-              <input id="heroInput" class="form-control" rows="3" ng-model="$ctrl.debugMapping[$ctrl.sSound].hero"
-                placeholder="Name of Hero"></input>
+              <input id="heroInput" class="form-control" rows="3" ng-model="$ctrl.debugMapping[$ctrl.sSound].hero" placeholder="Name of Hero"></input>
             </div>
           </div>
           <div class="dev-section" ng-if="$ctrl.debugging">
@@ -45,11 +55,6 @@
               <input id="skinInput" class="form-control" rows="3" ng-model="$ctrl.debugMapping[$ctrl.sSound].skin"
                 placeholder="Name of Skin"></input>
             </div>
-          </div>
-          <div class="dev-section" ng-if="$ctrl.debugging">
-            <h2>Toggle Category</h2>
-            <div class="btn btn-default" ng-click="$ctrl.categoryToggle('base')" ng-if="$ctrl.soundCategory === 'misc'">Move to Base</div>
-            <div class="btn btn-default" ng-click="$ctrl.categoryToggle('misc')" ng-if="$ctrl.soundCategory === 'base'">Move to Misc</div>
           </div>
           <div class="dev-section">
             <h2>Add name to sound</h2>
