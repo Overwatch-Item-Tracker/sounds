@@ -150,7 +150,8 @@ h2 {
 }
 
 #soundList.filtering .sound {
-    width: 230px;
+    min-width: 230px;
+    width: 24.5%;
 }
 
 .importbtn {
