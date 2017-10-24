@@ -78,7 +78,6 @@ OWI.controller('MainCtrl', ["$scope", "$location", "DataService", function($scop
   }
 
   this.sortSounds = (hero, where) => {
-    console.log(hero, where)
     this.sounds[hero][where] = _.keyBy(_.orderBy(this.sounds[hero][where], ['ts', 'id'], ['desc']), 'id')
   }
 
@@ -285,7 +284,7 @@ OWI.controller('MainCtrl', ["$scope", "$location", "DataService", function($scop
     }
     if (this.mappedSounds[this.hero] && this.mappedSounds[this.hero][sound.id]) out.push(this.mappedSounds[this.hero][sound.id])
     if (sound.skin) out.push(sound.skin)
-    if (sound.unused) out.push('Apparently removed??')
+    if (sound.unused) out.push('Apparently unused/removed??')
     if (out.filter(Boolean)) {
       return out.join('\n')
     }
