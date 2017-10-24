@@ -36,6 +36,7 @@
             <h2>Move around</h2>
             <div class="btn btn-default" ng-click="$ctrl.categoryToggle('base')" ng-if="$ctrl.soundCategory === 'misc'">Move to Base</div>
             <div class="btn btn-default" ng-click="$ctrl.categoryToggle('misc')" ng-if="$ctrl.soundCategory === 'base'">Move to Misc</div>
+            <div class="btn btn-default" ng-click="$ctrl.sortSounds($ctrl.hero, $ctrl.soundCategory)">Sort Sounds</div>
             <div class="input-group">
               <input type="text" class="form-control" ng-model="$ctrl.moveHeroQuery" placeholder="Enter hero to move to...">
               <span class="input-group-btn">

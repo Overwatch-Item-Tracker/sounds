@@ -56,8 +56,8 @@ OWI.controller('MainCtrl', ["$scope", "$location", "DataService", function($scop
     console.log(this.moveHeroQuery)
     this.sounds[this.moveHeroQuery][this.soundCategory][this.sSound] = this.sounds[this.hero][this.soundCategory][this.sSound]
     delete this.sounds[this.hero][this.soundCategory][this.sSound]
-    sortSounds(this.moveHeroQuery, this.soundCategory)
-    sortSounds(this.hero, this.soundCategory)
+    this.sortSounds(this.moveHeroQuery, this.soundCategory)
+    this.sortSounds(this.hero, this.soundCategory)
     this.selectNextSound(39, this.sSoundIndex - 1)
   }
 
@@ -72,12 +72,13 @@ OWI.controller('MainCtrl', ["$scope", "$location", "DataService", function($scop
       const sound = _.clone(this.sSound)
       this.sounds[this.hero][where][sound] = this.sounds[this.hero][this.soundCategory][sound]
       delete this.sounds[this.hero][this.soundCategory][sound]
-      sortSounds(this.hero, where)
+      this.sortSounds(this.hero, where)
       this.selectNextSound(39, index - 1)
     }
   }
 
-  const sortSounds = (hero, where) => {
+  this.sortSounds = (hero, where) => {
+    console.log(hero, where)
     this.sounds[hero][where] = _.keyBy(_.orderBy(this.sounds[hero][where], ['ts', 'id'], ['desc']), 'id')
   }
 
